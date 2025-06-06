@@ -41,12 +41,8 @@ st.sidebar.title("ANALISIS SENTIMEN")
 
 # Menu 1: Data Awal
 st.sidebar.markdown("### 📊 Data Awal")
-if st.sidebar.button("Dataset Asli"):
+if st.sidebar.button("Hasil Scraping"):
     st.session_state.menu1 = "Dataset Asli"
-    st.session_state.menu4 = None
-    st.session_state.menu5 = None
-if st.sidebar.button("Informasi Fitur"):
-    st.session_state.menu1 = "Informasi Fitur"
     st.session_state.menu4 = None
     st.session_state.menu5 = None
 
@@ -103,26 +99,46 @@ def paginate_dataframe(df, rows_per_page=10):
     paginated_df = df.iloc[start_idx:end_idx].copy()
     paginated_df.insert(0, 'No', range(start_idx + 1, min(end_idx, total_rows) + 1))
 
-    return paginated_df, start_idx, end_idx, total_rows
+    return paginated_df, start_idx, end_idx, total_rows, page, total_pages
 
 # ============================
 # KONTEN UTAMA
 # ============================
 
-st.title("📋 Halaman Dashboard Responsif")
-st.markdown("Selamat datang di dashboard interaktif dengan sidebar menu.")
+st.title("Analisis Sentimen Pada Aplikasi Wondr By BNI Menggunakan Metode IndoBERT")
+# st.markdown("Selamat datang di dashboard")
 
-# Tampilkan Dataset Asli
 if st.session_state.menu1 == "Dataset Asli":
     st.subheader("📊 Data Awal: Hasil Scraping Google Play")
-    paginated_data, start_idx, end_idx, total_rows = paginate_dataframe(data)
+    paginated_data, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(data)
     st.dataframe(paginated_data.set_index("No"), use_container_width=True)
-    st.markdown(f"Menampilkan **{start_idx + 1} - {min(end_idx, total_rows)}** dari **{total_rows}** data.")
+    st.markdown(
+        f"Menampilkan halaman **{page}** dari **{total_pages}** halaman | "
+        f"Total data: **{total_rows}**"
+    )
 
-# Tampilkan Informasi Fitur (placeholder)
-if st.session_state.menu1 == "Informasi Fitur":
-    st.subheader("ℹ️ Informasi Fitur Dataset")
-    st.write(data.info())
+    # Tambahkan penjelasan fitur di bawah tabel
+    st.markdown("### ℹ️ Informasi Fitur Dataset")
+    st.markdown("Berikut adalah penjelasan masing-masing fitur pada dataset hasil scraping:")
+
+    fitur_keterangan = {
+        "reviewId": "ID unik untuk setiap ulasan yang diberikan oleh pengguna.",
+        "userName": "Nama pengguna yang memberikan ulasan terhadap aplikasi.",
+        "userImage": "URL gambar profil pengguna (jika tersedia).",
+        "content": "Isi ulasan yang dituliskan oleh pengguna.",
+        "score": "Nilai rating dari pengguna terhadap aplikasi (1-5).",
+        "thumbsUpCount": "Jumlah pengguna lain yang menyukai ulasan tersebut.",
+        "reviewCreatedVersion": "Versi aplikasi yang digunakan saat pengguna menulis ulasan.",
+        "at": "Tanggal ulasan dibuat oleh pengguna.",
+        "replyContent": "Isi balasan dari pengembang terhadap ulasan pengguna (jika ada).",
+        "repliedAt": "Tanggal balasan dari pengembang terhadap ulasan.",
+        "appVersion": "Versi aplikasi saat ini ketika ulasan ditampilkan."
+    }
+
+    for kolom, deskripsi in fitur_keterangan.items():
+        if kolom in data.columns:
+            st.markdown(f"- **{kolom}**: {deskripsi}")
+
 
 # Tampilkan Menu Preprocessing
 if menu2 != "Pilih...":
