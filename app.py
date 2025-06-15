@@ -67,6 +67,7 @@ if selected_menu2 != st.session_state.menu2:
     st.session_state.menu3 = "Pilih..."
     st.session_state.menu4 = None
     st.session_state.menu5 = None
+    st.rerun()
 
 # Menu 3: Pemodelan
 selected_menu3 = st.sidebar.selectbox("📈 Pemodelan", [
@@ -251,6 +252,53 @@ elif st.session_state.menu2 == "Cleaning":
             st.warning("Kolom 'content' tidak ditemukan di salah satu file.")
     except FileNotFoundError:
         st.error("File wondr_pp_casefolded.csv atau wondr_pp_cleaned.csv tidak ditemukan. Pastikan file tersedia.")
+
+elif st.session_state.menu2 == "Tokenizing":
+    st.subheader("⚙️ Preprocessing: Tokenizing")
+
+    try:
+        data_sebelum = pd.read_csv("wondr_pp_cleaned.csv")
+        data_sesudah = pd.read_csv("wondr_pp_tokenized.csv")
+
+        data_sebelum = data_sebelum.loc[:, ~data_sebelum.columns.str.contains('^Unnamed')]
+        data_sesudah = data_sesudah.loc[:, ~data_sesudah.columns.str.contains('^Unnamed')]
+
+        if "content" in data_sebelum.columns and "content" in data_sesudah.columns:
+            df_perbandingan = pd.DataFrame({
+                "Sebelum": data_sebelum["content"],
+                "Sesudah": data_sesudah["content"]
+            })
+
+            paginated_df, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(df_perbandingan)
+            st.dataframe(paginated_df.set_index("No"), use_container_width=True)
+            st.markdown(
+                f"Menampilkan halaman **{page}** dari **{total_pages}** halaman | "
+                f"Total data: **{total_rows}**"
+            )
+
+            st.markdown("### ℹ️ Informasi Dataset Tokenizing")
+            st.markdown("Dataset ini telah melalui tahap *Tokenizing*, yaitu proses memecah teks menjadi unit yang lebih kecil seperti kata atau token.")
+            st.markdown("Tokenizing sangat penting dalam analisis teks karena memungkinkan sistem memproses setiap kata secara individual.")
+            st.markdown("""
+            - **Sebelum**: Isi ulasan setelah tahap *Cleaning* (teks bersih dari noise).
+            - **Sesudah**: Hasil pemecahan setiap ulasan menjadi token/kata.
+
+            Contoh hasil tokenizing:
+            ```
+            Sebelum: aplikasi ini sangat membantu
+            Sesudah: ['aplikasi', 'ini', 'sangat', 'membantu']
+            ```
+
+            Tokenizing dapat menggunakan berbagai metode, seperti:
+            - *Whitespace Tokenization*
+            - *WordPunct Tokenization*
+            - *Treebank Tokenizer*
+            - Atau tokenizer bawaan library NLP seperti `nltk`, `spaCy`, `transformers`, dll.
+            """)
+        else:
+            st.warning("Kolom 'content' tidak ditemukan di salah satu file.")
+    except FileNotFoundError:
+        st.error("File wondr_pp_cleaned.csv atau wondr_pp_tokenized.csv tidak ditemukan. Pastikan file tersedia.")
 
 
 # Menu 3: Pemodelan
