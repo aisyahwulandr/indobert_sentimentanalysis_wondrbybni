@@ -18,7 +18,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("wondr_scrapped.csv")  # Pastikan file berada di folder yang sama
+    return pd.read_csv("wondr_scrapped.csv")  # Pastikan file ini ada di folder yang sama
 
 data = load_data()
 
@@ -117,9 +117,8 @@ if st.session_state.menu1 == "Dataset Asli":
         f"Total data: **{total_rows}**"
     )
 
-    # Tambahkan penjelasan fitur di bawah tabel
-    st.markdown("### ℹ️ Informasi Fitur Dataset")
-    st.markdown("Berikut adalah penjelasan masing-masing fitur pada dataset hasil scraping:")
+    st.markdown("### ℹ️ Informasi  Dataset")
+    st.markdown("Berikut adalah penjelasan masing-masing kolom pada dataset hasil scraping:")
 
     fitur_keterangan = {
         "reviewId": "ID unik untuk setiap ulasan yang diberikan oleh pengguna.",
@@ -141,9 +140,50 @@ if st.session_state.menu1 == "Dataset Asli":
 
 
 # Tampilkan Menu Preprocessing
-if menu2 != "Pilih...":
-    st.subheader(f"⚙️ Preprocessing: {menu2}")
-    st.write(f"Menampilkan proses preprocessing: **{menu2}**.")
+if menu2 == "Case Folding":
+    st.subheader("⚙️ Preprocessing: Case Folding")
+
+    try:
+        data_sebelum = pd.read_csv("wondr_balanced.csv")
+        data_sesudah = pd.read_csv("wondr_pp_casefolded.csv")
+
+        data_sebelum = data_sebelum.loc[:, ~data_sebelum.columns.str.contains('^Unnamed')]
+        data_sesudah = data_sesudah.loc[:, ~data_sesudah.columns.str.contains('^Unnamed')]
+
+        if "content" in data_sebelum.columns and "content" in data_sesudah.columns:
+            df_perbandingan = pd.DataFrame({
+                "Sebelum": data_sebelum["content"],
+                "Sesudah": data_sesudah["content"]
+            })
+
+            # Tambahkan pagination
+            paginated_df, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(df_perbandingan)
+
+            st.dataframe(paginated_df.set_index("No"), use_container_width=True)
+            st.markdown(
+                f"Menampilkan halaman **{page}** dari **{total_pages}** halaman | "
+                f"Total data: **{total_rows}**"
+            )
+            
+            st.markdown("### ℹ️ Informasi Dataset Case Folding")
+            st.markdown("Dataset ini telah melalui tahap *Case Folding*, yaitu proses mengubah seluruh huruf pada teks ulasan menjadi huruf kecil (lowercase).")
+            st.markdown("Hal ini bertujuan untuk menyamakan representasi kata seperti 'Bagus' dan 'bagus' agar dihitung sebagai kata yang sama.")
+
+            st.markdown("Berikut adalah penjelasan kolom yang ditampilkan:")
+
+            st.markdown("""
+            - **Sebelum**: Isi ulasan asli sebelum dilakukan proses *Case Folding*.
+            - **Sesudah**: Isi ulasan setelah diubah seluruh hurufnya menjadi huruf kecil.
+            """)
+
+
+
+        else:
+            st.warning("Kolom 'content' tidak ditemukan di salah satu file.")
+
+    except FileNotFoundError:
+        st.error("File wondr_balanced.csv atau wondr_pp_casefolded.csv tidak ditemukan. Pastikan file tersedia.")
+
 
 # Tampilkan Menu Pemodelan
 if menu3 != "Pilih...":
