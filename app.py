@@ -18,7 +18,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("wondr_scrapped.csv")  # Pastikan file ini ada di folder yang sama
+    return pd.read_csv("wondr_scrapped.csv")
 
 data = load_data()
 
@@ -28,6 +28,10 @@ data = load_data()
 
 if "menu1" not in st.session_state:
     st.session_state.menu1 = None
+if "menu2" not in st.session_state:
+    st.session_state.menu2 = "Pilih..."
+if "menu3" not in st.session_state:
+    st.session_state.menu3 = "Pilih..."
 if "menu4" not in st.session_state:
     st.session_state.menu4 = None
 if "menu5" not in st.session_state:
@@ -43,32 +47,57 @@ st.sidebar.title("ANALISIS SENTIMEN")
 st.sidebar.markdown("### 📊 Data Awal")
 if st.sidebar.button("Hasil Scraping"):
     st.session_state.menu1 = "Dataset Asli"
+    st.session_state.menu2 = "Pilih..."
+    st.session_state.menu3 = "Pilih..."
+    st.session_state.menu4 = None
+    st.session_state.menu5 = None
+    st.rerun()
+
+
+# Menu 2: Preprocessing
+selected_menu2 = st.sidebar.selectbox("⚙️ Preprocessing", [
+    "Pilih...", "Case Folding", "Cleaning", "Tokenizing",
+    "Stopword Removal", "Stemming", "Normalisasi"
+], index=["Pilih...", "Case Folding", "Cleaning", "Tokenizing",
+          "Stopword Removal", "Stemming", "Normalisasi"].index(st.session_state.menu2))
+
+if selected_menu2 != st.session_state.menu2:
+    st.session_state.menu2 = selected_menu2
+    st.session_state.menu1 = None
+    st.session_state.menu3 = "Pilih..."
     st.session_state.menu4 = None
     st.session_state.menu5 = None
 
-# Menu 2: Preprocessing
-menu2 = st.sidebar.selectbox("⚙️ Preprocessing", [
-    "Pilih...", "Case Folding", "Cleaning", "Tokenizing", 
-    "Stopword Removal", "Stemming", "Normalisasi"
-])
-
 # Menu 3: Pemodelan
-menu3 = st.sidebar.selectbox("📈 Pemodelan", [
+selected_menu3 = st.sidebar.selectbox("📈 Pemodelan", [
     "Pilih...", "Split Data", "Training", "Evaluasi"
-])
+], index=["Pilih...", "Split Data", "Training", "Evaluasi"].index(st.session_state.menu3))
+
+if selected_menu3 != st.session_state.menu3:
+    st.session_state.menu3 = selected_menu3
+    st.session_state.menu1 = None
+    st.session_state.menu2 = "Pilih..."
+    st.session_state.menu4 = None
+    st.session_state.menu5 = None
 
 # Menu 4: Visualisasi
 st.sidebar.markdown("### 📊 Visualisasi")
 if st.sidebar.button("Grafik Label"):
     st.session_state.menu1 = None
+    st.session_state.menu2 = "Pilih..."
+    st.session_state.menu3 = "Pilih..."
     st.session_state.menu4 = "Grafik Label"
     st.session_state.menu5 = None
 if st.sidebar.button("Hasil Akurasi"):
     st.session_state.menu1 = None
+    st.session_state.menu2 = "Pilih..."
+    st.session_state.menu3 = "Pilih..."
     st.session_state.menu4 = "Hasil Akurasi"
     st.session_state.menu5 = None
 if st.sidebar.button("Confusion Matrix"):
     st.session_state.menu1 = None
+    st.session_state.menu2 = "Pilih..."
+    st.session_state.menu3 = "Pilih..."
     st.session_state.menu4 = "Confusion Matrix"
     st.session_state.menu5 = None
 
@@ -76,10 +105,14 @@ if st.sidebar.button("Confusion Matrix"):
 st.sidebar.markdown("### 📝 Pembahasan")
 if st.sidebar.button("Analisis Hasil"):
     st.session_state.menu1 = None
+    st.session_state.menu2 = "Pilih..."
+    st.session_state.menu3 = "Pilih..."
     st.session_state.menu4 = None
     st.session_state.menu5 = "Analisis Hasil"
 if st.sidebar.button("Kesimpulan"):
     st.session_state.menu1 = None
+    st.session_state.menu2 = "Pilih..."
+    st.session_state.menu3 = "Pilih..."
     st.session_state.menu4 = None
     st.session_state.menu5 = "Kesimpulan"
 
@@ -106,8 +139,8 @@ def paginate_dataframe(df, rows_per_page=10):
 # ============================
 
 st.title("Analisis Sentimen Pada Aplikasi Wondr By BNI Menggunakan Metode IndoBERT")
-# st.markdown("Selamat datang di dashboard")
 
+# Menu 1: Data Awal
 if st.session_state.menu1 == "Dataset Asli":
     st.subheader("📊 Data Awal: Hasil Scraping Google Play")
     paginated_data, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(data)
@@ -117,9 +150,7 @@ if st.session_state.menu1 == "Dataset Asli":
         f"Total data: **{total_rows}**"
     )
 
-    st.markdown("### ℹ️ Informasi  Dataset")
-    st.markdown("Berikut adalah penjelasan masing-masing kolom pada dataset hasil scraping:")
-
+    st.markdown("### ℹ️ Informasi Dataset")
     fitur_keterangan = {
         "reviewId": "ID unik untuk setiap ulasan yang diberikan oleh pengguna.",
         "userName": "Nama pengguna yang memberikan ulasan terhadap aplikasi.",
@@ -138,9 +169,8 @@ if st.session_state.menu1 == "Dataset Asli":
         if kolom in data.columns:
             st.markdown(f"- **{kolom}**: {deskripsi}")
 
-
-# Tampilkan Menu Preprocessing
-if menu2 == "Case Folding":
+# Menu 2: Preprocessing
+if st.session_state.menu2 == "Case Folding":
     st.subheader("⚙️ Preprocessing: Case Folding")
 
     try:
@@ -156,46 +186,36 @@ if menu2 == "Case Folding":
                 "Sesudah": data_sesudah["content"]
             })
 
-            # Tambahkan pagination
             paginated_df, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(df_perbandingan)
-
             st.dataframe(paginated_df.set_index("No"), use_container_width=True)
             st.markdown(
                 f"Menampilkan halaman **{page}** dari **{total_pages}** halaman | "
                 f"Total data: **{total_rows}**"
             )
-            
+
             st.markdown("### ℹ️ Informasi Dataset Case Folding")
             st.markdown("Dataset ini telah melalui tahap *Case Folding*, yaitu proses mengubah seluruh huruf pada teks ulasan menjadi huruf kecil (lowercase).")
             st.markdown("Hal ini bertujuan untuk menyamakan representasi kata seperti 'Bagus' dan 'bagus' agar dihitung sebagai kata yang sama.")
-
-            st.markdown("Berikut adalah penjelasan kolom yang ditampilkan:")
-
             st.markdown("""
             - **Sebelum**: Isi ulasan asli sebelum dilakukan proses *Case Folding*.
             - **Sesudah**: Isi ulasan setelah diubah seluruh hurufnya menjadi huruf kecil.
             """)
-
-
-
         else:
             st.warning("Kolom 'content' tidak ditemukan di salah satu file.")
-
     except FileNotFoundError:
         st.error("File wondr_balanced.csv atau wondr_pp_casefolded.csv tidak ditemukan. Pastikan file tersedia.")
 
+# Menu 3: Pemodelan
+if st.session_state.menu3 != "Pilih...":
+    st.subheader(f"📈 Pemodelan: {st.session_state.menu3}")
+    st.write(f"Menampilkan hasil pemodelan: **{st.session_state.menu3}**.")
 
-# Tampilkan Menu Pemodelan
-if menu3 != "Pilih...":
-    st.subheader(f"📈 Pemodelan: {menu3}")
-    st.write(f"Menampilkan hasil pemodelan: **{menu3}**.")
-
-# Tampilkan Visualisasi
+# Menu 4: Visualisasi
 if st.session_state.menu4:
     st.subheader(f"📊 Visualisasi: {st.session_state.menu4}")
     st.write(f"Menampilkan visualisasi: **{st.session_state.menu4}**.")
 
-# Tampilkan Pembahasan
+# Menu 5: Pembahasan
 if st.session_state.menu5:
     st.subheader(f"📝 Pembahasan: {st.session_state.menu5}")
     st.write(f"Menampilkan pembahasan: **{st.session_state.menu5}**.")
