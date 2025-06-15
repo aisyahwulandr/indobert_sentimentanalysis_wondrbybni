@@ -205,6 +205,54 @@ if st.session_state.menu2 == "Case Folding":
     except FileNotFoundError:
         st.error("File wondr_balanced.csv atau wondr_pp_casefolded.csv tidak ditemukan. Pastikan file tersedia.")
 
+elif st.session_state.menu2 == "Cleaning":
+    st.subheader("⚙️ Preprocessing: Cleaning")
+
+    try:
+        data_sebelum = pd.read_csv("wondr_pp_casefolded.csv")
+        data_sesudah = pd.read_csv("wondr_pp_cleaned.csv")
+
+        data_sebelum = data_sebelum.loc[:, ~data_sebelum.columns.str.contains('^Unnamed')]
+        data_sesudah = data_sesudah.loc[:, ~data_sesudah.columns.str.contains('^Unnamed')]
+
+        if "content" in data_sebelum.columns and "content" in data_sesudah.columns:
+            df_perbandingan = pd.DataFrame({
+                "Sebelum": data_sebelum["content"],
+                "Sesudah": data_sesudah["content"]
+            })
+
+            paginated_df, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(df_perbandingan)
+            st.dataframe(paginated_df.set_index("No"), use_container_width=True)
+            st.markdown(
+                f"Menampilkan halaman **{page}** dari **{total_pages}** halaman | "
+                f"Total data: **{total_rows}**"
+            )
+
+            st.markdown("### ℹ️ Informasi Dataset Cleaning")
+            st.markdown("Dataset ini telah melalui tahap *Cleaning*, yaitu proses pembersihan teks dari elemen-elemen yang tidak relevan dalam analisis sentimen. Tujuan dari proses ini adalah untuk meningkatkan kualitas data sebelum dilakukan pemrosesan lanjutan seperti tokenisasi atau stemming.")
+            st.markdown("""
+            - **Sebelum**: Teks ulasan setelah dilakukan *Case Folding* (huruf kecil semua).
+            - **Sesudah**: Teks ulasan setelah dibersihkan dari elemen-elemen yang tidak relevan.
+
+            Proses pembersihan meliputi:
+            - Menghapus tag HTML: `re.sub(r'<.*?>', '', text)`
+            - Menghapus URL: `re.sub(r'http\\S+|www\\S+', '', text)`
+            - Menghapus angka: `re.sub(r'\\d+', '', text)`
+            - Menghapus tanda baca: `re.sub(r'[^\\w\\s]', '', text)`
+            - Menghapus emotikon dan karakter non-ASCII: `re.sub(r'[^\\x00-\\x7f]', '', text)`
+            - Menghapus karakter berulang (lebih dari 2x): `re.sub(r'(.)\\1{2,}', r'\\1', text)`
+            - Menghapus spasi berlebih: `re.sub(r'\\s+', ' ', text).strip()`
+            - Menyisipkan spasi setelah dan sebelum tanda baca yang langsung menempel ke kata:  
+              `re.sub(r"([.,;:!?()\\[\\]{}\\"'/])(\\w)", r"\\1 \\2", text)`  
+              `re.sub(r"(\\w)([.,;:!?()\\[\\]{}\\"'/])", r"\\1 \\2", text)`
+            - Menghapus karakter non-alfanumerik selain spasi: `re.sub(r"[^a-zA-Z0-9\\s]", "", text)`
+            """)
+        else:
+            st.warning("Kolom 'content' tidak ditemukan di salah satu file.")
+    except FileNotFoundError:
+        st.error("File wondr_pp_casefolded.csv atau wondr_pp_cleaned.csv tidak ditemukan. Pastikan file tersedia.")
+
+
 # Menu 3: Pemodelan
 if st.session_state.menu3 != "Pilih...":
     st.subheader(f"📈 Pemodelan: {st.session_state.menu3}")
