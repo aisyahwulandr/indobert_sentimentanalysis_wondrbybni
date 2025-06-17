@@ -372,6 +372,50 @@ elif st.session_state.menu2 == "Stemming":
             st.warning("Kolom 'stopwords_removal' atau 'stemmed' tidak ditemukan di file.")
     except FileNotFoundError:
         st.error("File wondr_pp_stopwords_removed.csv atau wondr_pp_stemmed.csv tidak ditemukan. Pastikan file tersedia.")
+        
+elif st.session_state.menu2 == "Normalisasi":
+    st.subheader("⚙️ Preprocessing: Normalisasi")
+
+    try:
+        data_sebelum = pd.read_csv("wondr_pp_stemmed.csv")
+        data_sesudah = pd.read_csv("wondr_pp_normalized.csv")
+
+        # Hilangkan kolom Unnamed jika ada
+        data_sebelum = data_sebelum.loc[:, ~data_sebelum.columns.str.contains('^Unnamed')]
+        data_sesudah = data_sesudah.loc[:, ~data_sesudah.columns.str.contains('^Unnamed')]
+
+        if "stemmed" in data_sebelum.columns and "normalized" in data_sesudah.columns:
+            df_perbandingan = pd.DataFrame({
+                "Sebelum": data_sebelum["stemmed"],
+                "Sesudah": data_sesudah["normalized"]
+            })
+
+            paginated_df, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(df_perbandingan)
+            st.dataframe(paginated_df.set_index("No"), use_container_width=True)
+            st.markdown(
+                f"Menampilkan halaman **{page}** dari **{total_pages}** halaman | "
+                f"Total data: **{total_rows}**"
+            )
+
+            st.markdown("### ℹ️ Informasi Dataset Normalisasi")
+            st.markdown("""
+            Dataset ini telah melalui tahap *Normalisasi*, yaitu proses mengganti kata-kata tidak baku atau slang ke dalam bentuk formal/baku sesuai Bahasa Indonesia.
+
+            Proses normalisasi dilakukan dengan mencocokkan kata-kata dalam dokumen dengan kamus kolokial Indonesia yang berasal dari file:
+            **`colloquial-indonesian-lexicon.csv`**.
+            
+            - **Sebelum**: Token hasil *stemming* yang masih mengandung kata slang.
+            - **Sesudah**: Token telah digantikan dengan bentuk formal jika tersedia dalam kamus kolokial.
+
+            Kamus ini memuat pasangan kata:
+            - Kolom `slang`: berisi kata tidak baku atau kata gaul (contoh: `gk`, `bgt`, `trs`)
+            - Kolom `formal`: berisi bentuk baku dari kata tersebut (contoh: `tidak`, `banget`, `terus`)
+            """)
+        else:
+            st.warning("Kolom 'stemmed' atau 'normalized' tidak ditemukan di file.")
+    except FileNotFoundError:
+        st.error("File wondr_pp_stemmed.csv atau wondr_pp_normalized.csv tidak ditemukan. Pastikan file tersedia.")
+
 
 # Menu 3: Pemodelan
 if st.session_state.menu3 != "Pilih...":
