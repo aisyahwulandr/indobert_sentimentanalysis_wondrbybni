@@ -263,10 +263,10 @@ elif st.session_state.menu2 == "Tokenizing":
         data_sebelum = data_sebelum.loc[:, ~data_sebelum.columns.str.contains('^Unnamed')]
         data_sesudah = data_sesudah.loc[:, ~data_sesudah.columns.str.contains('^Unnamed')]
 
-        if "content" in data_sebelum.columns and "content" in data_sesudah.columns:
+        if "content" in data_sebelum.columns and "tokenisasi" in data_sesudah.columns:
             df_perbandingan = pd.DataFrame({
                 "Sebelum": data_sebelum["content"],
-                "Sesudah": data_sesudah["content"]
+                "Sesudah": data_sesudah["tokenisasi"]
             })
 
             paginated_df, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(df_perbandingan)
@@ -283,12 +283,6 @@ elif st.session_state.menu2 == "Tokenizing":
             - **Sebelum**: Isi ulasan setelah tahap *Cleaning* (teks bersih dari noise).
             - **Sesudah**: Hasil pemecahan setiap ulasan menjadi token/kata.
 
-            Contoh hasil tokenizing:
-            ```
-            Sebelum: aplikasi ini sangat membantu
-            Sesudah: ['aplikasi', 'ini', 'sangat', 'membantu']
-            ```
-
             Tokenizing dapat menggunakan berbagai metode, seperti:
             - *Whitespace Tokenization*
             - *WordPunct Tokenization*
@@ -300,6 +294,84 @@ elif st.session_state.menu2 == "Tokenizing":
     except FileNotFoundError:
         st.error("File wondr_pp_cleaned.csv atau wondr_pp_tokenized.csv tidak ditemukan. Pastikan file tersedia.")
 
+elif st.session_state.menu2 == "Stopword Removal":
+    st.subheader("⚙️ Preprocessing: Stopword Removal")
+
+    try:
+        data_sebelum = pd.read_csv("wondr_pp_tokenized.csv")
+        data_sesudah = pd.read_csv("wondr_pp_stopwords_removed.csv")
+
+        # Hilangkan kolom Unnamed jika ada
+        data_sebelum = data_sebelum.loc[:, ~data_sebelum.columns.str.contains('^Unnamed')]
+        data_sesudah = data_sesudah.loc[:, ~data_sesudah.columns.str.contains('^Unnamed')]
+
+        if "tokenisasi" in data_sebelum.columns and "stopwords_removal" in data_sesudah.columns:
+            df_perbandingan = pd.DataFrame({
+                "Sebelum": data_sebelum["tokenisasi"],
+                "Sesudah": data_sesudah["stopwords_removal"]
+            })
+
+            paginated_df, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(df_perbandingan)
+            st.dataframe(paginated_df.set_index("No"), use_container_width=True)
+            st.markdown(
+                f"Menampilkan halaman **{page}** dari **{total_pages}** halaman | "
+                f"Total data: **{total_rows}**"
+            )
+
+            st.markdown("### ℹ️ Informasi Dataset Stopword Removal")
+            st.markdown("Dataset ini telah melalui tahap *Stopword Removal*, yaitu proses penghapusan kata-kata umum yang tidak memiliki makna signifikan dalam analisis sentimen.")
+            st.markdown("Proses ini menggunakan daftar stopwords dari pustaka `nltk` dalam Bahasa Indonesia yang kemudian ditambahkan dengan stopwords informal khas ulasan aplikasi di Indonesia.")
+            st.markdown("""
+            - **Sebelum**: Hasil tokenisasi yang masih mengandung kata-kata umum (*stopwords*) seperti `yang`, `saya`, `dan`, `gk`, `yg`, dll.  
+            - **Sesudah**: Token yang telah dibersihkan dari kata-kata tidak penting, hanya menyisakan kata-kata bermakna untuk analisis.
+
+            Metode dalam tahap ini:
+            - Menggunakan `nltk.corpus.stopwords` Bahasa Indonesia.
+            - Penambahan stopwords informal seperti `yg`, `nya`, `gk`, `aja`, `ok`, `gw`, dll.
+            - Stopwords dikumpulkan ke dalam satu set dan digunakan untuk memfilter setiap token.
+            """)
+        else:
+            st.warning("Kolom 'tokenisasi' atau 'stopwords_removal' tidak ditemukan di salah satu file.")
+    except FileNotFoundError:
+        st.error("File wondr_pp_tokenized.csv atau wondr_pp_stopwords_removed.csv tidak ditemukan. Pastikan file tersedia.")
+        
+elif st.session_state.menu2 == "Stemming":
+    st.subheader("⚙️ Preprocessing: Stemming")
+
+    try:
+        data_sebelum = pd.read_csv("wondr_pp_stopwords_removed.csv")
+        data_sesudah = pd.read_csv("wondr_pp_stemmed.csv")
+
+        # Hilangkan kolom Unnamed
+        data_sebelum = data_sebelum.loc[:, ~data_sebelum.columns.str.contains('^Unnamed')]
+        data_sesudah = data_sesudah.loc[:, ~data_sesudah.columns.str.contains('^Unnamed')]
+
+        if "stopwords_removal" in data_sebelum.columns and "stemmed" in data_sesudah.columns:
+            df_perbandingan = pd.DataFrame({
+                "Sebelum": data_sebelum["stopwords_removal"],
+                "Sesudah": data_sesudah["stemmed"]
+            })
+
+            paginated_df, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(df_perbandingan)
+            st.dataframe(paginated_df.set_index("No"), use_container_width=True)
+            st.markdown(
+                f"Menampilkan halaman **{page}** dari **{total_pages}** halaman | "
+                f"Total data: **{total_rows}**"
+            )
+
+            st.markdown("### ℹ️ Informasi Dataset Stemming")
+            st.markdown("Dataset ini telah melalui tahap *Stemming*, yaitu proses mengubah kata menjadi bentuk dasarnya (*root word*) agar analisis menjadi lebih efisien dan seragam.")
+            st.markdown("Stemming sangat berguna dalam NLP untuk menyederhanakan berbagai bentuk kata menjadi satu representasi umum.")
+            st.markdown("""
+            - **Sebelum**: Token hasil *Stopword Removal* yang masih dalam bentuk kata turunan. Contohnya: `bermain`, `makanan`, `diberikan`.
+            - **Sesudah**: Kata-kata yang telah direduksi ke bentuk dasarnya. Contohnya: `main`, `makan`, `beri`.
+
+            Tahap stemming ini menggunakan library [**Sastrawi**](https://github.com/har07/PySastrawi), yaitu library stemming Bahasa Indonesia yang telah banyak digunakan pada aplikasi teks lokal.
+            """)
+        else:
+            st.warning("Kolom 'stopwords_removal' atau 'stemmed' tidak ditemukan di file.")
+    except FileNotFoundError:
+        st.error("File wondr_pp_stopwords_removed.csv atau wondr_pp_stemmed.csv tidak ditemukan. Pastikan file tersedia.")
 
 # Menu 3: Pemodelan
 if st.session_state.menu3 != "Pilih...":
