@@ -1,9 +1,9 @@
-import streamlit as st
-import pandas as pd
-import math
-import plotly.express as px
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
+import streamlit as st             # Untuk membuat antarmuka web interaktif
+import pandas as pd               # Untuk manipulasi dan analisis data
+import math                       # Untuk perhitungan matematika (mis. pembagian halaman)
+import plotly.express as px       # Untuk membuat diagram batang interaktif (plotly)
+from wordcloud import WordCloud   # Untuk membentuk Word Cloud dari teks
+import matplotlib.pyplot as plt   # Untuk menampilkan Word Cloud dengan Matplotlib
 
 
 # ============================
