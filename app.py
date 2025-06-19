@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import math
+import plotly.express as px
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+
 
 # ============================
 # KONFIGURASI HALAMAN
@@ -83,23 +87,23 @@ if selected_menu3 != st.session_state.menu3:
 
 # Menu 4: Visualisasi
 st.sidebar.markdown("### 📊 Visualisasi")
-if st.sidebar.button("Grafik Label"):
+if st.sidebar.button("Hasil Klasifikasi Sentimen"):
     st.session_state.menu1 = None
     st.session_state.menu2 = "Pilih..."
     st.session_state.menu3 = "Pilih..."
-    st.session_state.menu4 = "Grafik Label"
+    st.session_state.menu4 = "Hasil Klasifikasi Sentimen"
     st.session_state.menu5 = None
-if st.sidebar.button("Hasil Akurasi"):
+if st.sidebar.button("Diagram Batang"):
     st.session_state.menu1 = None
     st.session_state.menu2 = "Pilih..."
     st.session_state.menu3 = "Pilih..."
-    st.session_state.menu4 = "Hasil Akurasi"
+    st.session_state.menu4 = "Diagram Batang"
     st.session_state.menu5 = None
-if st.sidebar.button("Confusion Matrix"):
+if st.sidebar.button("Word Cloud"):
     st.session_state.menu1 = None
     st.session_state.menu2 = "Pilih..."
     st.session_state.menu3 = "Pilih..."
-    st.session_state.menu4 = "Confusion Matrix"
+    st.session_state.menu4 = "Word Cloud"
     st.session_state.menu5 = None
 
 # Menu 5: Pembahasan
@@ -423,9 +427,88 @@ if st.session_state.menu3 != "Pilih...":
     st.write(f"Menampilkan hasil pemodelan: **{st.session_state.menu3}**.")
 
 # Menu 4: Visualisasi
-if st.session_state.menu4:
-    st.subheader(f"📊 Visualisasi: {st.session_state.menu4}")
-    st.write(f"Menampilkan visualisasi: **{st.session_state.menu4}**.")
+if st.session_state.menu4 == "Diagram Batang":
+    st.subheader("📊 Visualisasi: Hasil Klasifikasi Sentimen")
+
+    try:
+        df = pd.read_csv("wondr_labeled.csv")
+        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+
+        if "category" in df.columns:
+            sentiment_counts = df["category"].value_counts().reset_index()
+            sentiment_counts.columns = ["Sentimen", "Jumlah"]
+
+            fig = px.bar(
+                sentiment_counts,
+                x="Sentimen",
+                y="Jumlah",
+                color="Sentimen",
+                color_discrete_map={
+                    "positive": "#28a745",
+                    "neutral": "#ffc107",
+                    "negative": "#dc3545"
+                },
+                title="Distribusi Klasifikasi Sentimen pada Ulasan Aplikasi Wondr",
+                labels={"Sentimen": "Kategori Sentimen", "Jumlah": "Jumlah Ulasan"},
+                text_auto=True
+            )
+
+            st.plotly_chart(fig, use_container_width=True)
+
+            st.markdown("### ℹ️ Keterangan")
+            st.markdown("""
+            Diagram batang di atas menunjukkan jumlah ulasan untuk masing-masing kategori sentimen:
+            - 🟢 **Positif**: ulasan dengan skor > 3.
+            - 🟡 **Netral**: ulasan dengan skor = 3.
+            - 🔴 **Negatif**: ulasan dengan skor < 3.
+
+            """)
+        else:
+            st.warning("Kolom 'category' tidak ditemukan dalam file wondr_labeled.csv")
+    except FileNotFoundError:
+        st.error("File wondr_labeled.csv tidak ditemukan. Pastikan file tersedia.")
+
+elif st.session_state.menu4 == "Word Cloud":
+    st.subheader("📊 Visualisasi: Word Cloud")
+
+    try:
+        df = pd.read_csv("wondr_labeled.csv")
+        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+
+        if "normalized" in df.columns:
+            # Gabungkan semua teks menjadi satu string
+            text = " ".join(df["normalized"].dropna().astype(str))
+
+            # Buat WordCloud
+            wordcloud = WordCloud(
+                width=800,
+                height=400,
+                background_color='white',
+                colormap='viridis',
+                max_words=200,
+                contour_width=1,
+                contour_color='steelblue'
+            ).generate(text)
+
+            # Tampilkan WordCloud
+            fig, ax = plt.subplots(figsize=(10, 5))
+            ax.imshow(wordcloud, interpolation='bilinear')
+            ax.axis("off")
+            st.pyplot(fig)
+
+            st.markdown("### ℹ️ Informasi Word Cloud")
+            st.markdown("""
+            Word Cloud di atas menampilkan kata-kata yang paling sering muncul dalam ulasan aplikasi **Wondr**.
+            - Ukuran huruf menunjukkan frekuensi kemunculan kata.
+            - Semakin besar huruf, semakin sering kata tersebut muncul.
+            - Data diambil dari kolom **`normalized`** yang telah melewati proses *preprocessing* hingga tahap normalisasi.
+
+            Word Cloud bermanfaat untuk memahami topik utama atau kata-kata penting dari kumpulan ulasan secara visual.
+            """)
+        else:
+            st.warning("Kolom 'normalized' tidak ditemukan dalam file wondr_labeled.csv")
+    except FileNotFoundError:
+        st.error("File wondr_labeled.csv tidak ditemukan. Pastikan file tersedia.")
 
 # Menu 5: Pembahasan
 if st.session_state.menu5:
