@@ -1,4 +1,4 @@
-import streamlit as st             # Untuk membuat antarmuka web interaktif
+import streamlit as st            # Untuk membuat antarmuka web interaktif
 import pandas as pd               # Untuk manipulasi dan analisis data
 import math                       # Untuk perhitungan matematika (mis. pembagian halaman)
 import plotly.express as px       # Untuk membuat diagram batang interaktif (plotly)
@@ -469,46 +469,63 @@ if st.session_state.menu4 == "Diagram Batang":
         st.error("File wondr_labeled.csv tidak ditemukan. Pastikan file tersedia.")
 
 elif st.session_state.menu4 == "Word Cloud":
-    st.subheader("📊 Visualisasi: Word Cloud")
+    st.subheader("📊 Visualisasi: Word Cloud per Sentimen")
 
     try:
-        df = pd.read_csv("wondr_labeled.csv")
+        df = pd.read_csv("wondr_pp_normalized.csv")
         df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
 
-        if "normalized" in df.columns:
-            # Gabungkan semua teks menjadi satu string
-            text = " ".join(df["normalized"].dropna().astype(str))
+        if "normalized" in df.columns and "category" in df.columns:
+            # Warna berbeda untuk setiap sentimen
+            color_map_dict = {
+                "positive": "Greens",
+                "neutral": "Blues",
+                "negative": "Reds"
+            }
 
-            # Buat WordCloud
-            wordcloud = WordCloud(
-                width=800,
-                height=400,
-                background_color='white',
-                colormap='viridis',
-                max_words=200,
-                contour_width=1,
-                contour_color='steelblue'
-            ).generate(text)
+            # Buat WordCloud untuk setiap sentimen
+            for sentiment_label, sentiment_name in [("positive", "Positif"), ("neutral", "Netral"), ("negative", "Negatif")]:
+                st.markdown(f"### 💬 Word Cloud Sentimen **{sentiment_name}**")
 
-            # Tampilkan WordCloud
-            fig, ax = plt.subplots(figsize=(10, 5))
-            ax.imshow(wordcloud, interpolation='bilinear')
-            ax.axis("off")
-            st.pyplot(fig)
+                # Filter data berdasarkan kategori
+                text_data = df[df["category"] == sentiment_label]["normalized"].dropna().astype(str)
+
+                # Gabungkan menjadi satu string
+                text = " ".join(text_data)
+
+                if not text.strip():
+                    st.info(f"Tidak ada data untuk sentimen **{sentiment_name}**.")
+                    continue
+
+                # Buat dan tampilkan WordCloud dengan colormap sesuai sentimen
+                wordcloud = WordCloud(
+                    width=800,
+                    height=400,
+                    background_color='white',
+                    colormap=color_map_dict[sentiment_label],  # pakai warna sesuai sentimen
+                    max_words=200,
+                    contour_width=1,
+                    contour_color='gray'
+                ).generate(text)
+
+                fig, ax = plt.subplots(figsize=(10, 5))
+                ax.imshow(wordcloud, interpolation='bilinear')
+                ax.axis("off")
+                st.pyplot(fig)
 
             st.markdown("### ℹ️ Informasi Word Cloud")
             st.markdown("""
-            Word Cloud di atas menampilkan kata-kata yang paling sering muncul dalam ulasan aplikasi **Wondr**.
-            - Ukuran huruf menunjukkan frekuensi kemunculan kata.
-            - Semakin besar huruf, semakin sering kata tersebut muncul.
-            - Data diambil dari kolom **`normalized`** yang telah melewati proses *preprocessing* hingga tahap normalisasi.
+            Word Cloud di atas menunjukkan kata-kata yang paling sering muncul untuk masing-masing kategori sentimen:
+            - 🟢 **Positif**: Ditampilkan dengan warna hijau (colormap `Greens`).
+            - 🔵 **Netral**: Ditampilkan dengan warna biru (colormap `Blues`).
+            - 🔴 **Negatif**: Ditampilkan dengan warna merah (colormap `Reds`).
 
-            Word Cloud bermanfaat untuk memahami topik utama atau kata-kata penting dari kumpulan ulasan secara visual.
+            Warna membantu memperjelas nuansa emosi dalam visualisasi Word Cloud.
             """)
         else:
-            st.warning("Kolom 'normalized' tidak ditemukan dalam file wondr_labeled.csv")
+            st.warning("Kolom 'normalized' atau 'category' tidak ditemukan dalam file wondr_pp_normalized.csv.")
     except FileNotFoundError:
-        st.error("File wondr_labeled.csv tidak ditemukan. Pastikan file tersedia.")
+        st.error("File wondr_pp_normalized.csv tidak ditemukan. Pastikan file tersedia.")
 
 # Menu 5: Pembahasan
 if st.session_state.menu5:
