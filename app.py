@@ -35,11 +35,9 @@ if "menu1" not in st.session_state:
 if "menu2" not in st.session_state:
     st.session_state.menu2 = "Pilih..."
 if "menu3" not in st.session_state:
-    st.session_state.menu3 = "Pilih..."
+    st.session_state.menu3 = None
 if "menu4" not in st.session_state:
     st.session_state.menu4 = None
-if "menu5" not in st.session_state:
-    st.session_state.menu5 = None
 
 # ============================
 # SIDEBAR MENU
@@ -52,9 +50,8 @@ st.sidebar.markdown("### 📊 Data Awal")
 if st.sidebar.button("Hasil Scraping"):
     st.session_state.menu1 = "Dataset Asli"
     st.session_state.menu2 = "Pilih..."
-    st.session_state.menu3 = "Pilih..."
+    st.session_state.menu3 = None
     st.session_state.menu4 = None
-    st.session_state.menu5 = None
     st.rerun()
 
 
@@ -68,58 +65,40 @@ selected_menu2 = st.sidebar.selectbox("⚙️ Preprocessing", [
 if selected_menu2 != st.session_state.menu2:
     st.session_state.menu2 = selected_menu2
     st.session_state.menu1 = None
-    st.session_state.menu3 = "Pilih..."
+    st.session_state.menu3 = None
     st.session_state.menu4 = None
-    st.session_state.menu5 = None
     st.rerun()
 
-# Menu 3: Pemodelan
-selected_menu3 = st.sidebar.selectbox("📈 Pemodelan", [
-    "Pilih...", "Split Data", "Training", "Evaluasi"
-], index=["Pilih...", "Split Data", "Training", "Evaluasi"].index(st.session_state.menu3))
-
-if selected_menu3 != st.session_state.menu3:
-    st.session_state.menu3 = selected_menu3
-    st.session_state.menu1 = None
-    st.session_state.menu2 = "Pilih..."
-    st.session_state.menu4 = None
-    st.session_state.menu5 = None
-
-# Menu 4: Visualisasi
+# Menu 3: Visualisasi
 st.sidebar.markdown("### 📊 Visualisasi")
 if st.sidebar.button("Hasil Klasifikasi Sentimen"):
     st.session_state.menu1 = None
     st.session_state.menu2 = "Pilih..."
-    st.session_state.menu3 = "Pilih..."
-    st.session_state.menu4 = "Hasil Klasifikasi Sentimen"
-    st.session_state.menu5 = None
+    st.session_state.menu3 = "Hasil Klasifikasi Sentimen"
+    st.session_state.menu4 = None
 if st.sidebar.button("Diagram Batang"):
     st.session_state.menu1 = None
     st.session_state.menu2 = "Pilih..."
-    st.session_state.menu3 = "Pilih..."
-    st.session_state.menu4 = "Diagram Batang"
-    st.session_state.menu5 = None
+    st.session_state.menu3 = "Diagram Batang"
+    st.session_state.menu4 = None
 if st.sidebar.button("Word Cloud"):
     st.session_state.menu1 = None
     st.session_state.menu2 = "Pilih..."
-    st.session_state.menu3 = "Pilih..."
-    st.session_state.menu4 = "Word Cloud"
-    st.session_state.menu5 = None
+    st.session_state.menu3 = "Word Cloud"
+    st.session_state.menu4 = None
 
-# Menu 5: Pembahasan
+# Menu 4: Pembahasan
 st.sidebar.markdown("### 📝 Pembahasan")
 if st.sidebar.button("Analisis Hasil"):
     st.session_state.menu1 = None
     st.session_state.menu2 = "Pilih..."
-    st.session_state.menu3 = "Pilih..."
-    st.session_state.menu4 = None
-    st.session_state.menu5 = "Analisis Hasil"
+    st.session_state.menu3 = None
+    st.session_state.menu4 = "Analisis Hasil"
 if st.sidebar.button("Kesimpulan"):
     st.session_state.menu1 = None
     st.session_state.menu2 = "Pilih..."
-    st.session_state.menu3 = "Pilih..."
-    st.session_state.menu4 = None
-    st.session_state.menu5 = "Kesimpulan"
+    st.session_state.menu3 = None
+    st.session_state.menu4 = "Kesimpulan"
 
 # ============================
 # FUNGSI BANTUAN
@@ -420,16 +399,80 @@ elif st.session_state.menu2 == "Normalisasi":
     except FileNotFoundError:
         st.error("File wondr_pp_stemmed.csv atau wondr_pp_normalized.csv tidak ditemukan. Pastikan file tersedia.")
 
-
-# Menu 3: Pemodelan
-if st.session_state.menu3 != "Pilih...":
-    st.subheader(f"📈 Pemodelan: {st.session_state.menu3}")
-    st.write(f"Menampilkan hasil pemodelan: **{st.session_state.menu3}**.")
-
-# Menu 4: Visualisasi
-if st.session_state.menu4 == "Diagram Batang":
+# Menu 3: Visualisasi
+if st.session_state.menu3 == "Hasil Klasifikasi Sentimen":
     st.subheader("📊 Visualisasi: Hasil Klasifikasi Sentimen")
 
+    try:
+        df = pd.read_csv("wondr_test_result_70_30_16_3e6.csv")
+        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+
+        if "review_text" in df.columns and "pred" in df.columns:
+            df_display = pd.DataFrame({
+                "Ulasan": df["review_text"],
+                "Kategori": df["pred"]
+            })
+
+            paginated_df, start_idx, end_idx, total_rows, page, total_pages = paginate_dataframe(df_display)
+            st.dataframe(paginated_df.set_index("No"), use_container_width=True)
+
+            st.markdown(
+                f"Menampilkan halaman **{page}** dari **{total_pages}** halaman | "
+                f"Total data: **{total_rows}**"
+            )
+
+            st.markdown("### ℹ️ Informasi Hasil Klasifikasi")
+            st.markdown("""
+                Tabel di atas menampilkan hasil klasifikasi sentimen berdasarkan model **IndoBERT** yang telah dilatih sebelumnya:
+
+                - **Ulasan**: Merupakan kalimat atau teks dari pengguna aplikasi *Wondr*.
+                - **Kategori**: Hasil prediksi model terhadap masing-masing ulasan, dikategorikan menjadi:
+                - 🟢 `positive`
+                - 🟡 `neutral`
+                - 🔴 `negative`
+
+                Hasil ini berguna untuk mengevaluasi performa model dalam memahami konteks dan emosi dari ulasan pengguna.
+
+                ---
+
+                ### 📂 Sumber Data
+
+                Data pada tabel ini berasal dari **data uji (test set)** yang diperoleh dari proses *split data* dengan rasio:
+
+                - **70%** untuk **pelatihan (training)**  
+                - **15%** untuk **validasi (validation)**  
+                - **15%** untuk **pengujian (testing)**
+
+                Parameter pelatihan model:
+                - **Epoch**: 15 (jumlah iterasi penuh terhadap seluruh data training)
+                - **Random State**: 16 (untuk replikasi yang konsisten)
+                - **Learning Rate**: 3e-6 (laju pembelajaran pada fine-tuning IndoBERT)
+
+                ---
+
+                ### 🔍 Fungsi Set Data:
+
+                - **Training Set (70%)**  
+                Digunakan oleh model untuk belajar pola dan hubungan antara data ulasan dan label sentimennya.  
+
+                - **Validation Set (15%)**  
+                Digunakan selama pelatihan untuk mengevaluasi performa model dan membantu dalam *tuning* parameter agar model tidak overfitting.
+
+                - **Test Set (15%)**  
+                Digunakan setelah pelatihan selesai untuk mengevaluasi kinerja akhir model pada data yang belum pernah dilihat sebelumnya.
+            """)
+
+        else:
+            st.warning("Kolom 'ulasan' atau 'prediksi' tidak ditemukan dalam file wondr_test_result.csv")
+    except FileNotFoundError:
+        st.error("File wondr_test_result.csv tidak ditemukan. Pastikan file tersedia.")
+
+
+elif st.session_state.menu3 == "Diagram Batang":
+    st.subheader("📊 Visualisasi: Diagram Batang")
+
+    # Diagram Batang 1: Data Asli
+    st.markdown("#### 📘 Distribusi Sentimen - Data Asli")
     try:
         df = pd.read_csv("wondr_labeled.csv")
         df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
@@ -444,31 +487,69 @@ if st.session_state.menu4 == "Diagram Batang":
                 y="Jumlah",
                 color="Sentimen",
                 color_discrete_map={
-                    "positive": "#28a745",
-                    "neutral": "#ffc107",
-                    "negative": "#dc3545"
+                    "positive": "#28a745",  # hijau
+                    "neutral": "#007bff",   # biru
+                    "negative": "#dc3545"   # merah
                 },
-                title="Distribusi Klasifikasi Sentimen pada Ulasan Aplikasi Wondr",
+                title="Distribusi Klasifikasi Sentimen (Data Asli)",
                 labels={"Sentimen": "Kategori Sentimen", "Jumlah": "Jumlah Ulasan"},
                 text_auto=True
             )
 
             st.plotly_chart(fig, use_container_width=True)
-
-            st.markdown("### ℹ️ Keterangan")
-            st.markdown("""
-            Diagram batang di atas menunjukkan jumlah ulasan untuk masing-masing kategori sentimen:
-            - 🟢 **Positif**: ulasan dengan skor > 3.
-            - 🟡 **Netral**: ulasan dengan skor = 3.
-            - 🔴 **Negatif**: ulasan dengan skor < 3.
-
-            """)
         else:
             st.warning("Kolom 'category' tidak ditemukan dalam file wondr_labeled.csv")
     except FileNotFoundError:
         st.error("File wondr_labeled.csv tidak ditemukan. Pastikan file tersedia.")
 
-elif st.session_state.menu4 == "Word Cloud":
+    # Diagram Batang 2: Data Setelah Balancing
+    st.markdown("#### 📗 Distribusi Sentimen - Data Setelah Balancing")
+    try:
+        df_balanced = pd.read_csv("wondr_balanced.csv")
+        df_balanced = df_balanced.loc[:, ~df_balanced.columns.str.contains('^Unnamed')]
+
+        if "category" in df_balanced.columns:
+            sentiment_counts_bal = df_balanced["category"].value_counts().reset_index()
+            sentiment_counts_bal.columns = ["Sentimen", "Jumlah"]
+
+            fig2 = px.bar(
+                sentiment_counts_bal,
+                x="Sentimen",
+                y="Jumlah",
+                color="Sentimen",
+                color_discrete_map={
+                    "positive": "#28a745",
+                    "neutral": "#007bff",
+                    "negative": "#dc3545"
+                },
+                title="Distribusi Klasifikasi Sentimen Setelah Balancing",
+                labels={"Sentimen": "Kategori Sentimen", "Jumlah": "Jumlah Ulasan"},
+                text_auto=True
+            )
+
+            st.plotly_chart(fig2, use_container_width=True)
+
+            st.markdown("### ℹ️ Keterangan")
+            st.markdown("""
+                Dua diagram di atas manampilkan distribusi sentimen **sebelum** dan **sesudah** proses *data balancing*:
+
+                - 📘 **Data Asli**: Menampilkan distribusi ulasan dari hasil scraping dan labelisasi awal. Data asli memiliki ketidakseimbangan jumlah ulasan antar kategori sentimen yaitu, ulasan positif lebih banyak daripada negatif atau netral, dan juga jumlah ulasan netral terlalu sedikit dibandingkan dengan kedua ulasan lainnya. Ketidakseimbangan ini dapat menyebabkan model bias dan menghasilkan performa buruk pada kategori yang lebih sedikit.
+
+                - 📗 **Data Setelah Balancing**: Merupakan hasil dari proses penyeimbangan jumlah data tiap kategori sentimen, misalnya dengan metode seperti *random undersampling* atau *random oversampling*.  
+                Tujuannya adalah untuk:
+                  - Meningkatkan akurasi dan generalisasi model.  
+                  - Menghindari dominasi kelas mayoritas saat training.  
+                  - Memastikan bahwa model memiliki peluang yang sama untuk belajar dari semua kategori.  
+
+                Dengan distibusi data yang telah di *balancing* membantu menyiapkan data yang lebih adil untuk pelatihan model klasifikasi sentimen.
+            """)
+        else:
+            st.warning("Kolom 'category' tidak ditemukan dalam file wondr_balanced.csv")
+    except FileNotFoundError:
+        st.error("File wondr_balanced.csv tidak ditemukan. Pastikan file tersedia.")
+
+
+elif st.session_state.menu3 == "Word Cloud":
     st.subheader("📊 Visualisasi: Word Cloud per Sentimen")
 
     try:
@@ -527,10 +608,68 @@ elif st.session_state.menu4 == "Word Cloud":
     except FileNotFoundError:
         st.error("File wondr_pp_normalized.csv tidak ditemukan. Pastikan file tersedia.")
 
-# Menu 5: Pembahasan
-if st.session_state.menu5:
-    st.subheader(f"📝 Pembahasan: {st.session_state.menu5}")
-    st.write(f"Menampilkan pembahasan: **{st.session_state.menu5}**.")
+# Menu 4: Analisis Hasil dan Kesimpulan
+if st.session_state.menu4 == "Analisis Hasil":
+    st.subheader("📝 Analisis Hasil")
+
+    st.markdown("""
+    Pada proyek ini, dilakukan analisis sentimen terhadap ulasan pengguna aplikasi **Wondr by BNI** menggunakan pendekatan berbasis **Deep Learning IndoBERT**. Proses dimulai dari pengumpulan data, dilanjutkan dengan tahap-tahap *preprocessing*, hingga pemodelan dan evaluasi model.
+    
+    #### ⚖️ Balancing
+    Data yang telah diberi label `positive`, `neutral`, dan `negative` kemudian diseimbangkan jumlahnya menggunakan teknik **undersampling dan oversampling**. Hal ini bertujuan untuk menghindari ketimpangan (imbalance) yang dapat memengaruhi performa model klasifikasi.
+
+    #### 🔄 Preprocessing
+    Tahapan preprocessing bertujuan untuk membersihkan dan menyiapkan data teks agar dapat digunakan oleh model. Tahapan meliputi:
+    - **Case Folding**: Mengubah seluruh huruf menjadi huruf kecil.
+    - **Cleaning**: Menghapus HTML, URL, angka, tanda baca, karakter non-alfabet, dan karakter berulang.
+    - **Tokenizing**: Memecah teks menjadi token atau kata-kata.
+    - **Stopword Removal**: Menghapus kata-kata tidak penting (seperti "yang", "dan", "saya").
+    - **Stemming**: Mengubah kata ke bentuk dasarnya.
+    - **Normalisasi**: Mengganti kata tidak baku/slang menjadi kata formal berdasarkan kamus kolokial.
+
+    #### 📊 Visualisasi
+    Visualisasi dilakukan melalui:
+    - **Diagram Batang**: Untuk melihat distribusi sentimen sebelum dan sesudah proses balancing.
+    - **Word Cloud**: Untuk masing-masing sentimen (`positive`, `neutral`, `negative`) yang menggambarkan kata-kata yang paling sering muncul.
+
+    **Hasil Word Cloud menunjukkan**:
+    - **Sentimen Positif**: Didominasi kata seperti *mudah*, *bagus*, *transaksi*, *fitur*, dan *praktis*, menandakan kepuasan pengguna terhadap fitur dan kemudahan penggunaan aplikasi.
+    - **Sentimen Netral**: Kata seperti *mobile*, *apk*, *verifikasi*, dan *token* mendominasi. Menandakan pengalaman pengguna yang biasa saja atau netral, namun tetap mengandung masukan tentang fungsi login dan akses.
+    - **Sentimen Negatif**: Kata seperti *gagal*, *masuk*, *enggak*, *verifikasi*, dan *saldo* mendominasi. Ini menunjukkan bahwa keluhan utama pengguna berpusat pada kegagalan login/verifikasi serta masalah saldo/transaksi.
+
+    #### 🤖 Pemodelan
+    Model yang digunakan adalah **IndoBERT**, yaitu model Bahasa Indonesia berbasis arsitektur BERT. Model ini unggul dalam memahami konteks dan kalimat berbahasa Indonesia.
+
+    - **Split data**: 70% untuk pelatihan, 15% validasi, dan 15% pengujian.
+    - **Epoch**: 15
+    - **Learning rate**: `3e-6`
+    - **Random State**: `16`
+
+    #### 📈 Evaluasi
+    - Hasil klasifikasi ditampilkan dalam bentuk tabel yang berisi prediksi sentimen untuk setiap ulasan pengguna.
+    - Evaluasi ini membantu menilai sejauh mana model memahami konteks ulasan dan mampu mengkategorikan dengan akurat.
+    """)
+
+elif st.session_state.menu4 == "Kesimpulan":
+    st.subheader("📝 Kesimpulan")
+
+    st.markdown("""
+    Berdasarkan analisis dan implementasi yang telah dilakukan, dapat disimpulkan beberapa hal penting berikut:
+
+    1. **Proses preprocessing** berperan penting dalam meningkatkan kualitas data teks, terutama dengan penambahan normalisasi berdasarkan kamus kata tidak baku.
+    2. **IndoBERT** terbukti mampu melakukan klasifikasi sentimen dengan baik terhadap ulasan berbahasa Indonesia, termasuk dalam konteks informal seperti ulasan aplikasi mobile.
+    3. **Balancing data** melalui teknik undersampling dan oversampling berhasil menghindari bias model terhadap salah satu kategori sentimen.
+    4. Visualisasi menggunakan **Word Cloud** dan **Diagram Batang** membantu dalam memahami persebaran kata dan sentimen secara cepat dan intuitif.
+    5. Model dilatih dengan konfigurasi sebagai berikut:
+       - **Split data**: 70% training, 15% validation, dan 15% testing.
+       - **Epoch**: 15
+       - **Learning rate**: `3e-6`
+       - **Random State**: `16`
+    6. Berdasarkan hasil Word Cloud:
+       - **Pengguna merasa puas** terhadap kemudahan penggunaan aplikasi, kelengkapan fitur, dan kecepatan transaksi.
+       - **Isu yang sering muncul** dalam ulasan netral hingga negatif adalah tentang proses verifikasi (wajah/email), kendala login, serta masalah saldo/transaksi.
+       - **Rekomendasi**: Pemilik aplikasi disarankan untuk fokus pada perbaikan dan optimasi sistem login dan verifikasi agar pengalaman pengguna lebih lancar dan minim gangguan.
+    """)
 
 # ============================
 # FOOTER

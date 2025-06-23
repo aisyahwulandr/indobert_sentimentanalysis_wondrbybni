@@ -1,0 +1,1000 @@
+['jelek', 'banget', 'sekarangbagus', 'buka', 'tadipemulihan', 'app', 'bagaimana', 'bisa', 'seprti', 'transaksi', 'fungsi', 'lah']	negative
+['bagus', 'login', 'bni', 'mobile', 'banking', 'login', 'pakai', 'sidik', 'jari', 'password', 'kalo', 'wondr', 'pakai', 'settingan', 'pakai', 'sidik', 'jari', 'non', 'aktifin']	neutral
+['transaksi', 'mobile', 'tunai', 'tarik', 'tunai', 'tolong', 'kode', 'otp', 'via', 'wa', 'jaman', 'guna', 'smartphone', 'pesan', 'singkat', 'sms', 'terimakasih']	neutral
+['apl', 'bug', 'ragu', 'pakai', 'aplikasi', 'takut', 'masalah', 'transaksi', 'lenyap', 'uang', 'aplikasi', 'bni', 'mobile', 'apl', 'cutomer', 'service', 'bni', 'paksa', 'pindah', 'aplikasi', 'alas']	negative
+['aplikasi', 'bagus', 'investasi', 'buka', 'deposito', 'apk', 'mudah', 'fiturnya', 'praktis', 'tampil', 'simpel', 'apk', 'mudah', 'transaksi']	positive
+['transaksi', 'pakai', 'kartu', 'kredit', 'tipe', 'american', 'express']	positive
+['masuk', 'wonder', 'yasllu', 'gagal']	neutral
+['aplikasi', 'simple', 'fresh', 'banget', 'anak', 'muda', 'fitur', 'uang', 'lengkap', 'promo', 'gampang', 'banget', 'pakai', 'wajib', 'coba']	positive
+['aplikasi', 'enggak', 'guna', 'verifikasi', 'wajah', 'enggak', 'hasil', 'cahaya', 'sudah', 'perintah', 'sudah', 'laksanain', 'buka', 'mulut', 'pin', 'mata', 'tetap', 'enggak', 'hasil', 'kali', 'bikin', 'aplikasi', 'coba', 'upload']	negative
+['sebenarnya', 'bagus', 'upgrade', 'aplikasi', 'sekarang', 'ribet', 'perihal', 'login', 'setting', 'pakai', 'finger', 'print', 'harus', 'tahap', 'gagal', 'sudah', 'top', 'up', 'ewallet', 'harus', 'verifikasi', 'banyak', 'coba', 'belum', 'dengan', 'alesan', 'banyak', 'verifikasi', 'tolong', 'upgrade', 'asa', 'mobile', 'mbangking', 'seribet']	neutral
+['kerren', 'manfaat', 'transaksi', 'uang', 'bantu', 'efesien', 'andal', 'terima', 'kasih', 'bni']	positive
+['top', 'up', 'bayar', 'apa', 'alas', 'saldo', 'cukup', 'saldo']	negative
+['guna', 'setia', 'bni', 'qris', 'atm', 'seringkali', 'masalah', 'mhn', 'baik']	neutral
+['banyak', 'maintanance', 'transaksi', 'malam', 'kali', 'alami', 'kendala', 'gagal', 'tf']	neutral
+['aplikasi', 'loading', 'ken', 'isi', 'token', 'listrik', 'fiturnya', 'pakai', 'plis', 'token', 'listrik', 'deh', 'habis', 'kemarin']	neutral
+['susah', 'transaksi', 'suruh', 'memasuki', 'pin', 'salah', 'klik', 'lupa', 'sandi', 'terus', 'ganti', 'pin', 'terus', 'transaksi', 'pin', 'wondr', 'salah', 'klik', 'lupa', 'sandi', 'ganti', 'terus', 'transaksi', 'suruh', 'mskin', 'pin', 'transaksi', 'pin', 'ganti', 'tadi', 'masuk', 'salah', 'repot', 'hadeh', 'ribet', 'memang', 'apk', 'ribet']	negative
+['transaksi', 'e', 'wallet', 'naik', 'rp', 'sama', 'banking']	positive
+['loading', 'login', 'detik', 'kondisi', 'jaring', 'aman', 'lancar', 'buka', 'sama', 'banking', 'lancar', 'saja']	neutral
+['tampil', 'fungsi', 'bagus', 'jalan', 'optimal', 'sayang', 'fiturnya', 'lengkap', 'tariksetot', 'tunai', 'kartu', 'bayar', 'dll']	positive
+['aplikasi', 'loading', 'ken', 'isi', 'token', 'listrik', 'fiturnya', 'pakai', 'plis', 'token', 'listrik', 'deh', 'habis', 'kemarin']	neutral
+['mohon', 'tambah', 'fitur', 'ganti', 'nomor', 'telepon', 'aplikasi', 'wondr', 'by', 'bni', 'kantor', 'cabang', 'ganti', 'nomor', 'telepon']	neutral
+['belum', 'aplikasi', 'sudah', 'luncur', 'masyarakat', 'sih', 'login', 'kendala', 'ganggu', 'sedia', 'sudah', 'upate', 'banget']	negative
+['mohon', 'baik', 'coba', 'kali', 'tahap', 'lalu', 'pasu', 'email', 'suruh', 'kayak', 'tabung', 'verifikasi', 'email', 'memcoba', 'masuk', 'gagal', 'suruh', 'ulang', 'mohon', 'baik', 'moga', 'bank', 'bni', 'sukses']	negative
+['bagus', 'mudah', 'transaksi']	positive
+['aplikasi', 'ganggu']	neutral
+['guna', 'wondr', 'by', 'bni', 'registrasi', 'mudah', 'transaksi', 'lancar', 'aman', 'terimakasih', 'bni', 'moga', 'inovasi']	positive
+['payahsering', 'errorlogin', 'gagal']	negative
+['buka', 'hp', 'root', 'modifikasi']	negative
+['bagus', 'simpel', 'ribet']	positive
+['tau', 'save', 'norek', 'menambah', 'norek', 'tuju']	neutral
+['kadangkadang', 'saja', 'ganggu', 'lebih', 'keren', 'sukses']	positive
+['login', 'susah', 'banget', 'update', 'aplikasi', 'baru', 'setor', 'tunai']	negative
+['jaring', 'kuat', 'tranfer', 'delay']	positive
+['baik', 'face', 'lock']	positive
+['bagus', 'mudah', 'bertransaksilebih', 'bagus', 'lah', 'menu', 'pinjam']	positive
+['atur', 'uang', 'mudah', 'praktis', 'wondy', 'by', 'bnibisa', 'jyga', 'nabung', 'rencana', 'libur', 'dll', 'semangat', 'tabung', 'nih', 'begitu', 'mahngga', 'nih', 'anggurin', 'wondy', 'bni', 'juga', 'investasi', 'jangka', 'tetima', 'kasih', 'wondy', 'atur', 'uang', 'ku', 'mudah']	positive
+['bayar', 'virtual', 'account', 'bni', 'gagal', 'gagal']	neutral
+['aplikasi', 'mudah', 'daftar', 'makan', 'bantu', 'bayar', 'apa', 'aplikasi', 'investasi']	positive
+['aplikasi', 'bantu', 'finansial', 'fiturnya', 'oke', 'sudah', 'fitur', 'cicil']	positive
+['biaya', 'transaksi', 'mahal', 'murahin']	negative
+['love', 'itu', 'wondr', 'by', 'bni', 'all', 'fiturnya', 'gampang', 'akses', 'meribetkan', 'transaksi', 'mudah', 'transfer', 'e', 'commerce', 'e', 'wallet', 'ribet', 'buka', 'aplikasi', 'beres', 'login', 'mudah', 'qris', 'cepat', 'suka', 'bayar', 'non', 'cash']	positive
+['top', 'up', 'e', 'wallet', 'batas', 'hari', 'mending', 'batas', 'top', 'up']	neutral
+['wonder', 'bni', 'bilang', 'nyuruh', 'baik', 'jaring', 'nyuruh', 'baik', 'data', 'baik', 'aplikasi', 'eror', 'indak', 'pop', 'up', 'maaf', 'tabiat', 'sbgi', 'aplikasi', 'sudah', 'mengesalkan', 'gayanya', 'nyolok']	negative
+['kenapa', 'pin', 'bni', 'salah', 'ganti', 'pin', 'kemarin', 'kantor', 'bank', 'bni', 'pin', 'catat', 'coba', 'kantor', 'bni', 'transaksi', 'salah', 'pin', 'mulu', 'bagaimana', 'min', 'mohon', 'bantu']	neutral
+['apknya', 'bagus', 'uang', 'sekian', 'ribu', 'habis', 'wondr', 'ambil', 'uang', 'nasabah', 'karena', 'lihat', 'uang', 'sekian', 'ribu', 'tolong', 'sekian']	neutral
+['verifikasi', 'wajah', 'cepat', 'intruksinya', 'gagaltolong', 'program', 'ai', 'verifikasi', 'wajah', 'tingkat', 'mudah', 'lalu', 'verifikasi']	neutral
+['serin', 'error', 'payah']	neutral
+['bosok', 'apk', 'dikit', 'dikit', 'baik', 'perbaikankalo', 'urgent', 'terus', 'wonder', 'baik', 'kayak', 'gin', 'apk', 'maju', 'kayak', 'bni', 'mobile']	negative
+['tolong', 'banget', 'error', 'pakai', 'bni', 'mobile', 'error', 'pakai', 'error', 'mulu']	negative
+['jaring', 'suka', 'lelet']	neutral
+['simple', 'bantu']	positive
+['transaksi', 'cepat', 'saldo', 'langsung', 'terupdate', 'transaksi', 'warna', 'colourfull', 'pakai', 'qris', 'promonya', 'mohon', 'narasiketerangan', 'sudah', 'tulis', 'transaksi', 'tampil', 'bukti', 'transaksi', 'min', 'tambah', 'menu', 'transaksi', 'kartu', 'cetak', 'rekening', 'koran', 'bayar', 'wifi', 'profider', 'cbn', 'bayar', 'kuliah', 'min']	positive
+['nyaman', 'pakai', 'app', 'wondr', 'limit', 'batas', 'dikit']	neutral
+['mudah', 'transaksi']	positive
+['masuk', 'daftar', 'ulang', 'lagisudah', 'kali', 'masuk', 'nomor', 'debit', 'konfirmasi', 'muka', 'dllnya', 'lama', 'transaksi']	negative
+['layan', 'urus', 'transaksi', 'mudah']	positive
+['bagus', 'belum', 'nge', 'cek', 'hutang']	positive
+['transver', 'mudah', 'pakai', 'wondr']	positive
+['sistem', 'sifat', 'prifasi']	neutral
+['transaksi', 'cepat', 'cuaca', 'bagus']	positive
+['ganggu', 'susah', 'masuk', 'aplikasi', 'kadang', 'bagus', 'kadang', 'buka']	negative
+['transfer', 'dana', 'enggak bisa', 'tim', 'baik', 'coba', 'enggak bisa']	neutral
+['pakai', 'bni', 'mobile', 'menu', 'lihat', 'sisa', 'pinjam', 'flexi', 'app', 'cari', 'menu', 'enggak', 'tolong', 'upgrade', 'min', 'biar', 'lengkap', 'cs', 'bank', 'lihat', 'sisa', 'flexinya']	negative
+['suka', 'aplikasi']	positive
+['tampil', 'tarik', 'mudah', 'karena', 'konsultan', 'keuangansangat', 'mudah', 'operasional']	positive
+['kak', 'posisi', 'taiwan', 'mbanking', 'lupa', 'pasword', 'rusak', 'bagaimana']	positive
+['tolong', 'error', 'jaring', 'bagus', 'bagus', 'enggak mau', 'login', 'muter', 'doang', 'sudah', 'kayak', 'gin', 'kadang', 'bayar', 'via', 'tf', 'enggak bisa', 'error', 'terus']	negative
+['wondr', 'by', 'bni', 'benarbenar', 'bikin', 'transaksi', 'simpel', 'fitur', 'login', 'sidik', 'jari', 'praktis', 'enggak', 'ribet', 'memasuki', 'password']	positive
+['nice', 'minus', 'tarik', 'cardless']	positive
+['aplikasi', 'ribet', 'enak', 'tf', 'tunai', 'kartu', 'transaksi', 'doang', 'fitur', 'juga', 'enggak', 'enak']	negative
+['aplikasi', 'buruk', 'verifikasi', 'ktp', 'foto', 'wajah', 'verifikasi', 'wajah', 'tolak', 'jugaaplikasi', 'payah']	negative
+['lelet', 'ganggu', 'transaksi', 'topup', 'saldo', 'konter', 'hambat', 'kartu', 'provider', 'coba', 'enggak', 'laku', 'transaksi']	negative
+['versi', 'mobile', 'error', 'logout', 'mulu', 'isi', 'nomor', 'hp', 'mending', 'sempur', 'aplikasi', 'rilis']	negative
+['tulis', 'gagal', 'kirim', 'saldo', 'uang', 'tetap', 'potong', 'sudah', 'kali', 'uang', 'hilang', 'mana', 'hilang', 'sia', 'sia']	neutral
+['bantu', 'eror', 'transaksi', 'gagal', 'saldo', 'saldo']	positive
+['aps', 'gatelswapoto', 'gagal', 'terus', 'entah', 'pose', 'pakai']	negative
+['aplikasi', 'susah', 'fitur', 'aplikasi', 'mobile', 'bni', 'install', 'wondr', 'kali', 'login', 'bilang', 'password', 'salah']	negative
+['kemarin', 'login', 'malam', 'regetrasi', 'ulang', 'sekarang', 'regestrasi', 'kendala', 'verifikasi', 'wajah', 'kendala', 'sistem']	negative
+['bantu']	positive
+['terimakasi', 'bank', 'bnipenggunaan', 'mudah', 'cepatsangat', 'bantu', 'selalu', 'mbanking']	positive
+['tolong', 'kakenapa', 'aplikasih', 'baik', 'trussjadih', 'hambat', 'transaksikalau', 'ulang']	neutral
+['mudah', 'cepat', 'transaksi', 'apa']	positive
+['aplikasi', 'baru', 'bni', 'mudah', 'guna', 'beda', 'apk', 'mobile', 'bni', 'wondr', 'log', 'ini', 'pakai', 'sandi', 'kombinasi', 'huruf', 'angka', 'bayar', 'pin', 'pakai', 'angka', 'mudah', 'pakai', 'simple', 'wondr']	positive
+['mantap', 'pakai', 'wonderjarang', 'gangguansemoga', 'lancar']	positive
+['mantap', 'fitur', 'lengkap']	positive
+['tolong', 'deteksi', 'wajah', 'baik']	negative
+['keren', 'banget', 'aplikasi', 'canggih', 'mudah', 'nyaman', 'transaksi', 'baik', 'bni']	positive
+['aneh', 'aplikasi', 'wondr', 'by', 'bni', 'force', 'close', 'device', 'aplikasi', 'bni', 'mobile', 'aman', 'tolong', 'aplikasi', 'bni', 'hapus', 'bagus', 'aplikasi', 'komplit', 'kece', 'mutasi', 'terima', 'kasih']	negative
+['beli', 'token', 'listrik', 'harus', 'update', 'versi', 'barubaru', 'update', 'buka', 'enggak', 'sebelum', 'sudah', 'baca', 'ulas', 'nyapd', 'bilang', 'setelah', 'update', 'leletehh', 'ternyata', 'aplikasi', 'nih', 'bintang']	negative
+['kok', 'enggak', 'tampil', 'qris', 'rekening', 'tampil', 'qris', 'bayar', 'orang', 'transfer', 'mengetik', 'no', 'rekening', 'maaf', 'kasih', 'bintang', 'kalo', 'deh', 'tampil', 'qris', 'kasih']	neutral
+['pakai', 'aplikasi', 'wondr', 'by', 'bni', 'transaksi', 'mudah', 'fitur', 'fiturnya', 'mudah', 'paham', 'fast', 'responya', 'cepat', 'terima', 'kasih']	positive
+['transaksi', 'gagal', 'jam', 'jm', 'malam', 'hati', 'hati', 'transaksi', 'pakai', 'qris', 'gagal', 'saldo', 'hilang', 'passaya', 'hubung', 'cs', 'by', 'email', 'menunggu', 'terlalulama', 'semogakedepanya', 'enak', 'pakai', 'octo', 'mobile', 'cimb', 'niaga', 'banding', 'wondr']	negative
+['bantu', 'dalam', 'transaksi', 'fitur', 'mudah', 'guna', 'top', 'up', 'isi', 'token', 'isi', 'pulsa', 'dll', 'mantap', 'wondr', 'by', 'bni', 'nyala']	positive
+['transaksi', 'mudah', 'cepat', 'proses', 'simple', 'l', 'ribet', 'i', 'love', 'itu']	positive
+['bintang', 'saldo', 'sedot', 'dengan', 'sendrinya', 'tanpa', 'terang', 'transaksi', 'datang', 'cs', 'dekat', 'hanya', 'saran', 'tnyakan', 'sales', 'bni', 'sales', 'bni', 'tangap']	negative
+['aplikasi', 'sulit', 'nasabah', 'tranksaksi', 'ku', 'ris', 'gagal', 'saldo', 'kurang', 'aplikasi', 'fitur', 'fitur', 'standard', 'pakai', 'kayak', 'bayar', 'ku', 'ris', 'virtual', 'account', 'hahahahah', 'aplikasi', 'kacau']	negative
+['transfer', 'hasil', 'wonder', 'saldo', 'masuk', 'rekening', 'yang', 'transfer', 'bagaimana', 'min']	neutral
+['bagaimana', 'sih', 'becus', 'bikin', 'sistem', 'jengkel', 'banget', 'karena', 'sudah', 'hari', 'kamis', 'aktivasi', 'enggak bisa', 'verifikasi', 'wajah', 'cari', 'review', 'enggak bisa', 'kamis', 'coba', 'gagal', 'padahal', 'sudah', 'mengikuti', 'pandu', 'urgent', 'enggak bisa', 'tolong', 'baik']	negative
+['aplikasi', 'wondr', 'by', 'bni', 'lancar', 'praktis', 'mudah', 'aktivitas', 'aplikasi', 'wondr', 'by', 'bni', 'repot', 'atm', 'bantu', 'musim', 'hujan', 'takut', 'hujan']	positive
+['tolong', 'boleh', 'baik', 'privasi', 'muka', 'sudah', 'kedip', 'gagal', 'sudah', 'pandu', 'enggak', 'bisa']	negative
+['bantu', 'transaksi', 'aplikasi']	positive
+['manfaat', 'bertransakai']	positive
+['keren', 'mudah', 'tf', 'fitur', 'klik', 'pokok', 'baik']	positive
+['mantap', 'praktis', 'efesien', 'pokoe', 'bantu', 'dalam', 'transaksi']	positive
+['bagus', 'layan']	neutral
+['aplikasi', 'bagus']	positive
+['cepat', 'aman', 'transaksi']	positive
+['kalo', 'tarik', 'tunai', 'pakai', 'wondr', 'otp', 'kirim', 'wa', 'pakai', 'sms', 'jarang', 'ngisi', 'pulsa', 'paket', 'tolong', 'admin', 'mudah', 'biar', 'kayak', 'belah', 'lewat', 'wa', 'gmail']	neutral
+['enggak', 'buka', 'kemarin', 'pakai', 'bni', 'mobilrsekarang', 'pakai', 'wonder', 'un', 'instal', 'bni', 'mobile', 'wonder', 'enggak', 'buka', 'sistem', 'baik', 'hari', 'enggak', 'buka']	neutral
+['bni', 'kenapa', 'sampai', 'aplikasi', 'mobile', 'ganti', 'kalau', 'konsisten', 'sistem', 'aman', 'kuat', 'capek', 'ganti', 'pasword']	negative
+['haloo', 'daftar', 'log', 'ini', 'wondr', 'verifikasi', 'wajah', 'tera', 'verifikasi', 'kartu', 'coba', 'kali', 'kali', 'enggak bisa', 'teman', 'tampil', 'verifikasi', 'wajah', 'lanjut', 'daftar']	negative
+['interface', 'lebih', 'mudah', 'cepat', 'fitur', 'transaksi', 'tarik', 'setor', 'atm', 'pasang', 'seperti', 'mobile', 'banking']	neutral
+['tampil', 'simple', 'bagus', 'fitur', 'fiturnya', 'relevan', 'sesuai', 'butuh', 'hari', 'wondr', 'mudah', 'diskon', 'pakai', 'apk']	positive
+['gila', 'potong', 'tabung', 'banget', 'cok', 'tf', 'bni', 'biaya', 'anjir', 'enggak', 'pakai', 'bulan', 'sudah', 'kadaluarsa', 'baru', 'wkwkwk']	negative
+['kali', 'login', 'gagal', 'verifikasi', 'wajah', 'enggak', 'mulu', 'sudah', 'mengikuti', 'suruh']	neutral
+['aplikasi', 'simpel', 'bagus']	positive
+['jelekvermuk', 'kali', 'gbsa', 'kembali', 'mobile', 'bni', 'pakai', 'wondr']	negative
+['bagaimana', 'sih', 'tarik', 'tunai', 'kartu', 'app', 'jengkel', 'mencari', 'enggak ada', 'bagus', 'artefak', 'enggak bisa', 'tarik', 'tunai', 'alfa', 'saja', 'bikin', 'jengkel']	neutral
+['apk', 'wondr', 'bni', 'muas', 'aplikasi', 'mudah', 'layan', 'perban', 'transfer', 'bayar', 'tagih', 'cepat', 'fitur', 'tambah', 'mesan', 'tiket', 'belanja', 'online', 'buat', 'praktis']	positive
+['aplikasi', 'bagus', 'mudah', 'menu', 'tahap', 'kembang']	positive
+['paraktis', 'mudah']	neutral
+['transaksi', 'transfer', 'bri', 'wonder', 'by', 'bnidan', 'taplus', 'bisnispas', 'cek', 'mutasi', 'bri', 'transaksi', 'hasil', 'kece', 'wonder', 'by', 'bni', 'kait', 'saldo', 'kosongdan', 'pergi', 'center', 'bni', 'transaksi', 'akun', 'sayaapakah', 'lapor', 'bri', 'bni', 'tolong', 'bantu', 'kak', 'uang', 'krisis', 'rantau', 'kakyang', 'mana', 'uang', 'gaji', 'uang', 'makan']	neutral
+['bagusbermanfaat', 'sang', 'at', 'bantu']	positive
+['kak', 'ya', 'wonder', 'ku', 'buka', 'tulis', 'sesi', 'login', 'buka', 'langsung', 'uninstal', 'instal', 'ulang', 'verivikasi', 'ulang', 'otp', 'ulang']	positive
+['bintang', 'motivasi', 'moga', 'terus', 'baik', 'upaya', 'simpel', 'kecewa', 'konsumen', 'terimakasih']	positive
+['sih', 'suruh', 'login', 'login', 'apk', 'enggak']	negative
+['versi', 'baru', 'wondr', 'mudah', 'transaksi']	neutral
+['tolong', 'bni', 'transaksi', 'beli', 'bayar', 'pulsa', 'masuk', 'error', 'tau', 'tlong', 'baik', 'pembeliannyaa', 'masuk']	neutral
+['moga', 'bagus', 'kadang', 'kandala', 'banking', 'bni']	positive
+['bagus', 'memang', 'begitu', 'kalo', 'masuk', 'login', 'pswod', 'padahal', 'sudah', 'login', 'sebentar', 'login', 'kok', 'ribet']	positive
+['asli', 'simple', 'sayang', 'menu', 'info', 'transaksi', 'sisa', 'jumlh', 'saldo', 'akumulasi', 'bni', 'mobile', 'banking', 'wondr', 'cuma', 'rp', 'sekian', 'truss', 'rp', 'sklian', 'bni', 'mobile', 'detail', 'moga', 'wondr', 'bisa', 'update']	neutral
+['aman', 'cepat', 'mudah']	positive
+['bagus', 'terkadang', 'suka', 'loading']	positive
+['wondr', 'benarbenar', 'mudah', 'kelola', 'uang', 'aplikasi', 'cepat', 'aman', 'userfriendly']	positive
+['bantu', 'mudah', 'transaksi', 'apa']	positive
+['banyak', 'error', 'eror', 'jam', 'jam']	negative
+['update', 'enggak', 'buka', 'why']	neutral
+['aplikasi', 'enggak', 'top', 'up', 'sudah', 'kali', 'kali', 'mencoba', 'tetap', 'enggak', 'tulis', 'aplikasi', 'baik', 'mulu', 'padahal', 'deh', 'hari']	neutral
+['apl', 'wondr', 'langsung', 'otomatis', 'masuk', 'sulit', 'apl', 'sesuai', 'langkah', 'paksa', 'minimal', 'layar', 'hp']	negative
+['karena', 'ulas', 'jelek', 'semua', 'putus', 'hapus', 'app', 'sebelum', 'digunakanbaru', 'daftar', 'sudah', 'ribet', 'soalnyamending', 'pakai', 'mobile', 'bni', 'perkara', 'beli', 'token', 'listrik', 'sampai', 'paksa', 'harus', 'download', 'sudahlahbli', 'tokennya', 'gopay']	negative
+['aplikasi', 'lumayanlahtapi', 'keren', 'langsung', 'tau', 'appikasi', 'bank', 'bnikalau', 'apk', 'mengira', 'apk', 'bni', 'apan', 'wondremang', 'sudah', 'bank', 'wondr', 'kasih', 'bintang', 'tunggu', 'ubah']	neutral
+['alangkah', 'bagus', 'terang', 'transaksi', 'masuk', 'wonder']	positive
+['aplikasi', 'bagus', 'kalo', 'ganti', 'hp', 'login', 'ribet', 'verifikasi', 'gagal']	neutral
+['ribet', 'fitur', 'hilang', 'tampil', 'bagus', 'bni', 'mobile', 'cocok', 'logo', 'bni', 'ganti', 'sih', 'alas', 'enggak', 'bni', 'mobile', 'upgrade', 'bagus', 'ramah']	negative
+['aplikasi', 'cacat', 'sudah', 'beres', 'salah', 'pw', 'pw', 'sudah', 'benar', 'kali', 'ulang', 'suruh', 'regis', 'dll', 'sih', 'kocak']	negative
+['menu', 'tapcash', 'menu', 'cek', 'saldo', 'tapcash', 'kartu', 'nomor', 'kartu', 'simpan', 'pegang', 'kartu', 'cek', 'saldo', 'tempel', 'kartu', 'tolong', 'mudah']	negative
+['aplikasi', 'jengkel', 'dengan', 'masuk', 'sesi', 'verifikasi', 'wajah', 'gagal', 'masukk', 'padahal', 'wajah', 'sudah', 'sesuai', 'pandu']	negative
+['user', 'interface', 'dati', 'bni', 'mobile', 'banking', 'fiturnya', 'lengkap', 'lengkap', 'bni', 'mobile', 'banking', 'aju', 'tukar', 'kartu', 'bni', 'mobile', 'banking']	neutral
+['buka', 'pakai', 'wifi', 'lelet']	positive
+['tolong', 'tingkat', 'fitur', 'tera', 'uang', 'transfer', 'uang', 'transfer', 'mudah', 'riwayat', 'saldo', 'terimakasih']	neutral
+['sudah', 'kali', 'unduh', 'aplikasi', 'wondr', 'verifikasi', 'email', 'gagal', 'tolak', 'bingung', 'ku', 'unduh', 'suruh', 'datang', 'cabang', 'bank', 'dekat']	neutral
+['alam', 'aplikasi', 'wondr', 'by', 'bni', 'ubah', 'kelola', 'keuangandengan', 'tampil', 'modern', 'fitur', 'cerdassemua', 'transaksi', 'mudah', 'cepatmulai', 'nabung', 'investasisemua', 'aplikasi', 'asisten', 'atur', 'finansial', 'pribadi']	positive
+['mudahcepat', 'simpe']	positive
+['tolong', 'baik', 'teller', 'bni', 'aktifasi', 'rekening', 'suruh', 'aktivasi', 'wondr', 'wondr', 'tulis', 'fitur', 'aktivasi', 'sedia', 'rekening', 'aktif', 'aktif', 'tulis', 'fitur', 'aktivasi', 'sedia']	neutral
+['tingkat']	positive
+['aplikasi', 'buka', 'notice', 'fitur', 'sedia', 'bayar', 'listrik', 'mobile', 'banking', 'arah', 'wondr', 'buka', 'kok']	negative
+['aplikasi', 'manfaat', 'fitur', 'limpah', 'rancang', 'mudah', 'langkah', 'proses', 'transaksi', 'fiturfitur', 'alam', 'praktis', 'efisien', 'nyaman', 'terima', 'kasih', 'sedia', 'layan', 'mantap']	positive
+['sebenarnya', 'bagus', 'simpel', 'mudah', 'paham', 'kenapa', 'masuk', 'banget', 'proses', 'stuck', 'terus']	neutral
+['apk', 'gampang', 'sudah', 'coba', 'lancar', 'transaksi', 'cepat', 'gampang', 'banget', 'digunain', 'awam', 'pasti', 'ribet', 'trusted', 'aman']	positive
+['masuk', 'menu', 'sempat', 'ragu', 'aman', 'karena', 'masuk', 'pasword', 'user', 'setelah', 'masuk', 'menu', 'pinjamanini', 'ksulitan', 'kalo', 'cek', 'saldo', 'pinjam', 'kali', 'angsur', 'please', 'menu', 'pinjam']	positive
+['jelek', 'banget', 'mending', 'kemarin', 'mah', 'baru', 'tampil', 'buruk', 'verifikasi', 'sudah', 'sampai', 'muka', 'depan', 'kamera', 'eh', 'tibatiba', 'login', 'suruh', 'verifikasi', 'kantor', 'dekat', 'verifikasi', 'muka', 'terima', 'curiga', 'detail', 'saldo', 'detail', 'uang', 'limit', 'capai', 'batas', 'limit', 'tautau', 'enggak mau', 'alas', 'limit', 'deh', 'gin']	negative
+['mantap', 'bos', 'kesal', 'kadang', 'saptu', 'malam', 'minggu', 'kendala', 'ganggu']	positive
+['malumaluin', 'jam', 'malam', 'transaksi', 'apa', 'belanja', 'cancel', 'garagara', 'aplikasi', 'transaksi', 'saldo', 'baik', 'bank', 'nasional', 'kalah', 'bank', 'swasta']	negative
+['suka', 'apk', 'wonder', 'suka', 'apk', 'bni', 'ebangking', 'pakai', 'wonder', 'enggak', 'enggak', 'transaksi', 'bekas', 'enggak', 'kayak', 'koran', 'kumplit', 'apk', 'simple', 'ketimbang', 'wonderr']	negative
+['kenapa', 'semenjak', 'ramadhan', 'susah', 'log', 'ini', 'mentok', 'logo', 'wondr']	positive
+['daftar', 'sudah', 'gampang', 'banget', 'satsettransaksi', 'gampangbayar', 'pakai', 'qris', 'top', 'up', 'ewallet', 'terus', 'pakai', 'virtual', 'account', 'satsetlup', 'lu', 'bni']	positive
+['aplikasi', 'apaapaan', 'konyolbaru', 'kali', 'pakai', 'bni', 'mendownload', 'wondr', 'login']	negative
+['transaksi', 'gagaltapi', 'saldo', 'rekening', 'berkurangtolong', 'kembali', 'uang', 'sayasaya', 'pakai', 'bni', 'mobile', 'banking', 'kalo', 'gagal', 'saldo', 'enggak', 'hilangini', 'pakai', 'wonder', 'by', 'bni', 'transaksi', 'gagal', 'saldo', 'hilangtolong', 'email', 'balas']	negative
+['bantu']	positive
+['bni', 'pakai', 'aplikasi', 'fungsi', 'kembang', 'aplikasi', 'hilang', 'nasabah', 'bayar', 'listrik', 'mbak']	negative
+['user', 'friendly', 'tampil', 'keren', 'fitur', 'lengkapmantap']	positive
+['min', 'enggak', 'masuk', 'mbanking', 'wondr', 'by', 'bni', 'min']	positive
+['bagus', 'sih', 'bantu', 'guna', 'mudah', 'cepat', 'dalam', 'transaksi', 'okey']	positive
+['sudah', 'daftar', 'sudah', 'masuk', 'buka', 'aplikasi', 'suruh', 'daftar', 'terus', 'enggak bisa', 'login']	negative
+['daftar', 'susah', 'bulan', 'daftar', 'kendala', 'verifikasi', 'wajah', 'ruang', 'sudah', 'terang', 'wajah', 'sudah', 'bagusbagusin', 'eh', 'sistem', 'eror']	negative
+['fitur', 'tarik', 'tunai', 'kartu', 'cardless', 'mbanking']	neutral
+['kode', 'otp', 'muncul', 'tari', 'tunai', 'buruk']	negative
+['enak', 'ewallet', 'hari', 'bisa', 'juta', 'sekarang', 'cuma', 'juta', 'anjaiini', 'saldo', 'sekarang', 'bisa', 'transfer', 'padahal', 'siska', 'rbyg', 'aneh', 'besok', 'pagi', 'sisa', 'ribu']	negative
+['layan', 'baik', 'wondr', 'memuaskanaplikasi', 'user', 'interface', 'smooth']	positive
+['mudah', 'praktis']	positive
+['bagus', 'mudah', 'transaksimantap']	positive
+['tf', 'saldo', 'gilir', 'selesai', 'masuk', 'pin', 'gagal', 'saldo', 'saldo', 'beli', 'motor', 'tf', 'ribu', 'aneh']	negative
+['kemarin', 'donlod', 'mbanking', 'kena', 'bug', 'terus', 'diarahin', 'donlod', 'wondr', 'sekarang', 'enggak', 'buka', 'tf', 'indonesia', 'bagaimana', 'sih']	neutral
+['enggak mau', 'klik', 'kak', 'keluar', 'apk']	positive
+['bagus', 'karena', 'mula', 'butuh', 'sesuai']	positive
+['tolong', 'menu', 'tarik', 'tunai', 'kartu', 'tambah', 'sangan', 'dompet', 'tinggal', 'tolong', 'upgred']	negative
+['keren', 'sih', 'tau', 'keluar', 'dapat']	positive
+['aplikasi', 'bantu', 'laload']	positive
+['aplikasi', 'hampis', 'gangguang', 'bis', 'qris', 'loading', 'inyernet', 'kencang', 'error', 'sistem', 'endingnya', 'aplikasi', 'bni', 'jengkel', 'kadang', 'dipakek', 'registrasi', 'ulangana', 'pakai', 'ktp', 'wajah', 'bikin', 'antre', 'minimarket', 'aplikasi']	neutral
+['fitur', 'lengkap', 'mudah']	positive
+['apk', 'baru', 'bni', 'bikin', 'apotek', 'tutupaktivasi', 'mudah', 'bgttransaksi', 'apa', 'gampang', 'bgtpaling', 'enak', 'pakai', 'qrisnya', 'dehbelanja', 'mudah']	positive
+['kasih', 'bintang', 'karena', 'riwayat', 'transkasi', 'transfer', 'orang', 'enggak', 'nampakkaya', 'teman', 'trf', 'harini', 'initrus', 'cari', 'riwayanya', 'terang', 'enggak ada', 'trxtrus', 'nama', 'deh', 'sipenerasfer', 'tera', 'sudah', 'oke', 'sih']	neutral
+['suruh', 'verifikasi', 'email', 'enggak', 'email', 'masuk', 'sudah', 'coba', 'kali', 'cek', 'email', 'terus', 'pakai']	positive
+['tampil', 'simple', 'kurang', 'banding', 'bni', 'mobile', 'transaksi', 'mobile', 'tunai', 'wondr', 'history', 'transaksi', 'muat', 'debit', 'kredit', 'saldo', 'transaksi', 'bni', 'mobile', 'nama', 'saldo', 'bni', 'point', 'wondr']	negative
+['ambil', 'tarik', 'tunai', 'kode', 'otp', 'dtentukan', 'providernya']	positive
+['mantap', 'mudah']	positive
+['lengkap', 'simple']	positive
+['saja', 'e', 'l', 'e', 'puas', 'enggak', 'lelet', 'parah', 'mending', 'aplikasi', 'sok', 'sok', 'an', 'launching', 'launching', 'aplikasi', 'baru', 'enggak', 'sistem']	negative
+['mas', 'karena', 'enggak', 'fitur', 'tarik', 'tunai']	neutral
+['bagus', 'cuman', 'pasword', 'save']	neutral
+['kalo', 'tf', 'ewallet', 'gagal', 'begitu', 'tolong', 'baik', 'susah', 'kalo', 'ngapa', 'ini']	neutral
+['masalah', 'loginsdb', 'verifikasi', 'ktpmasak', 'bilang', 'umur', 'bawah', 'tahun', 'megisi', 'data', 'isi', 'data', 'wali', 'sudah', 'keluarga', 'sudah', 'selesai', 'eeh', 'gagal', 'suruh', 'ulang', 'padahala', 'sudah', 'ngisi', 'data', 'coba']	negative
+['transaksi', 'login', 'an', 'capek']	positive
+['capek', 'banget', 'pakai', 'wondr', 'masuk', 'laman', 'log', 'ini', 'susah', 'modyar', 'banget', 'kalo', 'transaksi', 'pakai', 'qris', 'kode', 'bayar', 'keburu', 'expired', 'karena', 'log', 'ini', 'susah', 'ampun', 'sistem', 'bankingnya', 'deh', 'mending', 'bni', 'mobile', 'banking']	negative
+['kamera', 'handphone', 'buram', 'daftar', 'handphone', 'istri', 'fitur', 'kenal', 'wajah', 'login', 'handphone', 'aplikasi', 'bni', 'mobile', 'bangking']	neutral
+['jujur', 'bantu', 'hadir', 'aplk', 'wondr', 'by', 'bni', 'izin', 'saran', 'kepada', 'ahli', 'itu', 'bni', 'dapt', 'tingkat', 'forma', 'meminimalisir', 'ganggu', 'aplk', 'tanggal', 'nov', 'kecewa', 'aplk', 'pasal', 'pagi', 'malam', 'aplk', 'wondr', 'by', 'bni', 'alami', 'ganggu', 'mmbuat', 'laku', 'transaksi', 'tolong', 'bag', 'itu', 'gerak', 'cepat', 'ganggu', 'seperti', 'aplk', 'wodr', 'by', 'bni']	neutral
+['bagus', 'wonder', 'bula', 'aplikasi', 'loadingnya', 'luama', 'banget', 'kalo', 'pakai', 'ting', 'desak', 'tunggu', 'menit', 'buka']	neutral
+['malam', 'kakak', 'minimal', 'saldo', 'memang', 'berapa', 'gregetan', 'bayar', 'tagih', 'saldo', 'padahal', 'lumyan', 'banyak', 'dari', 'bayar']	neutral
+['lengkap', 'fiturnya', 'mudah', 'transaksi', 'penuh', 'butuh', 'transaksi', 'butuh', 'konsumsi', 'investasisemua', 'mudah']	positive
+['enggak', 'berat', 'cepat', 'transaksi']	positive
+['rumit', 'guna', 'ganti', 'hp', 'daftar', 'ulang', 'enggak', 'kayak', 'apk', 'tinggal', 'login']	neutral
+['mudah', 'operasi', 'cepat', 'transaksi']	positive
+['enggak bisa', 'login', 'suruh', 'dekat', 'wajah', 'layar', 'tacoba', 'kali', 'enggak bisa', 'anjir', 'lah', 'posisi', 'bagaimana', 'coyy', 'deteksi', 'kayak', 'login', 'face', 'id', 'dana', 'gila', 'aplikasi', 'eror']	negative
+['aplikasi', 'bantu', 'pantau', 'transaksi', 'uang', 'pasu', 'keluar', 'fitur', 'qrisnya', 'mudah', 'buka', 'aplikasi', 'tekan', 'qris', 'alangkah', 'bagus', 'fitur', 'setor', 'tarik', 'kembang', 'bantu', 'nasabah', 'tarik', 'setor', 'uang', 'keluar', 'kartu', 'atm']	positive
+['min', 'bni', 'ganggu', 'kah', 'ssekarang', 'saya', 'cek', 'out', 'enggak', 'bayar', 'bni']	positive
+['aplikasi', 'gagal', 'produk', 'kalo', 'release', 'tarik', 'tunai', 'kartu', 'enggak', 'menu', 'mending', 'pakai', 'bni', 'mobile']	negative
+['apk', 'jos', 'delay']	neutral
+['sudah', 'kali', 'unduh', 'aplikasi', 'wondr', 'verifikasi', 'email', 'gagal', 'tolak', 'bingung', 'ku', 'unduh', 'suruh', 'datang', 'cabang', 'bank', 'dekat']	neutral
+['apk', 'bagus', 'bantu', 'mudah', 'anehin', 'kesel', 'sampai', 'bbrapa', 'kali', 'verivikasi', 'ulang', 'sampai', 'bosan', 'masalah', 'pin', 'wondr', 'sudah', 'ganti', 'bbrapa', 'kali', 'sudah', 'verifikasi', 'login', 'memasuki', 'password', 'eh', 'enggak', 'sesuai', 'password', 'verifikasi', 'kali', 'menyebalkan', 'sudah', 'bbrapa', 'kali', 'verifikasi', 'hasil', 'verifikasi', 'hasil', 'pakai', 'transaksi']	neutral
+['aplikasi', 'baguslebih', 'bagus', 'anda', 'kerja', 'ewalet', 'ovogopaydlldia', 'kerjasama', 'link', 'orang', 'pakai']	positive
+['susah', 'login', 'padahal', 'sebelum', 'dah', 'akun', 'wondr', 'pas', 'uninstall', 'diinstall', 'ada', 'opsi', 'sudah', 'kartu', 'kredit', 'atau', 'belum', 'kartu', 'kredit', 'kayak', 'mbanking', 'bni', 'rda', 'ribet', 'tolong', 'baik', 'yaathanks']	neutral
+['ribet', 'susah', 'login', 'tulis', 'tuju', 'klik', 'sesi']	negative
+['apk', 'bagus', 'daftar', 'ulang', 'baik', 'apk']	neutral
+['fiturmudah', 'simpel', 'bantu']	positive
+['suka', 'aplikasi', 'simpel', 'banget', 'banding', 'aplikasi', 'mobile', 'banking', 'bni', 'sudah', 'simpel', 'warna', 'desain', 'aplikasi', 'bagus', 'warna', 'begitu', 'pokok', 'atm', 'tinggal', 'battery', 'hp', 'full', 'sudah', 'download', 'aplikasi', 'ambil', 'uang', 'atm', 'mudah', 'tarik', 'tunai', 'atm', 'moga', 'saldo', 'aman', 'hacker', 'aplikasi', 'sudah', 'canggih']	positive
+['bantu', 'transaksi', 'mana']	positive
+['tolong', 'tingkat', 'layan', 'bayar', 'air', 'bni', 'mobile', 'banking', 'layan', 'server', 'pdam', 'kab', 'madiun', 'wondr', 'sedia', 'bantu', 'save', 'recent', 'payment', 'biar', 'input', 'ulang', 'ulang', 'token', 'listrik', 'bayar', 'air', 'terimakasih']	neutral
+['nge', 'lag', 'bagaimana', 'urgent', 'mohon', 'perfomanya', 'tingkat', 'bagus', 'aplikaai', 'bni', 'mobile', 'banking']	neutral
+['logout', 'login', 'enggak', 'coba', 'cek', 'apk']	positive
+['wondr', 'by', 'bni', 'mudah', 'kelola', 'uang', 'fitur', 'transaksi', 'insight', 'growth', 'desain', 'modern', 'navigasi', 'mudah', 'analisis', 'uang', 'hari', 'bantu']	positive
+['the', 'best', 'pokok', 'mudah', 'tampil', 'fresh', 'banget', 'lucu']	positive
+['cuman', 'saran', 'tambah', 'riwayat', 'transaksi', 'saldo', 'habis', 'transaksi', 'terimakasih']	positive
+['aplikasi', 'keren', 'fungsional', 'tunggu', 'update', 'fiturnya']	positive
+['pagi', 'malam', 'dgunakan', 'notif', 'bentar', 'tim', 'baik', 'coba', 'perban', 'baik', 'wanar']	negative
+['tolong', 'baik', 'aplikasih', 'lot', 'kali', 'login', 'instal', 'ulang', 'tolong', 'gerah', 'baik', 'kalo', 'ganggu', 'mending', 'bni', 'pakai', 'aplikasih', 'ketimbang', 'keren', 'susah', 'guna', 'mendownload', 'ulang', 'tiga', 'kali', 'emosi']	negative
+['mohon', 'bantu', 'kak', 'aplikasi', 'kadang', 'suka', 'kak']	neutral
+['tarik', 'setor', 'tunai', 'aplikasi', 'downgrade', 'lengkap', 'sudah', 'launching', 'bagaimana', 'sih']	negative
+['instal', 'aplikasiverifikasi', 'wajah', 'sulittidak', 'bank', 'laingampang', 'mudahjadi', 'batal', 'instal', 'aplikasi', 'inisaya', 'pakai', 'aplikasi', 'bni', 'mobile', 'sajaterimakasih']	negative
+['kali', 'gampangtapi', 'buka', 'aplikasi', 'muter', 'terus', 'enggak', 'bisaaku', 'uninstal', 'lagidownload', 'lgbuat', 'susah', 'enggak', 'sat', 'set']	negative
+['mudah', 'cepat', 'senang', 'thanks', 'wondr']	positive
+['mutasi', 'telat', 'masuk', 'musti', 'ngapalin', 'sisa', 'saldo', 'mastik', 'saldo', 'masukbelum', 'repot', 'notifikasi', 'mutasi', 'masukkeluar', 'batas', 'notifikasi', 'tolong', 'baik', 'terima', 'kasih']	negative
+['sulit', 'verifikasi', 'habis', 'verifikasi', 'wajah', 'langsung', 'muncul', 'data', 'ulang', 'ulang', 'isi', 'ktp', 'kartu', 'debit', 'solusi']	negative
+['min', 'aplikasi', 'kok', 'enggak', 'login', 'sudah', 'daftar', 'aplikasi', 'terus', 'buka', 'aplikasi', 'ngisi', 'data', 'ulang', 'tolong', 'solusi']	negative
+['alih', 'bni', 'mobile', 'banking', 'wondr', 'harap', 'sistem', 'bagus', 'komplit', 'wondr', 'ganti', 'bni', 'mobile', 'banking', 'enggak ada', 'tarik', 'tunai', 'kartu', 'transaksi', 'enggak bisa', 'tanggal', 'aktivasi', 'mengsedih']	negative
+['puas', 'layan']	positive
+['okeh', 'sih', 'aplikasi', 'saran', 'notifikasi', 'uang', 'masuk', 'transfer', 'masuk', 'enggak', 'khawatir', 'enggak', 'salah', 'masuk', 'tibatiba']	positive
+['install', 'transfer', 'nomor', 'rekening', 'bayar', 'tiket', 'pesawat', 'ada', 'tips', 'trik', 'belum', 'tau', 'mohon', 'baik', 'transaksi', 'uang', 'krusial', 'tantang', 'developer', 'aplikasi', 'wondr']	neutral
+['aplikasi', 'henti', 'buka']	neutral
+['tarik', 'tunai', 'kartu', 'mesin', 'atm', 'tulis', 'gagal', 'aplikasi', 'sukses', 'saldo', 'potong']	negative
+['bug', 'bayar', 'transfer']	negative
+['masak', 'iya', 'tara', 'bni', 'apk', 'buka', 'paket', 'data', 'susah', 'banget', 'gin', 'buka', 'mbanking', 'cari', 'wifi', 'yuk', 'yuk', 'upgrade', 'apknya', 'biar', 'support', 'semua', 'jaring']	neutral
+['bagus', 'cuman', 'pasword', 'save']	neutral
+['aplikasi', 'nge', 'bug', 'sudah', 'login', 'kali', 'aplikasi', 'buka', 'aplikasi', 'muncul', 'syarat', 'ketentuanterus', 'ceklis', 'muncul', 'sesi', 'suruh', 'login', 'enggak', 'dipakai']	negative
+['aplikasi', 'sama', 'banking', 'simpel', 'fiturnya', 'cakup', 'butuh', 'transaksi', 'customer', 'update']	positive
+['password', 'mudah']	positive
+['mudah', 'praktis']	positive
+['mudah', 'perlu']	positive
+['bagus', 'pakai', 'bni', 'mobile', 'banking', 'menu', 'wnder', 'bikin', 'bingung', 'beli', 'token', 'listrik', 'input', 'idpel', 'kalau', 'mob', 'banking', 'sudah', 'option', 'safe', 'favorit']	neutral
+['februari', 'usia', 'wondr', 'by', 'bni', 'tanya', 'menu', 'kalah', 'bni', 'mobile', 'banking', 'fitur', 'kembang', 'wondr', 'by', 'bni', 'mana', 'sd', 'fitur', 'ganti', 'pin', 'kakak', 'tambah', 'fitur', 'layan', 'ib', 'bni', 'fungsi', 'ib', 'bni', 'bni', 'mobile', 'banking', 'suntik', 'mati', 'menu', 'layan', 'wondr', 'by', 'bni', 'maksimal', 'minimal', 'sama', 'bni', 'mobile', 'banking']	neutral
+['mudah', 'cepat']	positive
+['by', 'bni', 'aplikasi', 'baik', 'layan', 'transaksi', 'perlu', 'tabung', 'giro', 'deposit', 'rekening', 'bni', 'silah', 'daftar', 'nikmat', 'sgala', 'pasilatasnya', 'terimakasih']	positive
+['mudah']	neutral
+['kenapa', 'sudah', 'cs', 'kali', 'padahal', 'data', 'lengkap', 'enggak', 'salah', 'bisaselalu', 'terang', 'data', 'salah', 'bnrkan', 'padahal', 'sudah', 'cs', 'kali', 'benar']	negative
+['registrasi', 'deteksi', 'wajah', 'gagal', 'ikut', 'instruksi', 'layar', 'cepat', 'bni', 'mobile', 'banking']	negative
+['verifikasi', 'pin', 'gagal', 'mohon', 'arahannyaterimakasih', 'kasih']	neutral
+['terima', 'kasih', 'wonder', 'mudah', 'moga']	positive
+['muas']	positive
+['bagus', 'kokfitur', 'fitur', 'simple', 'mudah', 'digunakansangat', 'bantu', 'transaksi', 'atur', 'keuanganbisa', 'keluar', 'bulan', 'aplikasi', 'bisa', 'bantu', 'kontrol', 'keluar']	positive
+['update', 'bikin', 'repot', 'yverify', 'ulangklo', 'ribet', 'mah', 'enggak', 'bikin', 'aplikasiverify', 'ulangid', 'ulang', 'password', 'ulangribed', 'aplikasi', 'pakai', 'terus', 'updatetan', 'uninstallknp', 'logout', 'verify', 'ulang']	negative
+['sudah', 'update', 'bolak', 'login', 'bisa', 'fitur', 'sedia', 'sudah', 'transfer', 'mesti', 'atm']	negative
+['maaf', 'kasih', 'bintang', 'alasanya', 'enggak', 'jelek', 'komplit', 'bni', 'mobile', 'banking', 'aplikasi', 'lengkap']	negative
+['suka', 'banget', 'fitur', 'wondr', 'bantu', 'fitur', 'kelola', 'uang', 'mudah', 'lacak', 'keluar', 'tabung', 'fitur', 'save', 'goal', 'suka', 'langsung', 'tetap', 'target', 'uang', 'pantau', 'progres', 'pakai', 'wondr', 'bikin', 'simpel']	positive
+['aplikasi', 'bantu', 'banget', 'mudah', 'daftar', 'mudahbuat', 'rekening', 'enggak', 'ribet', 'rumah', 'sudah', 'kartu', 'fisik', 'kirim', 'rumah', 'huhuhu', 'gampang', 'praktis', 'transaksi', 'mudah', 'banget', 'antu', 'lot', 'fitunya', 'mudah', 'paham', 'pembeliam', 'ecomerce', 'gampang', 'simple', 'wondr', 'by', 'bni']	positive
+['riwayat', 'transaksi', 'enggak', 'muncul', 'muncul', 'jam', 'kalo', 'orang', 'tf', 'enggak', 'cek', 'sesuai', 'nominal', 'tf', 'mohon', 'baik', 'aplikasi', 'bagus', 'aplikasi']	negative
+['ribet', 'benar', 'tarik', 'tunai']	negative
+['sore', 'kak', 'wondr', 'hp', 'aneh', 'buka', 'connect', 'wifi', 'pakai', 'paket', 'data', 'selular', 'cek', 'settingan', 'hp', 'metode', 'koneksi', 'wifi', 'paket', 'data', 'selular', 'aktif', 'aplikasi', 'internet', 'paket', 'data', 'selular', 'kecuali', 'wondr', 'hape', 'redmi', 'note', 'mohon', 'bantu', 'kak', 'susah', 'bayar', 'cari', 'wifi']	neutral
+['mudah', 'mudah', 'transaksi']	positive
+['bantu', 'banget', 'upgrade']	positive
+['praktis', 'mudah', 'enggak', 'repot', 'rumah', 'tingkat', 'terus', 'fitur', 'fitur', 'biar', 'oke']	positive
+['transfer', 'masuk', 'bank', 'belah', 'tera', 'bukti', 'transfer', 'hasil', 'tapisaldo', 'tambah', 'bagaimana']	neutral
+['super', 'app', 'bni', 'baru', 'keren', 'mudah', 'menariksukses', 'wondr', 'by', 'bni', 'mudah', 'layan', 'nasabah']	positive
+['wondr', 'aplikasi', 'enggak', 'beres', 'bagaimana', 'mutasi', 'uang', 'rekening', 'bni', 'online', 'fisik', 'kartu', 'orang', 'susah']	negative
+['aplikasi', 'enggak jelas', 'logout', 'berifikasi', 'ulang', 'sudah', 'memasuki', 'kode', 'otp', 'tetrp', 'masuk', 'padahal', 'sudah', 'benar', 'sampai', 'kali', 'kedip', 'maya', 'sampai', 'ratus', 'kagak', 'baca', 'kamera', 'layar', 'terang', 'aplikasi', 'ampas']	negative
+['mudah', 'transaksi']	neutral
+['akses', 'mudah', 'respon', 'cepat']	positive
+['bantu', 'dalam', 'transaksi', 'uang']	positive
+['tarik', 'setor', 'kartu', 'enak', 'pakai']	neutral
+['daftar']	neutral
+['bantu', 'transaksi', 'lancar']	positive
+['aplikasi', 'bagus', 'banget', 'tampil', 'trendy', 'keren', 'warna', 'tarik', 'transaksi', 'mudah', 'cepat']	positive
+['lelet', 'banget', 'sudah', 'upgrade', 'aplikasi', 'baru', 'bni', 'cepat', 'bni']	negative
+['aplikasi', 'jelek', 'transaksitetapi', 'gagal', 'saldo', 'potong', 'bagus', 'bni', 'mobile']	negative
+['kendala', 'top', 'up', 'ewallet', 'kendala', 'mulu', 'error']	negative
+['susah', 'transaksi', 'pin', 'salah', 'sesi', 'suruh', 'verifikasi', 'ulang', 'susa', 'pakai', 'email', 'enggak', 'email', 'enggak', 'terima', 'bagaimana', 'sih', 'suka', 'mbanking', 'bni', 'saja', 'enggak', 'ribet', 'makan', 'ujunga', 'sesi', 'tolong', 'enggak', 'usah', 'apk', 'kalau', 'bagus', 'apk', 'sudah', 'nyaman', 'pakai', 'bni', 'kalau', 'kendala', 'enggak', 'pindah', 'bank', 'apk', 'bantu', 'tambah']	negative
+['kak', 'kok', 'wondr', 'by', 'bni', 'susah', 'akses', 'terus', 'butuh', 'verifikasi', 'tambah', 'tolong', 'bantu']	neutral
+['aplikasi', 'wondr', 'by', 'bni', 'fiturnya', 'lengkap', 'update', 'aplikasi', 'bni', 'overall', 'bagus', 'sih', 'moga', 'depan', 'performa', 'aplikasi', 'moga', 'minim', 'kendala']	positive
+['alhamdulillah', 'bantu', 'semoga', 'sukses', 'bni', 'amin', 'rabbal', 'alamin']	positive
+['aplikasi', 'lot', 'bugparahdisaat', 'buruburu', 'susah', 'pakai']	negative
+['aplikasi', 'bantu', 'luar', 'negeri', 'transaksi', 'jalan', 'cepat']	positive
+['duh', 'ganggu', 'sih', 'byar', 'cicil', 'saldo', 'wondr', 'semua', 'padahal', 'drpgi', 'ganggu', 'malam', 'belum', 'tolong', 'cepat', 'tangan', 'bisa', 'transaksi', 'siang', 'bagus', 'bni', 'seribet']	negative
+['okaplikasi', 'ringan']	positive
+['minggu', 'ubah', 'pasword', 'lupa', 'kedip', 'mata', 'hasil', 'aplikasi', 'mata', 'belo', 'mata', 'sipit', 'download', 'aplikasi', 'aplikasi', 'sampah', 'ribetbanget', 'dahwondr', 'aplikasi']	negative
+['bagus', 'bni', 'mobile', 'rincian', 'saldo', 'pasu', 'keluar', 'lebihbdetail', 'wonder', 'bingung', 'pakai', 'kalkulator']	neutral
+['sudah', 'daftar', 'sudah', 'transfer', 'tinggal', 'jam', 'buka', 'suruh', 'daftar', 'tolong', 'baik']	neutral
+['aplikasi', 'simple', 'mudah']	positive
+['bantu']	positive
+['bagus', 'bantu']	positive
+['tampil', 'fresh', 'fungsi', 'fitur', 'cepat', 'layan', 'kes', 'ribet', 'salam', 'akhlak']	neutral
+['praktis', 'cepat']	positive
+['simpel', 'mantap']	positive
+['aplikasi', 'jelek', 'bayar', 'beli', 'token', 'listrik', 'dengan', 'cc', 'bni', 'dilink', 'aplikasi', 'tibatiba', 'update', 'playstore', 'bayarbeli', 'pakai', 'cc', 'bni', 'nasabah', 'bni', 'puluh', 'kecewa', 'bni', 'bikin', 'aplikasi', 'jelek']	negative
+['bayar', 'yuran', 'pdam', 'no', 'masuk', 'info', 'nomor', 'meter', 'salah', 'tolong', 'baik']	neutral
+['gampang']	positive
+['mudah', 'untuk', 'transaksi']	positive
+['bantu', 'aplikasi', 'wondr', 'stabil']	positive
+['wondr', 'bni', 'mudah', 'transaksi', 'ribet']	positive
+['tolong', 'baik', 'masuklogin', 'respon', 'aplikasi', 'daftar', 'respon', 'aplikasi', 'cepat', 'jam', 'aplikasi', 'merespon']	neutral
+['beli', 'token', 'listrik', 'pusla', 'aplikasi', 'bni', 'mobile', 'gara', 'instal', 'wonder', 'aplikasi', 'lelet', 'sesuai', 'jaring', 'lokal']	negative
+['mudah', 'urus', 'kalo', 'saldo']	positive
+['guna', 'bni', 'kecewa', 'transaksi', 'gagal', 'saldo', 'kurang', 'lapor', 'email', 'direspon', 'menunggu', 'enggak', 'jelas']	negative
+['fitur', 'lengkap', 'bni', 'mobile', 'banking']	negative
+['aplikasi', 'bagus', 'lelet', 'fitur', 'lengkap', 'mudah']	positive
+['kartu', 'aktif', 'coba', 'aktif', 'fitur', 'sedia', 'tombol', 'aktif', 'kartu', 'dorman', 'aplikasi', 'klik', 'layan', 'sedia', 'mohon', 'baik']	neutral
+['tolong', 'kerjasamanya', 'buka', 'aplikasi', 'mbangking', 'buka', 'deh', 'update', 'terus']	neutral
+['verifikasi', 'wajah', 'pollpoll', 'an', 'menumenu', 'new', 'bni', 'mobil', 'banking', 'menu', 'bayar', 'beli', 'lpg', 'pertamina', 'pangkal', 'agen', 'luncur', 'off', 'tenggat', 'off', 'bayar', 'lpg', 'pertamina', 'mana', 'tolong', 'banyak', 'menumenunya']	neutral
+['malam', 'ganggu', 'mulu', 'buka', 'nongol', 'fitur', 'sedia']	neutral
+['top', 'up', 'gamasuk', 'sudah', 'bukti', 'transfer', 'hasil', 'kecewa', 'beratt']	neutral
+['keren', 'super', 'duper', 'canggih', 'good', 'job']	positive
+['cepat', 'proses']	positive
+['mudah']	positive
+['kok', 'wondr', 'by', 'bni', 'buka', 'ya', 'doang', 'transaksi', 'kemarin', 'buka', 'min', 'aplikasi', 'kenapa', 'uninstall', 'dulu', 'aduh', 'bingung', 'jelasinnya', 'bagaimana', 'ya', 'klik', 'aplikasi', 'wondr', 'stuck', 'gambar', 'kayak', 'min', 'gambar', 'kayak', 'playstore', 'stuck', 'saja']	neutral
+['aplikasi', 'bantu', 'transaksi', 'digital', 'sukses', 'bni']	positive
+['aplikasi', 'burikudah', 'daftar', 'verifikasi', 'wajahtapi', 'update', 'data', 'cabang', 'terdekatsudah', 'update', 'orang', 'cabangpas', 'coba', 'updategitu', 'aplikasi', 'burik', 'sampai', 'lebaran', 'monyetterimakasih']	negative
+['pakai', 'bni', 'kawan', 'sering', 'error', 'transfer', 'saldo', 'bawah', 'minimum', 'uang', 'mending', 'mandiri']	negative
+['aplikasi', 'bbrapa', 'kali', 'transaksi', 'beli', 'pulsa', 'status', 'gagal', 'saldo', 'otomatis', 'alias', 'hilang', 'lenyap', 'enth', 'mana', 'padahal', 'aplikasi', 'transaksi', 'gagal', 'pulsa', 'auto', 'max', 'jam']	negative
+['kendala', 'entah', 'internet', 'pakai', 'lancar', 'uiux', 'sudah', 'bagus', 'entah', 'segi', 'backend', 'masalah', 'bagaimana', 'bni', 'mobile', 'jarang', 'masalah']	negative
+['saran', 'login', 'tolong', 'kasih', 'opsi', 'pilih', 'seprti', 'pin', 'password', 'sistem', 'aman', 'biometrik', 'terkadang', 'sidik', 'jari', 'gagal', 'jari', 'basah', 'login', 'opsi', 'pinpassword', 'aplikasi', 'lai', 'terimakasih']	positive
+['bantu', 'aman', 'terima kasih', 'wonder', 'by', 'bni']	positive
+['aplikasi', 'mudah', 'lancar', 'tampil', 'tarik', 'mana', 'transaksi', 'simple']	positive
+['aneh', 'banget', 'enggak bisa', 'login', 'data', 'sudah', 'benar', 'login', 'muncul', 'suka', 'guna', 'wonder', 'sudah', 'klik', 'tuju', 'enggak bisa', 'login', 'bagaimana', 'min']	neutral
+['notifikasi', 'berulangkali', 'sampai', 'kali', 'beda', 'kali', 'masuk', 'apk', 'kena', 'scam', 'tolong', 'baik']	neutral
+['praktis', 'guna', 'aplikasi']	positive
+['aplikasi', 'bni', 'mobile', 'banking', 'looksnya', 'kece', 'banget', 'easy', 'tapi', 'use', 'fiturnya', 'lengkap', 'transaksi', 'sat', 'set']	positive
+['kesini', 'wondr', 'by', 'bni', 'keren', 'topup', 'cepat', 'aman', 'bni', 'gabung']	positive
+['pakai', 'wondr', 'bni', 'ribet', 'transaksi', 'lancar']	positive
+['maintenece', 'benar', 'hari', 'penuh', 'tolong', 'baik', 'luncur', 'nasabah', 'kecewa', 'kalo', 'suruh', 'pindah', 'wonder', 'system']	negative
+['bagus', 'bni', 'tolong', 'kemanalikan', 'bni', 'masak', 'ganggu', 'baik']	negative
+['kecewa', 'banget', 'aplikasi', 'inisaya', 'isi', 'pulsa', 'ribu', 'tulis', 'transaksi', 'gagaltapi', 'saldo', 'uang', 'berkurangterus', 'hubung', 'cs', 'lambat', 'responnya', 'tolong', 'baik', 'layan']	negative
+['aplikasi', 'bagus', 'lapor', 'uang', 'detail', 'tunggu', 'estatement', 'bulan', 'cek', 'transaksi', 'uang', 'bank', 'bni', 'mobile', 'lihat', 'wondr', 'kecewa', 'berat', 'sih']	neutral
+['enak', 'tf']	positive
+['suka', 'hank', 'kadang', 'bikin', 'malu', 'ambil', 'promo', 'kasir', 'lola']	neutral
+['mudah', 'plexible']	positive
+['gagal', 'verifikasi', 'email', 'email', 'masuk', 'verifikasi', 'install', 'ulang', 'app', 'kali', 'kendala', 'email']	neutral
+['suka', 'aplikasi', 'aplikasi', 'bingung', 'ganggu', 'aktivitas', 'nasabah', 'bug', 'lag', 'ayo', 'bni', 'iklan', 'bagus', 'bagus', 'kembang', 'aplikasi', 'bikin', 'anime']	negative
+['suka', 'aplikasi', 'bni', 'wonder', 'maintenance', 'capek', 'banget', 'kalo', 'belanja', 'lamaa', 'masuk', 'apk', 'nya']	negative
+['bagus', 'samgat', 'bantu', 'mudah', 'transaksi', 'keuangani', 'simpel', 'ribet', 'ringan', 'buka', 'aplikasi', 'lancar', 'guna', 'kendala', 'hasil', 'fiturnya']	positive
+['halo', 'kakak', 'bni', 'ganggu', 'bagaimana', 'kak', 'tf']	neutral
+['aplikasi', 'cacat', 'mentok', 'fotoudh', 'coba', 'ratus', 'kali', 'jangan', 'slahin', 'bayar', 'cckarena', 'buka', 'nih', 'aplikasi']	negative
+['tampil', 'fresh', 'bni', 'mobile', 'jujur', 'puas', 'bagi', 'daftar', 'mutasi', 'transaksi', 'lengkap', 'karena', 'saldo', 'transaksi', 'bni', 'mobile']	negative
+['bagus', 'bni', 'mobile', 'wondr', 'bybni', 'aplikasi', 'kendala', 'baik', 'enggak', 'masuk']	neutral
+['layan', 'transfer', 'eror', 'kurun', 'jam', 'mohon', 'baik', 'cepat', 'terimakasih']	negative
+['gampang', 'transaksi']	positive
+['susah', 'banget', 'verifikasi', 'wajah', 'hasil', 'suruh', 'tengok', 'tunduk', 'bilang', 'batas', 'ulang', 'bilang', 'coba', 'ulang', 'besok']	neutral
+['mudah', 'erti']	positive
+['aplikasi', 'mudah', 'syarat', 'administrasi', 'ribet', 'karena', 'butuh', 'data', 'ulang', 'aplikasi', 'lengkap', 'karena', 'ecek', 'sisa', 'pinjam', 'app', 'litle']	neutral
+['close', 'daftar', 'ulang', 'baik', 'bug', 'min', 'tq']	neutral
+['luarbiasa', 'cepat', 'lancar']	positive
+['wondr', 'by', 'bni', 'bagus', 'cepatsaya', 'suka']	positive
+['aplikasi', 'ribet', 'alas', 'susah', 'ajak', 'registrasi', 'alas', 'jelasga', 'profesional', 'rumit', 'repotin', 'customerck']	negative
+['enggak', 'buka', 'aplikasi', 'sinyal', 'full']	neutral
+['lebih', 'nyaman', 'pakai']	positive
+['topup', 'saldo', 'link', 'terang', 'kendala', 'sistem', 'kendala', 'terus', 'pindah', 'pakai', 'bri', 'lancar']	negative
+['lapor', 'mutasi', 'rekening', 'kenpa', 'tanggal', 'lengkap', 'sampai', 'tanggal', 'baru', 'bisa', 'lihat', 'setelah', 'tanggal', 'mohon', 'update']	neutral
+['transaksi', 'cepat', 'qris', 'kasir', 'sat', 'set', 'konsep', 'pastnowfuturenya', 'sabar', 'tunggu', 'next', 'featurenya']	positive
+['sudah', 'aplikasi', 'terkadang', 'saldo', 'tf', 'kayak', 'ganggu', 'limit', 'tinggal']	positive
+['bagus', 'sederhana', 'cepat']	positive
+['mudah', 'mudah', 'mengirim', 'notifikasi', 'sms', 'upgrade', 'whatsapp']	neutral
+['aplikasi', 'mudah', 'tampil', 'bagus', 'transaksi', 'uang', 'gampang', 'moga', 'depan']	positive
+['wandr', 'bni', 'login', 'bisa', 'transaksi']	positive
+['app', 'colorful', 'sakit', 'pandang', 'fitur', 'tele', 'tele', 'bayar', 'beli', 'bayar', 'air', 'area', 'batam', 'eh', 'wondr', 'bikin', 'bandung', 'ganti', 'parah', 'deh']	negative
+['suruh', 'nonaktif', 'atur', 'aksesibilitas', 'non', 'aktif', 'nonaktif', 'pakai', 'user', 'redmi', 'note', 'pro']	negative
+['kendala', 'kenal', 'wajah', 'sulit', 'kalo', 'pakai', 'ktp', 'aktivasi', 'kadang', 'foto', 'ktp', 'baca']	positive
+['butuh', 'signal']	neutral
+['aplikasi', 'transfer', 'ggk', 'buka', 'aplikasi', 'tolong', 'cepat', 'baik']	positive
+['minggu', 'minggu', 'aplikasi', 'error', 'bagaimana', 'transaksi', 'kalo', 'apk', 'pakai', 'mohon', 'baik', 'terimakasih']	negative
+['aplikasi', 'bagus', 'mudah', 'erti', 'enggak', 'bikin', 'ribet', 'keren', 'pokok']	positive
+['kirim', 'cepat', 'simple', 'bantu']	positive
+['sistem', 'hanya', 'login', 'awal', 'selalu', 'lalod', 'teman', 'punyankeluhan']	positive
+['donlod', 'ya', 'terus', 'input', 'data', 'keren', 'lihat', 'nih', 'aplikasi', 'karena', 'percaya', 'bni', 'karena', 'bni', 'ya', 'coba', 'memasuki', 'uang', 'rekening', 'akun', 'dana', 'transaksi', 'hasil', 'cek', 'aplikasi', 'wonder', 'uang', 'enggak', 'masuk', 'aplikasi', 'wonder', 'status', 'dana', 'sudah', 'kirim', 'bagaimana', 'tolong', 'bantu', 'untung', 'enggak', 'tuh', 'memasuki', 'ribu', 'an', 'karena', 'coba', 'coba', 'sonk']	negative
+['mudah', 'enggak', 'ribet']	positive
+['aplikasi', 'bagus', 'mudah', 'paham', 'akses', 'mudah', 'cepat', 'mudah', 'transfer', 'bayar', 'ecommers', 'isi', 'ewallet', 'login', 'mudah', 'jamin', 'ribet', 'pakai', 'bni', 'wondr']	positive
+['fitur', 'tarik', 'tunai', 'bagus', 'aplikasi', 'mana', 'bawa', 'kartu', 'atm', 'aplikasi', 'kasih', 'mudah', 'guna', 'lupa', 'bawa', 'kartu', 'atm']	neutral
+['app', 'ribet', 'bangetmau', 'masuk', 'verifikasi', 'email', 'enggak', 'email', 'aktif', 'jaring', 'bagussemua', 'sudah', 'coba', 'hasil', 'alhasil', 'aplikasi', 'pakai', 'ubah', 'bank', 'belah', 'nih', 'kalo', 'bni', 'ribet']	negative
+['bintang', 'terang', 'transaksi', 'muncul', 'history', 'transaksi', 'aplikasi', 'muncul', 'ganti', 'bintang']	neutral
+['enak', 'pakai', 'apk', 'kali', 'kecewa', 'tf', 'kirim', 'hari', 'saldo', 'nyasekarang', 'suruh', 'updateabis', 'update', 'tetap', 'buka', 'duh', 'bagaimana']	negative
+['payahkenapa', 'enggak', 'menu', 'favorit', 'beli', 'pulsa', 'listriksetiap', 'kali', 'transaksi', 'mencari', 'no', 'langgan', 'nyagak', 'kaya', 'mobile', 'banking']	negative
+['bantu']	positive
+['sebenarnya', 'sudah', 'bagus', 'cepat', 'ringan', 'load', 'aplikasi', 'sayang', 'fitur', 'mobile', 'tunai', 'tolong', 'segera', 'fitur', 'terimakasih']	neutral
+['susah', 'enggak', 'kayak', 'bni', 'transaksi', 'ribet', 'entah', 'apaapa', 'sore', 'eror', 'enggak', 'transaksi', 'lancar']	negative
+['urai', 'transaksi', 'muncul', 'bni', 'mobile', 'banking', 'urai', 'muncul', 'bintang', 'karena', 'urai', 'mudah', 'buku', 'urai', 'nebak', 'transfer', 'apajd', 'bni', 'mobile', 'better', 'tahan', 'wondr']	negative
+['hujan', 'mati', 'kunci', 'sidik', 'jari', 'login', 'biometrik', 'wondr', 'hapus', 'login', 'pakai', 'pasword', 'layar', 'hp', 'intip', 'sadap']	neutral
+['sungguh', 'sayang', 'verifikasi', 'wajah', 'susah', 'kali', 'verifikasi', 'wajah', 'gagal']	negative
+['wondr', 'tolong', 'tambah', 'fitur', 'setor', 'tunai', 'biar', 'gampang', 'kau', 'nyetor', 'bank', 'tarik', 'tunai', 'sudah', 'tinggal', 'setor', 'tunai']	positive
+['bantu', 'fiturnya', 'lengkap']	positive
+['sudah', 'minggu', 'bayar', 'bayar', 'tunda', 'karena', 'apk', 'stuck', 'login']	neutral
+['ganti', 'aplikasi', 'sih', 'sudah', 'tingkat', 'enggak', 'deh', 'bagus', 'kemarin', 'itu', 'tinggal', 'tingkat', 'tampa']	negative
+['pagi', 'buka', 'tulis', 'fitur', 'sedia', 'transaksi', 'kali', 'mohon', 'solusi']	negative
+['bagus', 'tahan']	positive
+['mudah', 'akses']	positive
+['transaksi', 'parik', 'diskon']	neutral
+['instal', 'selesai', 'mengecek', 'saldo', 'registrasi', 'aneh', 'centang', 'jujur', 'takut', 'indikasi', 'bobol', 'dibukak']	positive
+['mantap', 'mudah', 'cepat']	positive
+['enggak', 'bni', 'saldo', 'bayak', 'trf', 'saldo', 'enggak', 'mantinace', 'kau']	negative
+['bertangungjawab', 'bayar', 'qris', 'gagal', 'saldo', 'potong', 'kembali']	negative
+['kesel', 'aplikasi', 'daftar', 'nelpon', 'agen', 'wonder', 'aplikasi', 'selesai', 'masuk', 'aplikasi', 'eehh', 'aplikasi', 'buka', 'kok', 'daftar', 'keyak', 'daftar', 'coba', 'daftar', 'bagaimana', 'daftar', 'tolong', 'baik']	neutral
+['wonder', 'bni', 'bagus', 'bertransaksifitur', 'lengkap', 'mudah', 'pakai', 'aplikasi', 'mari', 'download']	positive
+['bertanya', 'kalau', 'transaksi', 'gagal', 'saldo', 'sudah', 'potong', 'belum', 'masuk', 'rekening', 'tuju', 'komplinnya', 'nomor', 'enggak', 'ribet']	negative
+['simple', 'aplikasi', 'mudah']	positive
+['membantudan', 'mudah']	positive
+['maintenance', 'jam', 'malam', 'jam', 'malam', 'maintenance', 'urgent', 'butuh', 'bikin', 'susah', 'mending', 'balikin', 'bni', 'mobile', 'banking', 'kayak', 'dulu', 'saja', 'begini']	negative
+['kayak', 'aplikasi', 'belum', 'sempurna', 'kemarin', 'iseng', 'coba', 'beli', 'pulsa', 'aplikasi', 'transaksi', 'gagal', 'saldo', 'tarik', 'saldo', 'bagaimana', 'solusi']	neutral
+['malam', 'ganggu', 'mulu', 'buka', 'nongol', 'fitur', 'sedia']	neutral
+['bantu', 'mudah', 'guna']	positive
+['daftar', 'masuk', 'aplikasi', 'buka', 'aplikasi', 'suruh', 'daftar', 'enggak', 'login']	negative
+['aplikasi', 'guna', 'mudah', 'fiturnya', 'lengkap', 'batu', 'transaksi']	positive
+['bintang', 'kalah', 'dengan', 'bank', 'bumn', 'kelas', 'mandiri', 'dengan', 'livin', 'bri', 'brimo', 'bsi', 'byond', 'bank', 'digital', 'swasta', 'kayak', 'blu', 'by', 'baca', 'digital', 'fitur', 'tariksetor', 'tunai', 'cardlessnya', 'asli', 'downgrade', 'lho', 'dari', 'apps', 'kurang', 'otp', 'beban', 'guna', 'mengapai', 'pakai', 'otp', 'atm', 'mandiri', 'bri', 'bsi', 'baca', 'pakai', 'otp', 'cardless', 'lho', 'nomor', 'transaksi', 'atm', 'cardless', 'saja', 'loh', 'too', 'bad']	neutral
+['cepat', 'praktis']	positive
+['banking', 'apps', 'bikin', 'transaksi', 'wondrfuldengan', 'tampil', 'aplikasi', 'lucu', 'banget', 'warna', 'super', 'funkemarin', 'coba', 'bayar', 'pakai', 'qris', 'wondr', 'cepat', 'banget', 'step', 'selesaibener', 'easy', 'tapi', 'usewondr', 'by', 'bni', 'mantap']	positive
+['aplikasi', 'ribet', 'masuk', 'ribet', 'salah', 'password', 'ribet', 'pakai', 'ktp', 'fitur', 'segitu', 'doang', 'mending', 'hapus', 'aplikasi']	negative
+['mudah', 'transaksi', 'bayar', 'apa']	positive
+['moga', 'lancar', 'aman']	positive
+['bagus', 'mudah']	positive
+['tadi', 'ng', 'download', 'suruh', 'kerja', 'verivikasi', 'enggak bisa', 'masuk', 'aplikasi', 'bagaimana', 'enggak bisa', 'pakai', 'aplikasi', 'teman', 'paruh', 'pakai', 'benerin', 'bagaimana', 'masuk', 'aplikasi', 'enggak bisa', 'nih', 'gagal', 'gambar', 'muncul', 'kunci']	negative
+['top', 'up', 'e', 'wallet', 'batas', 'hari', 'mending', 'batas', 'top', 'up']	neutral
+['malam', 'kakak', 'minimal', 'saldo', 'memang', 'berapa', 'gregetan', 'bayar', 'tagih', 'saldo', 'padahal', 'lumyan', 'banyak', 'dari', 'bayar']	neutral
+['sebenarnya', 'bagus', 'simpel', 'mudah', 'paham', 'kenapa', 'masuk', 'banget', 'proses', 'stuck', 'terus']	neutral
+['praktis', 'mudah', 'cepat', 'hemat', 'aman', 'jaga']	positive
+['puas', 'aplikasi']	positive
+['mudah', 'dalam', 'transaksi']	positive
+['jelek', 'kalo', 'malam', 'transfer', 'terang', 'transfer', 'hasil', 'saldo', 'saldo', 'unt', 'transfer']	negative
+['simple', 'cepat']	positive
+['aplikasi', 'enggak', 'tolong', 'bumn', 'malu']	negative
+['kasih', 'bintang', 'apk', 'wondr', 'by', 'bni', 'sedia', 'tarik', 'tunai', 'setor', 'tunai', 'kartu', 'moga', 'bni', 'fitur', 'tarik', 'tunaisetor', 'tunai']	positive
+['transaksi', 'mudah', 'dengan', 'wondr', 'moga', 'sukses']	positive
+['apk', 'bagus', 'daftar', 'ulang', 'baik', 'apk']	neutral
+['aplikasi', 'aku', 'wonder', 'nya', 'buka', 'pakai', 'wifi', 'buka', 'sulit']	neutral
+['ini', 'promo', 'dong']	positive
+['kakkenapa', 'buka', 'aplikasi', 'enggak', 'login']	positive
+['halo', 'kakak', 'bni', 'ganggu', 'bagaimana', 'kak', 'tf']	neutral
+['cepat', 'service', 'pada', 'nasabah']	positive
+['tolong', 'kakenapa', 'aplikasih', 'baik', 'trussjadih', 'hambat', 'transaksikalau', 'ulang']	neutral
+['wondr', 'mudah']	positive
+['ewallet', 'virtual', 'account', 'batas', 'ribu', 'bayar', 'biaya', 'kuliah', 'auto', 'uninstall', 'wondr', 'pasang', 'mobile', 'banking', 'aplikasi', 'direlease', 'bikin', 'ribet']	negative
+['aplikasi', 'kadang', 'susah', 'bukaentah', 'jaring', 'kartu', 'memang', 'salah', 'aplikasi', 'nyatapi', 'pakai', 'wifi', 'gampang', 'buka']	neutral
+['kecewa', 'pelayanannyakurang', 'puas']	negative
+['kali', 'gagal', 'verifikasi', 'wajah', 'gemas', 'bni', 'mobile', 'hang', 'buka', 'tolong', 'verifikasi', 'wajah', 'hambat', 'sulit', 'transaksi']	negative
+['tampil', 'masih', 'lebih', 'suka', 'bni', 'mobile', 'dftr', 'favorit', 'cuma', 'banyak', 'bni', 'mobile', 'banking', 'pindah', 'wondr', 'sama', 'siang', 'enggak', 'pakai', 'tulis', 'kendala', 'teman', 'hp', 'saja', 'kendala', 'solusi', 'sudah', 'diupdate', 'sinyal', 'masalah', 'aplikasi', 'sampai', 'banyak', 'diuninstall', 'karena', 'mengira', 'memori', 'penuh', 'sudah', 'clear', 'cache', 'muncul', 'notif', 'kendala']	negative
+['aplikasi', 'bantu', 'saat', 'pin', 'atm', 'blokir', 'kita', 'bank', 'kita', 'bikin', 'pin', 'wondr', 'atm', 'sudah']	positive
+['kadang', 'susah', 'akses']	neutral
+['puas', 'wonder']	positive
+['bagus', 'transaksi', 'cepat']	positive
+['aplikasi', 'pakai', 'tolong', 'baik', 'lancar', 'nasabah', 'masak', 'masuk', 'ribet', 'benar', 'face', 'unlock', 'hadehh', 'kacau']	negative
+['tolong', 'menambah', 'fitur', 'notif', 'dana', 'masuk', 'tau', 'transaksi', 'masuk']	positive
+['layan', 'aplikasi', 'tarik', 'ui', 'bagus', 'ramah', 'guna', 'aplikasi', 'mudah', 'menumenu', 'sedia', 'bantu', 'mudah', 'giat', 'transaksi', 'mana', 'mudah', 'praktis', 'aplikasi', 'wondr', 'by', 'bni', 'terima', 'kasih', 'moga', 'canggih', 'sukses']	positive
+['mudah', 'bantu', 'bayar']	positive
+['enggak', 'banget', 'login', 'susah', 'bolak', 'menu', 'syarat', 'guna', 'wondr', 'sudah', 'klik', 'muncul', 'tulis', 'sesi', 'login', 'lanjut', 'aktifitas', 'login', 'setel', 'daritadi', 'mudah', 'sulit']	negative
+['kode', 'otp', 'email', 'info', 'salah', 'masuk', 'bagaimana', 'sih', 'email', 'benar', 'ulang', 'tetap', 'konfirmasi', 'email', 'aneh', 'banget', 'aku', 'deh', 'uninstall', 'instal', 'sekarang', 'info', 'kendala', 'tim', 'baik', 'beli', 'token', 'listrik', 'deh', 'mbanking', 'astaga']	negative
+['bagus', 'aplikasi']	positive
+['mundur', 'bni', 'sudah', 'lahdari', 'turun', 'moral', 'sayasaya', 'nasabah', 'bni', 'kesel', 'kecewadan', 'mungkin', 'me', 'nyampaikannya', 'langsung', 'komentar', 'bawah', 'sudah', 'coba', 'sabar', 'prosedurternyata', 'aplikasi', 'ribetvc', 'kali', 'angkatya', 'allahcobaan']	negative
+['tolong', 'bantu', 'jelas', 'nysaya', 'verifikasi', 'data', 'wajah', 'wonder', 'bni', 'sendiridan', 'ulang', 'kalidan', 'start', 'registrasi', 'lagisedangkan', 'wonder', 'aktif']	neutral
+['jaring', 'suka', 'lelet']	neutral
+['mudah', 'cepat', 'po']	positive
+['aplikasi', 'bagus']	positive
+['ganggu', 'qris', 'transfer', 'ambil', 'uang', 'kartu', 'atm', 'bisa']	negative
+['versi', 'pakai', 'wondr', 'lambat', 'buka', 'aplikasi', 'hambat', 'transaksi', 'susah']	negative
+['malam', 'ganggu']	neutral
+['transaksi', 'cepat', 'praktis', 'pakai', 'wondr', 'by', 'bni']	positive
+['aplikasi', 'nice', 'mudah', 'friendly', 'smart', 'wonderfull', 'ulas', 'grafik', 'terima', 'and', 'keluar', 'aware', 'kait', 'finansial', 'kantong', 'thanks', 'wondr', 'bni']	positive
+['transaksi', 'singkat', 'aman', 'terima', 'kasih', 'wondr', 'by', 'bni']	positive
+['tampil', 'tarik', 'fitur', 'mudah', 'bni']	positive
+['error', 'otp', 'ganti', 'pakai', 'paket', 'datawifi', 'salah', 'teknis', 'wondr', 'coba', 'maksimal', 'kali', 'semangat', 'perbaikanya']	neutral
+['bantu']	positive
+['tampil', 'keren', 'praktis', 'proses', 'transaksi']	positive
+['simple', 'mudah', 'banyak', 'transaksi']	positive
+['lot', 'kadang', 'enggak', 'masuk']	neutral
+['jelek', 'banget', 'enggak bisa', 'tarik', 'tunai', 'kartu', 'enggak bisa', 'memakai', 'virtual', 'akun', 'billing', 'mending', 'pakai', 'bni', 'mobile', 'banking']	negative
+['tf', 'rekening', 'kok', 'apk', 'kenapa', 'ya']	neutral
+['transaksi', 'mudah', 'cepat', 'notifikasi']	positive
+['mudah', 'praktis', 'murah']	positive
+['menu', 'dplk', 'hilang', 'padahal', 'bni', 'mobile']	negative
+['ganti', 'hp', 'download', 'ulang', 'wonder', 'hp', 'enggak', 'login']	positive
+['hubung', 'cs', 'bagaimana', 'telfon', 'bni', 'habisin', 'pulsa', 'enggak', 'transaksi', 'virtual', 'acount', 'gagal', 'saldo', 'potong']	neutral
+['bantu', 'bagus', 'menu', 'aktif']	positive
+['aplikasi', 'baru', 'dukung', 'transaksi', 'guna', 'qris', 'cepat', 'deteksi', 'banding', 'aplikasi', 'perban', 'mudah', 'fitur', 'tarik']	positive
+['bagus', 'ringan', 'cepat', 'loading', 'wonder', 'lupa', 'hilang', 'fitur', 'setor', 'tunai', 'cardless', 'ayo', 'min', 'tunggu', 'update', 'baru', 'dengab', 'fitur', 'cardless', 'biar', 'wonderfull']	positive
+['perasaan', 'belum', 'bulan', 'pakai', 'aplikasi', 'updated', 'versi', 'risih', 'nyaman', 'apk']	neutral
+['verifikasi', 'wajah']	negative
+['parah', 'sih', 'wondr', 'update', 'loading', 'paket', 'data', 'keluh', 'tolong', 'tanggap', 'serius', 'bni', 'paksa', 'bni', 'mobile', 'bantu']	negative
+['baik', 'apk', 'makan', 'siang', 'malam', 'proses', 'transfer', 'dana', 'kunjung', 'masuk', 'saldo', 'rekening', 'via', 'wonder']	neutral
+['mbking']	positive
+['baik', 'mantap', 'akses', 'cepas']	positive
+['daftar', 'ganggu', 'terang', 'baik', 'satpam', 'bni', 'suruh', 'coba']	negative
+['kayak', 'mbankingnya', 'otp', 'enggak', 'masuk', 'no', 'enggak', 'tau', 'no', 'ngarepnya', 'sistem', 'otp', 'app', 'biar', 'tarik', 'tunai', 'kartu']	neutral
+['bagaimana', 'iya', 'habis', 'poto', 'ktp', 'kartu', 'debit', 'kredit', 'melulu', 'padahal', 'kartu', 'debit', 'kredit', 'kalo', 'habis', 'poto', 'ktp', 'langsung', 'verifikasi', 'muka', 'kartu', 'debit', 'kredit', 'melulu', 'tolong', 'p', 'encerahan']	negative
+['kecewa', 'transfer', 'negeri', 'dana', 'rekening', 'terima', 'saldo', 'kurang']	negative
+['loginbgtu', 'tutup', 'apktrus', 'buka', 'sudah', 'mesti', 'hapus', 'data', 'terus', 'masuk', 'data', 'kayak', 'buka', 'lagimnding', 'pakai', 'mobile', 'bni']	negative
+['registrasi', 'wondr', 'hp', 'direset', 'ulang', 'instal', 'ulang', 'kendala', 'guna', 'daftar', 'ulang', 'kantor', 'cabang', 'dekat', 'kamu', 'isi', 'listrik', 'via', 'bni', 'mobile', 'enggak', 'suruh', 'pakai', 'wondr', 'tolong', 'min', 'apk', 'update', 'tombol', 'login']	neutral
+['daftar', 'doang', 'log', 'ini', 'kesini', 'buka', 'aplikasi', 'arah', 'syarat', 'tentu', 'seperti', 'pmbuatan', 'akun', 'sudah', 'klik', 'putar', 'syarat', 'jdtidak', 'log', 'ini']	negative
+['deh', 'mbanking', 'mencoba', 'tf', 'saldo', 'enggak', 'masukudah', 'saldo', 'enggak', 'masuk', 'weh', 'tolong', 'apk', 'mu', 'bug', 'kalo', 'wajib', 'kerja', 'sudah', 'ogah', 'pakai', 'bank']	negative
+['bagus', 'tampil', 'sempat', 'kendala', 'verifikasi', 'wajah', 'suruh', 'menunduk', 'jelek', 'muka', 'dagu', 'lipat', 'mata', 'majuin', 'suruh', 'coba', 'besok', 'enggak', 'tetap', 'mengikuti', 'perintah', 'menunduk']	positive
+['mudah']	positive
+['tingkat']	positive
+['kemarin', 'donlod', 'mbanking', 'kena', 'bug', 'terus', 'diarahin', 'donlod', 'wondr', 'sekarang', 'enggak', 'buka', 'tf', 'indonesia', 'bagaimana', 'sih']	neutral
+['xiaomi', 'ultra', 'error', 'susah', 'masuk', 'aplikasi', 'loading', 'awal', 'masuk', 'dalam', 'aplikasi', 'transaksi']	neutral
+['verifikasi', 'wajah', 'gagal', 'enggak', 'sebab', 'tolong']	neutral
+['aman', 'lancar']	positive
+['mudah', 'wondr', 'by', 'bni', 'mana', 'bayar', 'oke']	positive
+['menu', 'transaksi', 'setor', 'tunai', 'kartu', 'menu', 'terimakasih']	neutral
+['wonder', 'muas', 'transaksi', 'cepat', 'mudah']	positive
+['bantu', 'aplikasi', 'wonder', 'mantap']	positive
+['alhamdulillah', 'mudah', 'transaksi']	positive
+['wondr', 'upgradean', 'bni', 'mobile', 'fitur', 'krusial', 'fungsi', 'data', 'transaksi', 'mobile', 'tunai', 'download', 'aplikasi', 'ebanking', 'mudah', 'transaksi', 'dasar', 'atm', 'bank', 'fokus', 'kembang', 'fitur', 'dasar', 'fokus', 'side', 'fitur', 'tampil', 'doang']	negative
+['susah', 'daftar', 'verifikasi', 'wajah', 'gagal']	negative
+['aplikasi', 'tuju', 'cipta', 'kalo', 'proses', 'sulit', 'bgaimana', 'kbijakannya', 'kes', 'bodoh', 'masyarakat', 'harga', 'usaha']	negative
+['bantu', 'cepat', 'aman', 'insyaallah']	positive
+['bantu', 'pakai', 'wondr', 'proses', 'cepat', 'trimakasih', 'kasih', 'bni']	positive
+['malam', 'ganggu', 'mulu', 'buka', 'nongol', 'fitur', 'sedia']	neutral
+['aplikasi', 'kalo', 'mending', 'nganjurin', 'pakai', 'aplikasi', 'done', 'diupdate', 'canggih', 'tadi', 'transaksi', 'mulu', 'padahal', 'sudah', 'update', 'google', 'play', 'ampun', 'deh']	negative
+['tarik', 'tunai', 'kartu', 'ribet', 'pakai', 'no', 'otp', 'biarpun', 'pulsa', 'tolong', 'baik', 'biar', 'simpel', 'cepat', 'terima kasih']	neutral
+['aplikasi', 'bagusregistrasi', 'gampang', 'banget', 'sat', 'set', 'langsung', 'jadi', 'enggak pakai', 'menunggu']	positive
+['buka', 'login', 'lot', 'fitur', 'terima', 'dana']	neutral
+['aplikasi', 'susah', 'banget', 'log', 'jaring', 'lancar', 'aman', 'login', 'susah']	neutral
+['tolongg', 'mutasi', 'dibuat', 'per', 'bni', 'mobile', 'bangking', 'hitung', 'saldo', 'cek', 'mutasu', 'pilih', 'dulu', 'belum', 'biaya', 'trf', 'beda', 'bank', 'kadang', 'ceklis']	neutral
+['suka', 'pakai', 'app', 'susah', 'buka', 'terupdate', 'akh', 'pakai', 'app', 'bni', 'mobile', 'karena', 'cepat']	neutral
+['verifikasi', 'pin', 'gagal', 'mohon', 'arahannyaterimakasih', 'kasih']	neutral
+['tolong', 'kait', 'tolong', 'kembang', 'mudah', 'lu', 'untuk', 'transaksi', 'beli', 'paket', 'data', 'gagal', 'kirim', 'uang', 'dana', 'enggak', 'tranfer', 'suka', 'enggak', 'muncurl', 'resi', 'aduh', 'tolong', 'bank', 'bni', 'respon', 'cepat', 'nasabah', 'butuh', 'mudah', 'loh', 'terima kasih']	negative
+['bagus', 'aplikasi', 'bni', 'mobile', 'dulujika', 'bayar', 'tagih', 'pakai', 'mengetik', 'ulangsudah', 'simpan', 'sendirinyaini', 'wonder', 'kali', 'transaksi', 'bayarharus', 'mengetik', 'ulangga', 'pilih', 'simpan']	neutral
+['mudah', 'membabtu', 'aktifitassangat', 'guna']	positive
+['mudah', 'transaksi']	positive
+['aplikasi', 'wondr', 'by', 'bni', 'bantu', 'penuh', 'butuh', 'finansial', 'terimakasih', 'bni', 'fitur', 'selalu', 'mengupgrade', 'aplikasi', 'fitur', 'mudah', 'dimana']	positive
+['aplikasi', 'lot', 'aplikasi', 'masalah', 'beli', 'token', 'ribu', 'setatus', 'gagal', 'saldo', 'kurang', 'cet', 'cs', 'bni', 'respon', 'super', 'respon']	negative
+['verifikasi', 'verifikasi', 'tahap', 'video', 'call', 'agen', 'buka', 'wonder', 'suruh', 'masuk', 'nomor', 'hp', 'foto', 'ktp', 'verifikasi', 'wajah']	negative
+['keren', 'hari', 'buka', 'aplikasi', 'kali', 'kali', 'thanks', 'wondr']	positive
+['bantu', 'apa', 'jaya']	positive
+['enggak', 'buka', 'aplikasi', 'sinyal', 'full']	neutral
+['isi', 'pulsa', 'listrik', 'bni', 'suruh', 'wondr', 'eh', 'install', 'wonder', 'update', 'baru', 'saya', 'install', 'memang', 'baru', 'bagaimana', 'install', 'updatenya', 'ah', 'ribet']	negative
+['kali', 'loandingnya', 'sekarang']	negative
+['keluar', 'sendiri', 'aplikasi', 'suruh', 'regjstrasi', 'ulang', 'parah', 'sih', 'sudah', 'begitu', 'bikin', 'bni', 'salah', 'orang', 'enggak bisa', 'bikin', 'atm', 'bni', 'mbanking', 'bni', 'lupa', 'email', 'password', 'wondr', 'ternatifnya', 'twrsebut', 'susah', 'langsung', 'cabang', 'aneh']	neutral
+['aplikasi', 'bukaberhenti', 'logo', 'tampil', 'awalsangat', 'menggangu', 'saatmendesak', 'perlukanmohon', 'benahidemi', 'lancar', 'terimakasih']	positive
+['verifikasi', 'download', 'dihp', 'verifikasi', 'ulang', 'langsung', 'login', 'tolong', 'fitur', 'langsung', 'login', 'verifikasi', 'ulang']	neutral
+['aplikasi', 'leletmau', 'masuk', 'susah']	negative
+['aplikasi', 'bantu', 'mudah', 'transaksi', 'pokok', 'aplikasi', 'bagus']	positive
+['aplikasi', 'fitur', 'setor', 'tunai', 'aplikasi']	negative
+['efisien']	neutral
+['kembang', 'wondrnya', 'biar', 'tarik', 'tampil', 'biar', 'minat', 'pakai', 'wondr', 'moga', 'tampil', 'bagus', 'lengkap', 'tks']	positive
+['bagus', 'mantap', 'wondr', 'bni']	positive
+['maksutnya', 'bi', 'fast', 'sedia', 'kadang', 'kadang', 'enggak', 'bisamending', 'enggak usah', 'pakai', 'bi', 'fast', 'enggak usah', 'mengasih', 'opsi', 'biaya', 'transfer', 'murah', 'enggak', 'konsisten']	negative
+['apk', 'mudah', 'praktis', 'efesiensi', 'mantab', 'kembang', 'inovasi', 'depan']	positive
+['transaksi', 'isi', 'pulsa', 'status', 'gagal', 'saldo', 'kok', 'potong']	negative
+['kartu', 'aktif', 'coba', 'aktif', 'fitur', 'sedia', 'tombol', 'aktif', 'kartu', 'dorman', 'aplikasi', 'klik', 'layan', 'sedia', 'mohon', 'baik']	neutral
+['bantu']	positive
+['nomor', 'tuju', 'transfer', 'e', 'wallet', 'otomatis', 'simpan', 'ya', 'isi', 'shopeepay', 'batas', 'maksimal', 'juta', 'seharitidak', 'aplikasi', 'lamalebih', 'enak', 'aplikasi']	neutral
+['aplikasi', 'buka', 'begini', 'nanti', 'kalau', 'bagus', 'kasih', 'bintang']	neutral
+['halo', 'buka', 'aplikasi', 'login', 'nyaman', 'gagal', 'login', 'ulang', 'besoktolong', 'baik', 'aplikasi', 'guna', 'mudah', 'aplikasi', 'ya', 'terimakasih']	positive
+['kasih', 'fitur', 'cs', 'biar', 'gampang']	negative
+['operasi', 'mudahfitur', 'banyak']	positive
+['masuk', 'wonder', 'yasllu', 'gagal']	neutral
+['filter', 'periode', 'transaksi', 'nge', 'bug', 'gabs', 'beda', 'enggak', 'sisa', 'saldo', 'transaksi', 'debit', 'kredit', 'gabs', 'download', 'mutasi', 'rekening', 'periode']	negative
+['wonder', 'bni', 'seru', 'masak', 'stiep', 'motong', 'saldo', 'rekening', 'program', 'kan', 'konyol']	negative
+['ganti', 'ulas', 'sudah', 'verifikasi', 'wajahbutuh', 'sinyal', 'stabil', 'lot', 'dikit', 'enggak mau', 'moga', 'fiturnya', 'muncul', 'sesuai', 'butuh', 'guna']	positive
+['kemarin', 'transfer', 'transfer', 'gagal', 'saldo', 'beekurang']	negative
+['isi', 'pulsa', 'enggak', 'masuk', 'transaksi', 'gagal', 'email', 'transaksi', 'hasil', 'saldo', 'kurang', 'pulsa', 'enggak', 'masuk', 'masuk', 'cek', 'riwayat', 'tulis', 'keluar', 'bagaimana', 'sih', 'kecewa', 'kalo', 'gin', 'nasabah', 'rugi']	negative
+['harap', 'wondr', 'menu', 'tariksetor', 'tunai']	neutral
+['bayar', 'mudah', 'aman']	positive
+['dikit', 'eror', 'dikit', 'baik', 'ajar', 'aplikasi', 'bni', 'malah']	neutral
+['sih', 'ganguan', 'mulu', 'bikin', 'nyaman', 'pakai', 'bni', 'pers', 'padahal', 'deh', 'enak', 'pakai', 'bni', 'dulu', 'malah', 'ganguan', 'mulu', 'tolong', 'baik', 'kalau', 'kaya', 'gin', 'benar', 'nyaman']	negative
+['mudah']	positive
+['jelek', 'gampang', 'eror', 'verifikasi', 'susah', 'banget']	negative
+['aplikasi', 'maintance', 'susah', 'masuk', 'sinyal', 'bagus', 'mending', 'bni', 'mobile']	negative
+['sistem', 'memburukmohon', 'tim', 'benahiselalu', 'error', 'loading', 'transfer']	positive
+['bantu', 'aplikasi', 'wondr', 'by', 'bni', 'terima', 'kasih']	positive
+['kamera', 'handphone', 'buram', 'daftar', 'handphone', 'istri', 'fitur', 'kenal', 'wajah', 'login', 'handphone', 'aplikasi', 'bni', 'mobile', 'bangking']	neutral
+['menginstal', 'kemarin', 'sore', 'transfer', 'alas', 'limit', 'lampau', 'bataspadahap', 'nilai', 'transfer', 'malam', 'beda', 'pakai', 'bahaya', 'saja', 'menginstal', 'milik', 'perlu', 'darurat']	negative
+['maintenance', 'waktu', 'saat']	neutral
+['wonder', 'kerentransaksi', 'lancar']	positive
+['pakai', 'mobile', 'banking', 'aman', 'semenjak', 'pindah', 'wondr', 'suka', 'eror', 'eror', 'lagi', 'aplikasi', 'wondr', 'buka', 'mohon', 'tingkat', 'terima kasih']	negative
+['banget', 'baru', 'aplikasi', 'eehh', 'susah', 'banget', 'login', 'login', 'lelet', 'transkasi', 'hambat', 'tolong', 'dong', 'kelas', 'bni', 'aplikasi']	neutral
+['pagi', 'kak', 'aplikasi', 'wonder']	positive
+['simple', 'mudah', 'trnsfer']	positive
+['mantap', 'menu', 'lengkapmau', 'apa', 'mudahbankingnya', 'kaum', 'milenial', 'bangetsukses', 'wondr', 'bni']	positive
+['cepat', 'akurat', 'maju', 'wondr']	positive
+['tampil', 'eyecatching', 'friendly', 'tambah', 'transaksi', 'apa', 'enggak', 'pakai', 'lamawondr', 'jadi', 'mau', 'sesuai', 'mau']	positive
+['aplikasi', 'toloong', 'baik', 'doongbukan', 'bikin', 'simpel', 'urgent', 'bikin', 'riweh', 'sulitharus', 'keluar', 'masuk', 'aplikasi', 'karena', 'suruh', 'updatesdh', 'coba', 'ulang', 'ulang', 'tetap', 'saja', 'masih']	negative
+['versi', 'mobile', 'banking', 'karena', 'versi', 'statement', 'uang', 'masuk', 'tampil', 'versi', 'mobile', 'banking', 'transaksi', 'debitkredit', 'langsung', 'lihat', 'balance']	negative
+['bni', 'mbanking', 'dulu', 'fitur', 'mobile', 'tunai', 'tarik', 'tunai', 'kartu', 'atm', 'wondr', 'enggak ada', 'fitur', 'fitur', 'karena', 'bantu', 'banget']	neutral
+['fitur', 'lengkapdi', 'banding', 'bni', 'mobilemasih', 'cari', 'bukti', 'transaksi', 'enggak', 'adad', 'buku', 'histori', 'minggu', 'bulan', 'enggak', 'bagus', 'bni', 'mobile', 'sih']	negative
+['fitur', 'login', 'ribet']	negative
+['muak', 'apk', 'sekarang', 'qris', 'ganggu', 'sekarang', 'aksesibilitas', 'hp', 'dimatiin', 'aktifin', 'sudah', 'restart', 'kayak', 'begitu', 'bagaimana', 'maka', 'mbanking']	negative
+['riwayat', 'transaksi', 'lengkap', 'aplikasi', 'bni', 'bni', 'download', 'pdf', 'wonder', 'lengkap', 'bintang', 'dulu', 'karena', 'tahap', 'kembang']	neutral
+['tahap', 'laksana', 'notice', 'berhasiltapi', 'masuk', 'salah', 'pasword', 'daftar', 'begitu', 'ulang', 'besokjauh', 'efisien', 'bni', 'mobile', 'banking']	negative
+['mbanking', 'sempurna', 'batas', 'suruh', 'ganti', 'aplikasi', 'banyak', 'kurang', 'tampil', 'wondr', 'simple', 'simplekarna', 'memang', 'fitur', 'mbanking', 'hilang']	negative
+['wondr', 'bagustp', 'pasti', 'dulu', 'fitur', 'fungsi', 'minim', 'bug', 'fitur', 'standar', 'mobile', 'bnisetor', 'tunai', 'tarik', 'tunai', 'kartu', 'mobile', 'bni']	neutral
+['kenapa', 'aplikasi', 'buka']	neutral
+['aplikasi', 'ganggu']	neutral
+['aplikasi', 'bantu', 'mudah', 'paham', 'ribet']	positive
+['saldo', 'potong', 'transaksi', 'gagal', 'coba', 'hubung', 'salur', 'balas', 'bot', 'enggak', 'biar', 'harap', 'kembali', 'dana', 'solusi', 'nyata', 'balas', 'otomatis']	negative
+['sudah', 'hari', 'ganggu', 'baik', 'selesai', 'kpepet', 'menarik', 'uang', 'kecewa']	negative
+['keren', 'banget', 'jaga', 'percaya', 'kecewa', 'keren']	positive
+['apk', 'bagus', 'daftar', 'ulang', 'baik', 'apk']	neutral
+['enggak', 'buka', 'aplikasi', 'wondr']	negative
+['tampil', 'bagus', 'tolong', 'fitur', 'screenshot']	neutral
+['fitur', 'lengkap', 'ringan']	positive
+['buruk', 'maaf', 'lancar', 'bni', 'mbanking', 'semenjak', 'alih', 'wondr', 'by', 'bni', 'ngatat', 'melulu', 'repot', 'transaksi', 'pakai', 'aplikasi']	negative
+['niat', 'enggak', 'sih', 'bni', 'wondr', 'by', 'bni', 'sudah', 'kali', 'enggak', 'buka', 'apl', 'tolong', 'baik']	negative
+['masuk', 'aplikasi', 'tolong', 'baik']	negative
+['bni', 'mbanking', 'dulu', 'fitur', 'mobile', 'tunai', 'tarik', 'tunai', 'kartu', 'atm', 'wondr', 'enggak ada', 'fitur', 'fitur', 'karena', 'bantu', 'banget']	neutral
+['aplikasi', 'enggak', 'top', 'up', 'sudah', 'kali', 'kali', 'mencoba', 'tetap', 'enggak', 'tulis', 'aplikasi', 'baik', 'mulu', 'padahal', 'deh', 'hari']	neutral
+['wondr', 'by', 'bni', 'masih', 'baik', 'masih', 'banyak', 'kurang', 'mohon', 'min', 'transfer', 'bi', 'fast', 'belum', 'sedia', 'terimakasih']	neutral
+['transaksi', 'top', 'up', 'e', 'wallet', 'saldo', 'potong', 'dana', 'enggak', 'masuk', 'komplain', 'tangan', 'maksimal', 'payah', 'orang', 'top', 'up', 'dipakai', 'bayar', 'tagih', 'kalo', 'dana', 'nyangkut', 'gin', 'bagaimana', 'hadeeh']	negative
+['trm', 'kasih', 'aplikasi', 'bantu']	positive
+['aktifasi', 'deteksi', 'wajah', 'suruh', 'kedip', 'sudah', 'kali', 'tetap', 'gagal']	neutral
+['log', 'out', 'enggak', 'langsung', 'masuk', 'halaman', 'utama', 'coba', 'dibenerin']	negative
+['ribet', 'bayar', 'harus', 'bagi', 'bni', 'mbanking', 'wondr', 'jadi', 'biar', 'mudah', 'costomer', 'terima', 'kasih']	neutral
+['tolong', 'baik', 'teller', 'bni', 'aktifasi', 'rekening', 'suruh', 'aktivasi', 'wondr', 'wondr', 'tulis', 'fitur', 'aktivasi', 'sedia', 'rekening', 'aktif', 'aktif', 'tulis', 'fitur', 'aktivasi', 'sedia']	neutral
+['aplikasi', 'baik', 'bni', 'paten', 'kali']	positive
+['info', 'ganti', 'aplikasi', 'bni', 'mobile', 'banking', 'mohon', 'tambah', 'fitur', 'tarik', 'tunai', 'cardless', 'detail', 'mutasi', 'detail', 'aplikasi', 'biar', 'banyak', 'aplikasi', 'mbanking', 'baru', 'fitur', 'mampir', 'kesini', 'bintang']	neutral
+['verifikasi', 'wajah', 'masalah']	negative
+['mantap', 'moga', 'stabil']	positive
+['tarik']	positive
+['susah', 'masuk', 'verifikasi', 'wajah', 'kamera', 'bagus', 'cahaya', 'bagustetapi', 'gagal']	negative
+['pin', 'debit', 'blokir', 'tlpn', 'bni', 'call', 'buka', 'masuk', 'pin', 'enggak', 'pin', 'debit', 'pin', 'transaksi', 'beda']	negative
+['fiturnya', 'bagustapi', 'bikin', 'verifikasi', 'pin', 'selalu', 'tulis', 'salah', 'sistem', 'terus', 'verifikasi', 'ulang', 'pin', 'henti', 'situ', 'enggak', 'halaman', 'selanjutnyaini', 'sudah', 'inikendalanya', 'habis', 'foto', 'ktp', 'ngisi', 'nomor', 'kartu', 'habis', 'verifikasi', 'pinbikin', 'pinnah', 'ngisi', 'pin', 'selalu', 'tulis', 'maaf', 'salah', 'sistemterus', 'coba', 'kannah', 'henti', 'situ', 'masuk', 'akun']	neutral
+['ui', 'fresh', 'jaring', 'bug', 'cepat']	positive
+['muas', 'masuk', 'apkpengen', 'login', 'fitur', 'sudah', 'okeh', 'enggak']	negative
+['praktis', 'enggak', 'ribet', 'canggih']	positive
+['aplikasi', 'cacat', 'gilir', 'dibutuhin', 'stuck', 'logo']	negative
+['login', 'coba', 'repeat', 'responsif', 'app', 'tetap', 'kambuh', 'app', 'satusatunya', 'bank', 'aplikasi', 'masalah']	negative
+['tolong', 'mudah', 'transaksi', 'kartu', 'atm', 'kuno', 'pakai', 'pulsa']	neutral
+['bagus', 'enggak', 'ribet']	positive
+['informasi', 'lengkaptidak', 'keterangancontoh', 'gaji', 'masuk', 'terang', 'gaji']	neutral
+['kasih', 'bintang', 'update', 'kasih', 'bintang', 'temu', 'pilih', 'menu', 'tarik', 'tunai', 'kartu', 'menu', 'beda', 'bni', 'mobile', 'banking', 'fitur', 'menu', 'lengkap']	neutral
+['trouble', 'masuk']	negative
+['saran', 'tolong', 'aktifin', 'kartu', 'debit', 'fisik', 'aplikasi', 'kantor', 'cabang', 'orang', 'sibuk', 'bank', 'sudah', 'aktifin', 'kartu', 'aplikasi', 'tolong', 'baik', 'bank', 'bni', 'terimakasih']	neutral
+['lemah', 'wonder', 'jam', 'malam', 'ganggu', 'trx', 'jam', 'aman']	neutral
+['bank', 'fitur', 'paling', 'ribet', 'transaksi', 'va', 'error', 'tulis', 'transaksi', 'hasil', 'saldo', 'utuh', 'alias', 'bayar', 'tarik', 'tunai', 'tanpa', 'kartu', 'pakai', 'otp', 'mana', 'kode', 'muncul', 'muncul', 'payah']	negative
+['transfer', 'hasil', 'wonder', 'saldo', 'masuk', 'rekening', 'yang', 'transfer', 'bagaimana', 'min']	neutral
+['kesini', 'susah', 'buka', 'apk', 'kadang', 'buka', 'enak', 'dulu', 'laut', 'buka', 'apk', 'ndk']	neutral
+['fitur', 'dapat', 'tolong', 'kembali', 'menu', 'bayar', 'didik', 'universitas', 'hubung', 'menu', 'bayar', 'sedia', 'unuk', 'universitas', 'indonesia']	neutral
+['bagus', 'bni', 'data', 'transaksi', 'rekening', 'koran', 'total', 'saldo', 'transaksi', 'mutasi', 'rek', 'koran', 'wondr', 'detail', 'mutasi', 'rekening', 'koran', 'rentan', 'manipulasi']	negative
+['tolong', 'fix', 'registrasi', 'sesi', 'kedip', 'mata', 'susah', 'banget', 'acc', 'senter', 'hp', 'wajah']	positive
+['catat', 'tarik', 'tunai', 'kartu', 'sebal', 'pulsa', 'otp', 'kayak', 'baca', 'bri', 'simpel', 'no', 'hp', 'kode', 'tarik', 'tunai', 'masak', 'bni', 'kalah', 'bions', 'bsi', 'tiru', 'baca', 'bri', 'otp', 'pakai', 'pulsa', 'estatement', 'masak', 'kasih', 'download', 'kasih', 'biar', 'mudah', 'track', 'uang', 'masuk', 'contoh', 'baca', 'bri', 'sih', 'saran', 'lebih', 'sudah', 'oke', 'tampil', 'simpel', 'enggak', 'menu', 'aneh', 'aneh']	neutral
+['bni', 'sih', 'malam', 'ganggu', 'kalo', 'nasabah', 'pindah', 'bank', 'coba', 'developer', 'baik', 'kalo', 'banyak', 'memakai', 'bni', 'hadeh']	negative
+['ya', 'bni', 'muas', 'bni', 'pakai', 'mencoba', 'cabang', 'update', 'data', 'ribet']	neutral
+['eror', 'fitur', 'akses', 'apl']	neutral
+['aplikasi', 'lengkap', 'mobile', 'banking', 'buka', 'tapenas', 'bayar', 'ukt', 'belum', 'repot', 'mending', 'versi', 'mobile', 'banking']	neutral
+['praktis', 'pilih']	positive
+['puas', 'wondr']	positive
+['deh', 'pakai', 'wondr', 'bni', 'ganti', 'hp', 'hp', 'masuk', 'gagal', 'terang', 'masuk', 'kreteria', 'wondr', 'begitu', 'deh', 'berapa', 'kali', 'coba', 'tetap', 'gagal', 'solusi']	neutral
+['enak', 'aplikasi', 'bni', 'cek', 'mutasi', 'rekening', 'setor', 'dana', 'masuk', 'wonder']	negative
+['aplikasi', 'astaghfirullah', 'suruh', 'move', 'pakai', 'wondr', 'bni', 'ngomel', 'mulu', 'bni', 'mobile', 'enggak bisa', 'dipakai', 'eh', 'aplikasi', 'bapuk', 'bom', 'eksplor', 'aplikasi', 'login', 'tulis', 'sesi', 'mulu', 'instal', 'rekening', 'gaji', 'malas', 'banget', 'makenya']	negative
+['bantu']	positive
+['sebagai', 'nasabah', 'sd', 'sampai', 'sekarang', 'sudah', 'kerja', 'tahu', 'bulan', 'download', 'wondr', 'sebelumnya', 'pakai', 'mbanking', 'bni', 'reng', 'sama', 'fitur', 'wondr', 'lihat', 'mutasi', 'kalo', 'transaksi', 'pakai', 'app', 'wondr', 'kalo', 'transaksi', 'pakai', 'mbanking', 'mutasi', 'keluarmasuk', 'uang', 'masuk', 'mutasi', 'samsek', 'fitur', 'setortarik', 'tunai', 'kartu', 'tolong', 'upgrade', 'mengira', 'bagus', 'mbanking', 'mengadakan', 'notif', 'mutasi', 'uang', 'masukkeluar', 'buka', 'app']	neutral
+['verifikasi', 'wajah', 'susah', 'sih', 'kedip', 'sudah', 'kedip', 'sampai', 'gel', 'tetap', 'enggak']	neutral
+['alam', 'kali', 'enggak', 'login', 'masuk', 'kartu', 'debit', 'bni', 'bikin', 'kartu', 'debit', 'kali', 'bikin', 'mohon', 'bantu', 'solusi', 'nya']	positive
+['transfer', 'gagal', 'teruspadahal', 'saldo', 'tolong', 'jelasin']	neutral
+['aplikasi', 'baru', 'dukung', 'transaksi', 'mobile', 'moga', 'fitur', 'tarik']	positive
+['cacat', 'banget', 'verivikasi', 'wajah', 'buru', 'buru', 'eror', 'sudah', 'nurutin', 'tahap', 'verifikasi', 'wajah', 'tetap', 'enggak bisa', 'sudah', 'sesuai', 'bagaimana', 'nih', 'developer']	negative
+['error', 'berat', 'enggak', 'kalimat', 'lapor', 'transaksi', 'kirim', 'enggak', 'fitur', 'terima', 'dana', 'qrisnya', 'kayak', 'bni', 'mobile', 'banking']	neutral
+['saran', 'wondr', 'bagus', 'bagus', 'kasih', 'fitur', 'tarik', 'setor', 'otpnya', 'email', 'pulsa', 'sama', 'banking', 'tari', 'tanpa', 'kartu', 'harus', 'pulsa', 'saean', 'begitu', 'saean', 'jadi', 'bni', 'smart', 'kartu', 'moderenisasi', 'global', 'digititisasi']	positive
+['turut', 'aplikasi', 'baru', 'fitur', 'layan', 'tampil', 'oke', 'oke', 'banget', 'tarik', 'tunai', 'kartu', 'ribet', 'pulsa']	neutral
+['bni', 'mobile', 'transaksi', 'saldo', 'wondr', 'transaksi', 'terang', 'saldo', 'transaksi', 'mohon', 'tambah', 'bni', 'mobile', 'min', 'lihat', 'riwayat', 'transaksi', 'urai', 'tipe', 'nominal', 'saldo']	neutral
+['swa', 'poto', 'loading', 'banget', 'gagal', 'mulu', 'padahal', 'terang', 'cahaya']	negative
+['kali', 'aplikasi', 'perban', 'maintenance', 'jam', 'sibuk', 'terus', 'limit', 'isi', 'ewallet', 'promoiklan', 'wondr', 'dimanamana', 'kualitas', 'layan', 'jelek', 'bagus', 'aplikasi', 'bni', 'mobile', 'sesal', 'hapus', 'aplikasi']	negative
+['ulas', 'kendala', 'teknis', 'login', 'verifikasi', 'solusi', 'aplikasi', 'saran', 'kualitas', 'internet', 'stabil', 'pakai', 'daerah', 'jaring', 'internet', 'beda', 'enggak', 'aplikasi', 'baik', 'kualitas']	negative
+['keren', 'sih', 'wondr', 'by', 'bni', 'tampil', 'warna', 'warni', 'fitur', 'qris', 'quick', 'access', 'pakai', 'ribet', 'login', 'tinggal', 'scan', 'khawatir', 'kalo', 'bawa', 'dompet', 'tq', 'bni']	positive
+['aplikasi', 'banyak', 'bug', 'enggak', 'bisa', 'atur', 'limit', 'piye', 'jal', 'kelas', 'bni']	negative
+['aplikasi', 'dipakai', 'eror', 'mulu', 'selesai', 'verifikasi', 'wajah', 'muncul', 'notif', 'kendala', 'sistem']	negative
+['fitur', 'setor', 'tunai', 'kartu', 'moga', 'depan', 'aplikasi', 'lengkap']	positive
+['kali', 'buka', 'wondr', 'loading', 'banget', 'upgrade', 'upgrade', 'an', 'suka', 'sebel', 'wondr', 'tolong', 'baik', 'wondr']	neutral
+['kayak', 'belum', 'optimal', 'wondr', 'sering', 'baik', 'ssah', 'buka', 'transaksi', 'cepat', 'terus', 'baik', 'sudah', 'optimal', 'kasih', 'bintang']	neutral
+['aplikasi', 'wondr', 'by', 'bni', 'mudah', 'bantu']	positive
+['aplikasi', 'wond', 'bni', 'trabel', 'transaksi', 'sering', 'pending', 'notif', 'email', 'hasil', 'saldo', 'potong', 'hubung', 'cs', 'lapor', 'suruh', 'tunggu', 'xjam']	neutral
+['tarik']	positive
+['login', 'enggak', 'reset', 'pin', 'kantor', 'buang', 'buang', 'sudah', 'reset', 'pin', 'aplikasi']	negative
+['transaksi', 'cepat', 'mobile', 'tunai', 'riset', 'pin', 'atm']	positive
+['aplikasi', 'mudah', 'buka', 'guna', 'pakai', 'mana', 'sajatransaksi', 'mudah', 'aman']	positive
+['aplikasi', 'bagus']	positive
+['muas', 'mudah', 'pakai', 'saja']	positive
+['kenapa', 'ganggu']	neutral
+['bantu', 'fiturfitur']	positive
+['bagus', 'banget', 'inti', 'mudah', 'hidup', 'kelam']	positive
+['keren', 'praktiscepat', 'mudah', 'terima kasih', 'wondr', 'bni', 'transaksi', 'apa', 'bank', 'mudahdi', 'negripun', 'lancar']	positive
+['bagus', 'bantu']	positive
+['aplikasi', 'sungguh', 'bantu', 'terimakasih', 'wondr']	neutral
+['terima', 'notif', 'uang', 'masuk', 'minimal', 'kadang', 'begitu', 'suka', 'enggak', 'notifi', 'kalah', 'ewallet', 'pelit', 'notif', 'menu', 'cardless', 'wondr', 'sedia']	negative
+['kayak', 'aplikasi', 'belum', 'sempurna', 'kemarin', 'iseng', 'coba', 'beli', 'pulsa', 'aplikasi', 'transaksi', 'gagal', 'saldo', 'tarik', 'saldo', 'bagaimana', 'solusi']	neutral
+['pliss', 'sih', 'banget', 'trouble', 'bagus', 'bni', 'mobile', 'kalo', 'wonder', 'kendala', 'hambat', 'aktivitas', 'kalo', 'kayak', 'gin', 'mutasi', 'rekening', 'tampil', 'lengkap', 'detail', 'bni', 'mobile', 'pliss', 'kecewa', 'nasabah', 'setia', 'bni']	negative
+['ya', 'bni', 'tari', 'transaksi', 'tau', 'sandi', 'bank', 'transaksi', 'malam', 'tidur']	negative
+['harap', 'top', 'up', 'e', 'wallet', 'enggak', 'batas', 'nominal', 'transaksi', 'hari', 'karena', 'butuh', 'orang', 'beda', 'beda']	neutral
+['sudah', 'lancar']	positive
+['super', 'app', 'tarik', 'tunai', 'kartu', 'menggantikan', 'bni', 'mobile']	negative
+['butuh', 'kembang', 'lengkap', 'fiturnyatapi', 'suka', 'transaksi', 'wondr', 'sekarang', 'mbank', 'nyamilenial', 'sihditunggu', 'promo', 'menariknyajangan', 'kalah', 'apk', 'perban', 'belah', 'label', 'bumn']	positive
+['kenapa', 'transaksi', 'pulsa', 'potong']	neutral
+['mudah', 'cepat', 'aman']	positive
+['tolong', 'aplikasi', 'wondr', 'tarik', 'tunai', 'kartu', 'septi', 'bni', 'mobile']	neutral
+['enak', 'banget', 'menu', 'total', 'aset', 'kelihatan', 'menu']	positive
+['apl', 'sistem', 'kendala', 'sudah', 'minggu', 'buka', 'manfaat', 'banget', 'apl']	neutral
+['buka', 'kartu', 'blokir', 'mengaco']	neutral
+['instal', 'kode', 'telat', 'suruh', 'besok', 'enggak', 'nunggui', 'besok', 'uninstall', 'beres', 'enggak', 'profesional']	negative
+['aplikasi', 'bagus', 'mudah', 'paham', 'ribet', 'kurang', 'daftar', 'wishlitnya', 'lengkap', 'seabank', 'semoba', 'perkembanganm', 'bni']	positive
+['verifikasi', 'ktp', 'notifikasi', 'kendala', 'tim', 'baik', 'koneksi', 'lancar', 'ambil', 'fotoh', 'bagus', 'lecet', 'kali', 'coba', 'gagal', 'menunggu', 'besok', 'laku']	negative
+['darurat', 'beli', 'token', 'listriksi', 'aplikasi', 'dipakaiterpaksa', 'pakai', 'aplikasi', 'belah']	neutral
+['aplikasi', 'sih', 'bagustapi', 'gagal', 'transfersaldonya', 'tetap', 'potong']	neutral
+['mohon', 'benah', 'proses', 'jaring', 'aplikasi', 'wonder', 'terkadang', 'sulit', 'proses', 'online', 'menu', 'tranfer']	positive
+['pilih', 'sih', 'masuk', 'aplikasi', 'diuninstal', 'karena', 'hp', 'errorsolusinya', 'gimanamasak', 'kantor', 'bni', 'sih']	negative
+['ya', 'bni', 'muas', 'bni', 'pakai', 'mencoba', 'cabang', 'update', 'data', 'ribet']	neutral
+['tolong', 'histori', 'tanggal', 'muncul', 'terahir', 'tanggal', 'doang', 'real', 'time', 'ya', 'histori', 'pasu', 'keluar', 'kalo', 'screnshot', 'layar', 'sudah', 'kasih', 'bukti']	negative
+['mudah', 'fiturnya']	positive
+['aplikasi', 'mohon', 'maaf', 'jelek', 'senin', 'tanggal', 'november', 'siang', 'pakai', 'aplikasi', 'eror', 'enggak', 'maintenance', 'kali', 'sampai', 'jam', 'wib', 'untung', 'aplikasi', 'diuninstal', 'aplikasi', 'lancar', 'lancar', 'tuh', 'aplikasi', 'tolong', 'kalo', 'developnya', 'aplikasi', 'wonderia', 'mateng', 'enggak', 'publish', 'aplikasi', 'bikin', 'ribet', 'thanks']	negative
+['layan', 'mantap']	positive
+['buka', 'langsung', 'sesi', 'habis', 'aplikasi', 'aneh', 'bikin', 'insecure', 'mandiri', 'mobile', 'banking', 'auto', 'pindah', 'saldo', 'atm']	negative
+['mohon', 'tambah', 'fitur', 'ganti', 'nomor', 'telepon', 'aplikasi', 'wondr', 'by', 'bni', 'kantor', 'cabang', 'ganti', 'nomor', 'telepon']	neutral
+['ya', 'maintenance', 'siang', 'jam', 'an', 'sampai', 'jam', 'malam', 'belum', 'minimal', 'info', 'baru', 'lah', 'kasih', 'solusi', 'transaksi']	negative
+['sulit', 'verifikasi', 'wajah', 'salah', 'masuk', 'pin', 'kali', 'coba', 'gagal', 'bela', 'bain', 'salah', 'cabang', 'kantor', 'bni', 'csnya', 'serah', 'sekian', 'kali', 'ujicoba', 'paksa', 'uninstall', 'kecewa']	neutral
+['selamat', 'sore', 'bni', 'transaksi', 'tari', 'tunai', 'atm', 'transaksi', 'diprses', 'saldo', 'potong', 'rbmohon', 'jelas', 'bagimana', 'saldo', 'rekening']	neutral
+['app', 'inimasih', 'kurangsalah', 'informasi', 'keluar', 'tampil', 'sisa', 'saldo']	neutral
+['daftar', 'norekening', 'orang', 'memang', 'enggak', 'fitur', 'hapus', 'daftar']	neutral
+['sih', 'aplikasi', 'fresh', 'lengkap', 'transfer', 'virtual', 'account', 'baik', 'lagi', 'mending', 'mbanking', 'fitur', 'lengkap', 'mudah', 'paham', 'maju', 'update', 'wondr', 'by', 'bni', 'semangat']	negative
+['pakai', 'jaring', 'telkomsel', 'buka', 'tolong', 'baik', 'jaring', 'terima', 'kasih']	neutral
+['bagus', 'transaksi', 'cepat']	positive
+['cepat', 'sigap']	positive
+['fitur', 'tarik', 'tunai', 'kartu', 'menu', 'didik', 'bayar', 'ukt', 'opsi', 'universitas', 'ubah', 'universitas', 'indonesia', 'mohon', 'baik']	neutral
+['coba', 'baik', 'kirim', 'va', 'diarahin', 'ewallet', 'bagaimana', 'sih']	neutral
+['mudah', 'transaksi', 'pakai', 'wondr', 'banyak', 'bni']	positive
+['login', 'login', 'kali', 'buka', 'aplikasi', 'ujung', 'sesi']	neutral
+['bagus']	positive
+['apk', 'enteng', 'ringan', 'pakai', 'mbangking', 'moga', 'depan', 'fitur', 'mobile', 'tunai']	positive
+['februari', 'usia', 'wondr', 'by', 'bni', 'tanya', 'menu', 'kalah', 'bni', 'mobile', 'banking', 'fitur', 'kembang', 'wondr', 'by', 'bni', 'mana', 'sd', 'fitur', 'ganti', 'pin', 'kakak', 'tambah', 'fitur', 'layan', 'ib', 'bni', 'fungsi', 'ib', 'bni', 'bni', 'mobile', 'banking', 'suntik', 'mati', 'menu', 'layan', 'wondr', 'by', 'bni', 'maksimal', 'minimal', 'sama', 'bni', 'mobile', 'banking']	neutral
+['transfer', 'ikon', 'transfer', 'enggak', 'pencet', 'tolong', 'bagaimana', 'sudah', 'restart', 'hp', 'ganti', 'jringn', 'fitur', 'ada']	neutral
+['aplikasi', 'membantu', 'banget', 'transaksi', 'aplikasi', 'bank', 'beda', 'bank', 'tinggal', 'cari', 'nama', 'langsung', 'satset']	positive
+['performnya', 'tampil', 'keren', 'mudah', 'transaksi', 'histori', 'transaksi', 'mudah']	positive
+['fitur']	negative
+['apk', 'transfer', 'masuk', 'hubungan', 'cs', 'jelas', 'sudah', 'maintenance', 'parah']	negative
+['aplikasi', 'jelek', 'please', 'mengira', 'sudah', 'ubah', 'karena', 'nyuruh', 'pindah', 'apk', 'tau', 'sakit', 'topup', 'gopay', 'susah', 'ampun', 'gila', 'sudah', 'benar', 'memang', 'habis', 'gaji', 'langsung', 'dipindahin', 'saja', 'sea', 'bank', 'lebih', 'bagus']	negative
+['transaksi', 'gagal', 'mohon', 'baik', 'cepat', 'edit', 'ulas', 'terima', 'kasih', 'respon', 'cepat', 'moga', 'depan', 'bagus', 'lengkap', 'fiturfitur', 'good', 'job']	positive
+['kenapa', 'aplikasi', 'buka']	neutral
+['tarik', 'tunai', 'kadang', 'error', 'huuft', 'ganggu', 'moga', 'lekas', 'optimal', 'bantu']	neutral
+['aplikasi', 'wondr', 'riwayat', 'transaksi', 'tampil', 'rekening', 'koran', 'aplikasi', 'saldo', 'saranuntuk', 'tampil', 'riwayat', 'transaksi', 'lengkap', 'aplikasi', 'rekening', 'koran']	neutral
+['trx', 'perban', 'lebih', 'mudah', 'satsetoke', 'banget', 'pokok', 'wondr', 'by', 'bni', 'aman', 'promo']	positive
+['bayar', 'virtual', 'acount', 'toko', 'dia', 'selasa', 'februari', 'transaksi', 'nyata', 'gagal', 'saldo', 'kurang', 'solusi']	negative
+['mudah']	neutral
+['susah', 'banget', 'login', 'verifikasi', 'wajah', 'enggak', 'coba', 'langsung', 'hasil', 'ulang', 'kalo', 'sudah', 'banyak', 'suruh', 'coba', 'besok', 'ribet', 'mending', 'aplikasi', 'coba', 'sesuai', 'arah', 'foto', 'terang', 'fokus', 'loginnya', 'susah']	negative
+['tolong', 'kembali', 'fitur', 'tarik', 'tunai', 'kartu', 'apk', 'tambahkan', 'fitur', 'fitur', 'buang', 'aduh']	neutral
+['ngescan', 'gagal', 'baca', 'scan', 'muka', 'tolong', 'baik', 'scan', 'muka', 'ngebug']	neutral
+['transaksi', 'tampil', 'aplikasi', 'wondr', 'keluar', 'biaya', 'administrasi', 'kartu', 'tampil']	neutral
+['mantapngak', 'pakai']	positive
+['aplikasi', 'error', 'baik', 'aplikasi', 'muas']	negative
+['lot', 'loading', 'gagal', 'bagus', 'aplikasi', 'tampil', 'ribet', 'login', 'gampang']	negative
+['cepat', 'mudah']	positive
+['enggak bisa', 'login', 'suruh', 'daftar', 'ulang', 'enggak bisa', 'transfer', 'terus', 'hapus', 'apk', 'download', 'enggak bisa', 'login']	neutral
+['kayak', 'belum', 'optimal', 'wondr', 'sering', 'baik', 'ssah', 'buka', 'transaksi', 'cepat', 'terus', 'baik', 'sudah', 'optimal', 'kasih', 'bintang']	neutral
+['mudah', 'transaksi']	positive
+['transaksi', 'transfer', 'bri', 'wonder', 'by', 'bnidan', 'taplus', 'bisnispas', 'cek', 'mutasi', 'bri', 'transaksi', 'hasil', 'kece', 'wonder', 'by', 'bni', 'kait', 'saldo', 'kosongdan', 'pergi', 'center', 'bni', 'transaksi', 'akun', 'sayaapakah', 'lapor', 'bri', 'bni', 'tolong', 'bantu', 'kak', 'uang', 'krisis', 'rantau', 'kakyang', 'mana', 'uang', 'gaji', 'uang', 'makan']	neutral
+['tampil', 'tarik', 'simple', 'fitur', 'moga', 'depan', 'lengkap']	positive
+['wonder', 'bagus', 'kencang', 'transaksi', 'simpel']	positive
+['masuk', 'aplikasi', 'ganti', 'pasword', 'suruh', 'ganti', 'email', 'padahal', 'dari', 'email', 'pakai']	negative
+['cepat']	positive
+['video', 'call', 'verifikasi', 'butuh', 'angkat', 'tuju', 'video', 'call', 'juta', 'manusia', 'indonesia', 'install', 'aplikasi', 'wajib', 'video', 'call', 'ktp', 'curiga', 'mudah', 'data', 'ambil', 'ragu', 'uninstall', 'aplikasi']	negative
+['apk', 'verifikasi', 'akun', 'selesai', 'terus', 'apk', 'masuk', 'ngisi', 'data', 'memang']	neutral
+['cepat', 'layanannyaaplikasi', 'simple', 'dipakaibagus', 'tingkat', 'layan']	positive
+['mbanking', 'bni', 'kali', 'login', 'gagal', 'terus', 'muncul', 'apk', 'baik', 'baik', 'berharihari', 'mencoba', 'wondr', 'daftar', 'enggak bisa', 'muncul', 'daftar', 'suruh', 'update', 'kantor', 'cabang', 'enggak ada', 'data', 'ubah', 'aneh', 'bni', 'masalah', 'sudah', 'begitu', 'apk', 'fungsi', 'enggak ada', 'beda', 'masyarakat', 'indonesia', 'lebih', 'migrasi', 'ramai', 'bank', 'bni', 'hilang', 'nasabah', 'nasabah', 'pakai', 'produk', 'masalah', 'hambat', 'butuh']	negative
+['mudah', 'thanks', 'wonder']	positive
+['banget', 'akses', 'was', 'was', 'butuh', 'akses']	negative
+['simpel', 'manfaat']	positive
+['aplikasi', 'bagus', 'sudah', 'dibandingin', 'aplikasi', 'fitur', 'fiturnya', 'bagus', 'banding', 'aplikasi', 'bun', 'cuman', 'sudah', 'bagus']	positive
+['mudah', 'cepat']	positive
+['kenapa', 'pin', 'bni', 'salah', 'ganti', 'pin', 'kemarin', 'kantor', 'bank', 'bni', 'pin', 'catat', 'coba', 'kantor', 'bni', 'transaksi', 'salah', 'pin', 'mulu', 'bagaimana', 'min', 'mohon', 'bantu']	neutral
+['kasih', 'fitur', 'lihat', 'sisa', 'saldo', 'riwayat', 'fitur', 'transaksi']	negative
+['suka', 'banget', 'aman', 'login', 'extra', 'fitur', 'simple', 'transaksi', 'bayar', 'transfer', 'promo', 'aplikasi', 'wondr', 'by', 'bni', 'tranksaksi']	positive
+['turut', 'bagus', 'menu', 'bni', 'mobile', 'kah', 'bagus', 'bni', 'mobile', 'upgrade', 'tambahkan', 'fitur', 'sedia', 'wonder', 'akses', 'masuk', 'wonder', 'anda', 'pakai', 'sensor', 'pakai', 'sensor', 'kalo', 'mobile', 'bni', 'wensor', 'pakai', 'pasword', 'pakai', 'apk', 'kalo', 'anda', 'e', 'apk', 'masalah', 'enggak']	negative
+['sumpah', 'bug', 'registrasi', 'password', 'masuk', 'dengen', 'terang', 'password', 'salah', 'smpk', 'kali', 'ganti', 'password', 'reg', 'ulang']	negative
+['mudah', 'transaksi']	positive
+['mantap', 'otomatis']	positive
+['buka', 'rekening', 'langsung', 'pakai', 'tulis', 'sih', 'ganggu', 'kalau', 'payroll', 'deh', 'gua', 'kalah', 'sama', 'livin', 'btn']	negative
+['app', 'keren', 'simpel', 'mudah']	positive
+['aplikasi', 'uras', 'energi', 'emosi', 'login', 'halaman', 'muat', 'muncul', 'pesan', 'sesi', 'login', 'pakai', 'bni', 'mobile', 'banking', 'lancar', 'kendala', 'ultima', 'pindah', 'wondr', 'desember', 'bikin', 'panik', 'kendala', 'halo', 'bni', 'nasabah', 'hp', 'spek', 'tolong', 'sesuai']	negative
+['mantap', 'banget', 'wondr', 'by', 'bni', 'mudah', 'transfer', 'bayar', 'qris', 'cek', 'keluar', 'lancar', 'ribet', 'tambah', 'tampil', 'modern', 'fresh', 'terima', 'kasih', 'bni', 'aplikasi', 'top', 'banget']	positive
+['bagus']	positive
+['mantab', 'bantu']	positive
+['mudah', 'tinggal', 'duduk', 'rumah', 'instal', 'isi', 'data', 'kartu', 'datang', 'rumah', 'langsung', 'good', 'job']	positive
+['kenapa', 'buka', 'apk', 'enggak bisa', 'stuck', 'logo', 'sudah', 'beberapa', 'kali', 'copot', 'pasang', 'tetap', 'kayagini']	negative
+['bagus', 'aplikasi', 'lengkap', 'mudah', 'bikin', 'bingung']	negative
+['pagi', 'suruh', 'login', 'buat', 'rekening']	positive
+['baik']	neutral
+['mohon', 'tambah', 'fitur', 'ganti', 'nomor', 'telepon', 'aplikasi', 'wondr', 'by', 'bni', 'kantor', 'cabang', 'ganti', 'nomor', 'telepon']	neutral
+['mudah', 'wondr', 'lihat', 'mutasi', 'transfer', 'virtual', 'muter', 'enggak', 'ketemu', 'tetap', 'pakai', 'terinstal', 'hp', 'gambarsymbol', 'icont', 'tarik', 'banding', 'livin', 'mandiri', 'coba', 'biar', 'keren', 'gambar', 'menu', 'beda', 'gerak', 'biar', 'saing']	neutral
+['bagaimana', 'min', 'loginn', 'ktp', 'cumann', 'tulis', 'kendala', 'memang', 'kendala', 'bagaimana', 'min', 'maksudnya', 'scen', 'ktp', 'sudah', 'masuk', 'toloong', 'min', 'h', 'terus', 'mohon', 'bantuanya', 'kak', 'kendala', 'tadi', 'pagi', 'login', 'apknya', 'login', 'ktp', 'proses', 'cumna', 'ingat', 'kendala', 'tim', 'baik', 'tau', 'min', 'tau']	neutral
+['cepat', 'pakai', 'wondr', 'bantu']	positive
+['beli', 'token', 'listrik', 'ribet', 'paksa', 'intall', 'aplikasi', 'aplikasi', 'bni', 'mobile', 'sudah', 'lengkap', 'mudah', 'kalo', 'kayak', 'gin', 'install', 'aplikasi', 'sumber', 'hidup', 'ribet']	neutral
+['asik', 'banget', 'gampang', 'ngoperasiinnya', 'fitur', 'lengkap', 'alus', 'banget', 'movement', 'enggak', 'grandet', 'grandet', 'tampil', 'enggak', 'ngebosenin', 'keren', 'pokok', 'maju', 'mobile', 'banking', 'baru', 'bni', 'mantap']	positive
+['bgaus', 'sih', 'besic', 'sudah', 'pakai', 'tingkt', 'saja']	positive
+['amazing', 'cepat', 'percaya', 'bantu', 'dalam', 'giat']	positive
+['aplikasiny', 'sudah', 'bagus', 'cuma', 'parah', 'trantaksi', 'token', 'listrik', 'ggl', 'saldo']	neutral
+['menyesal', 'nginstal', 'aplikasi', 'buka', 'bni', 'mobile', 'banking', 'iklan', 'nangkring', 'diinstal', 'sudah', 'diinstal', 'gin', 'error', 'buka', 'bni', 'mobile', 'bank', 'menyesal']	negative
+['cepat', 'bantu']	positive
+['catat', 'uang', 'sedia', 'dana', 'sisa', 'transaksi', 'transaksi', 'catat', 'transaksi', 'transfer', 'catat', 'susah', 'keluar']	negative
+['bagus', 'bantu']	positive
+['aplikasi', 'wonder', 'simple', 'mudah', 'lancar']	positive
+['aplikasi', 'benerbener', 'bantu', 'gampang', 'pakai', 'nya', 'iseng', 'nyobaa', 'aplikasi', 'ringan', 'itu']	positive
+['aplikasi', 'mudah', 'transaksi', 'bank', 'efektif', 'bayar', 'apa', 'sana']	positive
+['sudah', 'bank', 'mandiri', 'sih', 'kumplit', 'belum', 'card', 'tapi', 'cash', 'stortarik', 'kartu', 'tarik', 'tunai', 'fitur', 'aplikasi', 'cicil', 'muncul', 'update', 'dekat', 'sempurna']	positive
+['mantap', 'aplikasi', 'simple', 'mudah']	positive
+['kenapa', 'wonder', 'kirim', 'aplikasi', 'dana']	neutral
+['keren', 'uinya', 'easy', 'tapi', 'use']	positive
+['buatdan', 'masuk', 'centang', 'syarat', 'eh', 'enggak', 'loginmaaf', 'sesi', 'habis', 'bolak', 'muluu', 'capekk']	negative
+['masuk', 'loading']	positive
+['hatihati', 'aplikasi', 'transaksi', 'qris', 'status', 'gagal', 'transaksi', 'ulang', 'cek', 'rekening', 'koran', 'saldo', 'untung', 'bni', 'mobile', 'ku', 'uninstall', 'transakai', 'tulis', 'gagal', 'hasil', 'bersitegang', 'counter', 'aplikasi', 'migrasi', 'wondr', 'rekening', 'koran', 'masuk', 'saldo', 'auto', 'cabut']	negative
+['enggak bisa', 'verifikasi', 'wajah', 'mohon', 'kamera', 'banding', 'kamera']	negative
+['kasih', 'banget', 'notif', 'sesi', 'login', 'padahal', 'login', 'enak', 'pakai', 'bni', 'mobile', 'banking']	neutral
+['enak', 'simple', 'transaksi', 'mudah', 'limit', 'hari', 'transaksi', 'juta', 'virtual', 'aku']	neutral
+['mudah', 'praktis']	positive
+['kirim', 'uang', 'mudah', 'cepat']	positive
+['troble', 'masuk', 'tulis', 'bentar', 'tim', 'baik', 'pakai', 'lagicoba', 'masuk', 'coba', 'hapus', 'terus', 'instal', 'gejala', 'kayak', 'yamg', 'tulis']	negative
+['fiturnya', 'kurang', 'internet', 'banking', 'bni', 'wondr', 'mending', 'kalo', 'lom', 'migrasi', 'aplikasi', 'rekomen', 'pakai', 'aplikasi']	negative
+['mudah', 'transaksi']	positive
+['maju']	positive
+['password', 'kalo', 'lupa', 'ribet', 'kali', 'pencet', 'batal', 'ganti', 'password', 'ribet', 'enggak', 'ganti']	neutral
+['susah', 'ambil', 'poto', 'kali', 'coba', 'suruh', 'coba', 'alhasil', 'tetap', 'tunggu', 'besok', 'kayak', 'begitu']	negative
+['moga', 'hadiah', 'tf']	neutral
+['sayang', 'banget', 'kalo', 'ambil', 'foto', 'enggak bisa', 'dari', 'galeri']	neutral
+['hai', 'minsaya', 'aktivasi', 'enggak', 'memasuki', 'no', 'kartu', 'indak', 'pinmuncul', 'notif', 'maaf', 'jaring', 'belum', 'siapbisa', 'begitu', 'yatrus', 'memasuki', 'pin', 'begitu', 'gakpp', 'terimakasih', 'ksi', 'dluklo', 'sudah', 'aktif', 'baru', 'data', 'pin', 'aman', 'verivikasi', 'identitas', 'memasuki', 'pin', 'andatpi', 'stag', 'situ', 'minrek', 'taplus', 'anak', 'upload', 'wonder', 'enggak']	neutral
+['asli', 'simple', 'sayang', 'menu', 'info', 'transaksi', 'sisa', 'jumlh', 'saldo', 'akumulasi', 'bni', 'mobile', 'banking', 'wondr', 'cuma', 'rp', 'sekian', 'truss', 'rp', 'sklian', 'bni', 'mobile', 'detail', 'moga', 'wondr', 'bisa', 'update']	neutral
+['layan', 'bagus', 'mantap']	positive
+['senang']	positive
+['kacau', 'sih', 'kali', 'transaksi', 'gagal', 'mulu', 'uang', 'enggak', 'langsung', 'bikin', 'lapor', 'menunggu', 'proses', 'uang', 'guna', 'kesan', 'aplikasi', 'benah']	negative
+['limit', 'transaksi', 'sesuai', 'publish']	negative
+['aplikasi', 'lumayanlahtapi', 'keren', 'langsung', 'tau', 'appikasi', 'bank', 'bnikalau', 'apk', 'mengira', 'apk', 'bni', 'apan', 'wondremang', 'sudah', 'bank', 'wondr', 'kasih', 'bintang', 'tunggu', 'ubah']	neutral
+['praktis', 'bantu']	positive
+['kalo', 'enggak', 'bikin', 'aplikasi', 'mending', 'enggak', 'mudah', 'menyusahkan', 'kali', 'tf', 'via', 'virtual', 'account', 'gagal', 'tf', 'pakai', 'barcode', 'pakai', 'gagal', 'bikin', 'aplikasi', 'kalo', 'ujung', 'ujung', 'transaksi', 'atm']	negative
+['sandi', 'masuk', 'enggak', 'auto', 'save', 'transaksi', 'tampil', 'saldo', 'fitur', 'app', 'bni', 'app', 'wondr', 'wondr', 'fitur', 'menu', 'jiplak', 'app', 'baru', 'suka', 'fitur', 'menu', 'app', 'wondr', 'pilih', 'app', 'bni']	negative
+['bagus', 'mudah', 'aktifitas', 'uang', 'pakai', 'ribet', 'nasabah', 'bni', 'donlot', 'wondr', 'aplikasi', 'mudah', 'terima', 'kasih']	positive
+['enggak', 'menu', 'jha', 'aplikasi', 'sama', 'banking', 'dulu', 'menu', 'tarik', 'tunai', 'kartu', 'nya', 'lengkap']	neutral
+['bni', 'mobile', 'wonder', 'jelek', 'kurang', 'transaksi', 'belit', 'antri', 'tabung', 'gas']	negative
+['transaksi', 'va', 'salah', 'marketplace', 'pemberitahuan', 'notif', 'wondr', 'bukti', 'transaksi', 'gagal', 'uang', 'potong']	neutral
+['maaf', 'kembang', 'down', 'pisah', 'beli', 'mbanking', 'wondr', 'isi', 'token', 'listrik', 'apk', 'wonder', 'ganggu', 'beli', 'mbanking', 'arah', 'wondr', 'aduh', 'pusing', 'bikin', 'ribet']	negative
+['suruh', 'download', 'wonder', 'fiturfiturnya', 'lengkap', 'tarik', 'tunai', 'bayar', 'didik', 'universitas', 'pilih', 'maksud', 'siapin', 'apknya', 'sebar', 'luas', 'apa', 'bni', 'download', 'apk', 'kocak', 'ya']	neutral
+['perifikasi', 'wajah', 'payah', 'ribet', 'gagal', 'masuk', 'beda']	negative
+['mudah', 'bertran', 'saksi', 'sisa', 'pinjam']	neutral
+['siap', 'apk', 'suruh', 'ganti', 'suruh', 'pakai', 'wondr', 'tari', 'kartu', 'debit', 'mending', 'pakai', 'bni', 'mobile']	positive
+['tingkat', 'layan']	neutral
+['tarik', 'tampil', 'mudah', 'transaksi', 'mantap', 'wondr', 'by', 'bni']	positive
+['mudah', 'bantu']	positive
+['bantu', 'mudah', 'transaksi', 'butuh']	positive
+['bintang', 'dulukalo', 'tambahsoalnya', 'sudah', 'donlot', 'syarat', 'sudah', 'penuhigagal', 'gagal', 'salah', 'coba', 'donlot']	neutral
+['download', 'aplikasi', 'terus', 'log', 'ini', 'kok', 'susah', 'sihada', 'terang', 'sesi', 'berakhirjdi', 'susah', 'log', 'innya']	neutral
+['bagus', 'jugawondr', 'enak', 'pandang', 'mata', 'easy', 'tapi', 'usejadi', 'mudah', 'cepat', 'transaksi']	positive
+['app', 'wordr', 'ganggu', 'buka', 'pakai', 'wifi', 'buka', 'pakai', 'paket', 'internet', 'bagaimana', 'app']	neutral
+['kasih', 'bintang', 'dulusemoga', 'segara', 'update', 'proses', 'tarik', 'tunai', 'cepat', 'masuk', 'pemberitahuan', 'transaksi', 'transaksi', 'kali', 'saji', 'saldo', 'saldo', 'saldo', 'masuk', 'moga']	neutral
+['duh', 'parah', 'aplikasi', 'lelet', 'kayak', 'pentium', 'enggak', 'masuk', 'parah', 'deh', 'enggak', 'kayak', 'aplikasi', 'lvn', 'belah', 'wush', 'wush', 'enggak', 'error', 'masuk', 'login', 'ulang', 'ulang', 'enggak', 'masuk', 'masuk', 'enggak', 'baik', 'mending', 'kabur', 'deh', 'setia', 'belah', 'enak', 'banget', 'edit', 'terima', 'kasih', 'direspon', 'bintang', 'menambah']	neutral
+['mudah', 'cepat']	positive
+['aplikasi', 'sih', 'kali', 'kayak', 'log', 'out', 'masuk', 'daftar', 'no', 'hp', 'ktp', 'foto', 'terus', 'kayak', 'nyimpan', 'data', 'ulang', 'kali', 'masuk', 'daftar', 'mulu', 'info', 'update', 'tanggal', 'feb', 'salah', 'input', 'pasword', 'login', 'daftar', 'solusi', 'bilang', 'salah', 'input', 'verifikasi', 'wajah', 'ktp', 'mulu']	negative
+['logo', 'aplikasi', 'jelek', 'warna', 'oranye', 'pakai', 'latar', 'kuning', 'lihat', 'tuh', 'logo', 'saing', 'belah', 'kreatif', 'desain']	neutral
+['aplikasi', 'eror', 'mulu', 'bikin', 'gedek', 'sudah', 'bulan', 'coba', 'tetap', 'mentok', 'registrasi']	negative
+['aplikasi', 'bantu', 'tampil', 'ui', 'simpel', 'menu', 'mudah', 'aplikasi', 'ringan']	positive
+['bayar', 'lebih', 'cepat', 'praktis', 'meminimalisir', 'langgan', 'lupa', 'malas', 'bayar']	positive
+['suka', 'pakai', 'app', 'susah', 'buka', 'terupdate', 'akh', 'pakai', 'app', 'bni', 'mobile', 'karena', 'cepat']	neutral
+['ganggu', 'terus', 'padahal', 'butuh', 'transaksi', 'tolong', 'baik', 'cepat', 'senang', 'nasabah']	negative
+['terima', 'kasih', 'responnya', 'maaf', 'kasih', 'bintang', 'butuh', 'wondr', 'baik']	positive
+['saran', 'tolong', 'aktifin', 'kartu', 'debit', 'fisik', 'aplikasi', 'kantor', 'cabang', 'orang', 'sibuk', 'bank', 'sudah', 'aktifin', 'kartu', 'aplikasi', 'tolong', 'baik', 'bank', 'bni', 'terimakasih']	neutral
+['menu', 'tarik', 'tunai']	negative
+['aplikasi', 'milik', 'fitur', 'guna', 'nasabah', 'bni', 'aktivitas', 'perban', 'seharihari', 'milik', 'tampil', 'tarik', 'warna', 'kesan', 'powerfull']	positive
+['daftar', 'ribet', 'tampil', 'aplikasi', 'fresh', 'mudah', 'era', 'serba', 'digital', 'qrisnya', 'juga', 'menu', 'manfaat', 'download', 'bni', 'mobile', 'aga', 'berat', 'hp']	positive
+['cepat', 'mantap', 'keren', 'amanah', 'layan', 'rama', 'tamah']	positive
+['top', 'up', 'e', 'wallet', 'batas', 'juta', 'menu', 'utama', 'quick', 'access', 'menu', 'utama', 'juta', 'bni', 'mobile']	positive
+['aplikasi', 'bagus', 'jam', 'transaksi', 'sampai', 'jam']	negative
+['barusan', 'mobile', 'tunai', 'transaksi', 'gagal', 'potong', 'nelpon', 'call', 'center', 'enggak ada', 'hasil', 'potong', 'pulsa', 'payah']	negative
+['aplikasi', 'bagus', 'mudah', 'kirim', 'uang', 'cepat']	positive
+['simpel', 'sih', 'enggak', 'move', 'on', 'app', 'bni', 'terkadang', 'app', 'gampang', 'mengambek', 'sinya', 'l', 'lancar', 'paket', 'data', 'aman', 'kagak', 'buka', 'app']	neutral
+['bagus', 'aplikasi', 'layan', 'ndk', 'pakai', 'deposito', 'lancar', 'ndk', 'dipakaimending']	neutral
+['user', 'frendly', 'suka', 'tampil', 'simple', 'aplikasi', 'super', 'cepat', 'enteng', 'tahan']	positive
+['fitur', 'mas', 'nih', 'min', 'tari', 'indomaret', 'wkwkwk', 'fitur', 'bayar', 'listrik', 'tambah', 'fitur', 'min']	positive
+['bintang', 'duluhp', 'restart', 'verifikasi', 'wajah', 'jungkir', 'terdeteksilewat', 'bni', 'ngedipin', 'mata', 'langsung']	negative
+['mengadakan', 'cardles', 'wonder', 'kalo', 'tolong', 'apk', 'tutup', 'menyusahkan', 'loh', 'sudah', 'atm', 'setor', 'enggak', 'bawa', 'atm', 'apk', 'enggak', 'cardless', 'bni', 'kesal', 'tolong', 'mutasi', 'rekening', 'serta', 'saldo', 'aplikasi', 'bni', 'mobile']	neutral
+['verifikasi', 'wajah', 'fungsi', 'coba', 'kali', 'kali', 'gagal', 'ktp', 'sesuai', 'lengkap', 'opsi', 'verifikasi', 'metode']	negative
+['enak', 'pakai', 'aplikasi', 'bni', 'aplikasi', 'wondr', 'tolong', 'lengkap', 'fitur', 'tarik', 'tunai', 'setor', 'tunai', 'butuh', 'transaksi', 'kartu']	neutral
+['erorsampai', 'error', 'bisa', 'bukajd', 'susah', 'belanja', 'online', 'transaksi', 'yatolong', 'cepat', 'baik']	neutral
+['bagus', 'aplikasi', 'bni', 'mobile', 'wondr', 'sekarang', 'bayar', 'air', 'pdam', 'khusus', 'pdam', 'giri', 'menang', 'saja', 'error', 'sedia', 'layan', 'sedia', 'coba', 'nanti', 'coba', 'ternyata', 'sama', 'terus', 'cek', 'pinjam', 'bni', 'enggak', 'karena', 'enggak ada', 'menu', 'pilih', 'hanya', 'dbs', 'hsbc', 'mohon', 'maksimal', 'aplikasi', 'bantu', 'langgan', 'tks']	negative
+['mudah', 'bantu', 'transaksi']	positive
+['moga', 'tambah', 'pilih', 'setor', 'tunai']	positive
+['eror', 'fitur', 'akses', 'apl']	neutral
+['top', 'up', 'maksimal', 'juta', 'bank', 'juta']	neutral
+['mudah', 'cepat']	positive
+['tolong', 'diupdateada', 'bayar', 'didik', 'sedia', 'bayar', 'unair']	negative
+['password', 'kalo', 'lupa', 'ribet', 'kali', 'pencet', 'batal', 'ganti', 'password', 'ribet', 'enggak', 'ganti']	neutral
+['error', 'butuh', 'kecewa']	negative
+['sudah', 'kali', 'unduh', 'aplikasi', 'wondr', 'verifikasi', 'email', 'gagal', 'tolak', 'bingung', 'ku', 'unduh', 'suruh', 'datang', 'cabang', 'bank', 'dekat']	neutral
+['aplikasi', 'bagus', 'fitur', 'tarik', 'bantu', 'cocok', 'transaksi', 'hari', 'rencana', 'uang', 'jangka']	positive
+['gonta', 'ganti', 'aplikasi', 'update', 'ganti', 'aplikasi', 'banget', 'aman', 'jaga', 'data', 'segitu', 'syarat', 'registrasi', 'uang', 'hilang', 'karena', 'hacker', 'tanggung', 'ganti']	negative
+['mobil', 'tunai', 'sedia', 'pulsa', 'menerima', 'token', 'bank', 'sedia', 'pulsa']	positive
+['transaksi', 'mudah']	positive
+['setor', 'tunai', 'apk']	negative
+['lengkap', 'bni', 'tampil', 'rekening', 'lenhkap', 'tatik', 'tunai', 'kartu']	negative
+['kesini', 'nge', 'bug', 'sistem', 'app', 'susah', 'login', 'mohon', 'baik', 'kerja']	negative
+['wondr', 'bayar', 'utbk', 'pakai', 'sudah', 'coba', 'kali', 'mohon', 'baik']	neutral
+['jelekbayar', 'air', 'bisaapk', 'menang', 'thunder', 'pakai', 'ordal']	negative
+['bagus', 'aplikasi', 'aplikasi', 'buka', 'tolong', 'solusi', 'masalah', 'aplikasi', 'buka', 'force', 'closing']	positive
+['turun', 'bintangtolong', 'fitur', 'tarik', 'tunai', 'kartu', 'atm', 'bantu', 'lupa', 'kartu', 'kartu', 'atm', 'blokir', 'tolong', 'perhati', 'fitur', 'bantu', 'sudah', 'fitur', 'cocok', 'bintang', 'sekarang', 'masih', 'bintang']	neutral
+['wonder', 'fitur', 'aktivadi', 'transaksi', 'kartu', 'luar', 'negeri', 'bni', 'mobile', 'banking']	neutral
+['jelek', 'aplikasi', 'terang', 'transaksi', 'tampil', 'riwayat', 'transaksi']	negative
+['keren', 'aplikasi', 'simple', 'bantu', 'lihat', 'info', 'uang']	positive
+['aplikasi', 'wond', 'bni', 'trabel', 'transaksi', 'sering', 'pending', 'notif', 'email', 'hasil', 'saldo', 'potong', 'hubung', 'cs', 'lapor', 'suruh', 'tunggu', 'xjam']	neutral
+['mudahdan', 'mudamenggunaan', 'wonder', 'pokok', 'keren', 'bangetsemoga', 'wonder', 'bni', 'sukses']	positive
+['mobile', 'bankingnya', 'mengira', 'baca', 'pulsa', 'e', 'kayak', 'apk', 'baharu', 'biar', 'pulsa']	negative
+['tampil', 'penuh', 'warna', 'lucu', 'tarik', 'sesuai', 'zaman', 'now', 'mudah', 'pakai', 'wonder']	positive
+['moga', 'lebih', 'depan']	positive
+['tolong', 'baik', 'sistem', 'dadak', 'notifikasiperingatan', 'bayar', 'warteg', 'tibatiba', 'baik', 'sistem', 'enggak', 'bawa', 'tunai']	neutral
+['bagaimana', 'sih', 'tarik', 'tunai', 'kartu', 'app', 'jengkel', 'mencari', 'enggak ada', 'bagus', 'artefak', 'enggak bisa', 'tarik', 'tunai', 'alfa', 'saja', 'bikin', 'jengkel']	neutral
+['tampil', 'menu', 'simple', 'warna', 'background', 'cerah', 'semangat', 'transaksi']	positive
+['ui', 'ux', 'bagus', 'penting', 'user', 'friendly']	positive
+['bantu', 'perinci', 'historynya', 'lupa', 'tinggal', 'lihat', 'history', 'mana', 'saja', 'uang']	positive
+['maintenance', 'mulu', 'orang', 'buru', 'menunggu']	neutral
+['cepat', 'selesai', 'terima kasih', 'aplikasi', 'ku']	positive
+['aplikasi', 'gagal', 'nyesal', 'bni', 'mobile', 'hapus', 'suruh', 'verifikasi', 'wajah', 'suruh', 'hadap', 'kanan', 'arah', 'hadap', 'hadap']	negative
+['kasih', 'bintang', 'masuk', 'notif', 'menerima', 'gaji', 'tolong', 'baik', 'notifnya', 'guna', 'aplikasi', 'tau', 'tf', 'masuk']	neutral
+['enggak', 'ux', 'masak', 'verifikasi', 'wajah', 'gagal', 'mengikuti', 'pandu', 'sampai', 'mata', 'capek', 'kedip', 'kok', 'enggak', 'lolosdi', 'baik', 'copy', 'paste', 'data', 'bni', 'mobile']	negative
+['sudah', 'bagus', 'pakai', 'sama', 'bangking', 'lengkap', 'arah', 'install', 'wonder', 'bni', 'viturnya', 'lengkap', 'upgrade', 'bni', 'mala', 'turun', 'mbangking', 'tarik', 'tunai', 'non', 'kartu', 'mala', 'indak']	negative
+['jelek', 'banget', 'mengomong', 'transaksi', 'gagal', 'saldo', 'kartu', 'bilang', 'aktif', 'transfer', 'menarik', 'cardless', 'suka', 'error', 'bantu']	negative
+['wordr', 'leletlelet', 'loginrata', 'menit', 'batal', 'mengunakan', 'fitur', 'qris', 'aplikasi', 'bni', 'mobile', 'unggul', 'cepat', 'loginsaya', 'tinggal', 'bni', 'gaji', 'laba', 'bersih', 'trilyunan', 'tolong', 'benah', 'wondr']	neutral
+['minkenapa', 'sih', 'kalo', 'gagal', 'masuk', 'sandi', 'ulang', 'verifikasi', 'kadang', 'verivikasi', 'muka', 'gagal', 'truss']	positive
+['apkmau', 'transaksi', 'susah', 'saldo', 'cukupmalah', 'bilang', 'saldo', 'transaksi']	negative
+['aktivasi', 'cepat', 'banget', 'gampang', 'mula', 'pakenya', 'ribet', 'woyy']	positive
+['kalas', 'bni', 'fitur', 'fiturnya', 'tingkat', 'fitur', 'menu', 'lot']	neutral
+['aplikasi', 'hebat', 'aplikasi', 'bni', 'mobile', 'mana', 'bni', 'mobil', 'menu', 'ambil', 'uang', 'atm', 'next', 'pengembnag', 'mohon', 'update', 'sesuai', 'menu', 'bni', 'mobile', 'lengkap']	negative
+['maret', 'aplikasi', 'suka', 'error', 'enggak']	neutral
+['pakai', 'aplikasi', 'lancar', 'banget', 'suka', 'tuh', 'kontrol', 'biaya', 'hari', 'tf', 'beli', 'mudah', 'kendala', 'transaksi']	positive
+['mudah', 'kayak', 'bank', 'daerahmau', 'bayar', 'tagih', 'bikin', 'komet']	positive
+['loading', 'masuk', 'aplikasi', 'lambat']	neutral
+['download', 'update', 'update', 'sampah', 'sampah', 'deh', 'bersih', 'data', 'kurang', 'gagal']	negative
+['belit', 'verifikasi', 'enggak', 'sudah', 'kali', 'verifikasi', 'wajah', 'tetap', 'enggak', 'sudah', 'ikut', 'pandu']	negative
+['aplikasi', 'cepat', 'fitur', 'copy', 'paste', 'keyboard', 'google', 'terinstall', 'password', 'manager', 'bitwarden', 'muncul', 'strong', 'password', 'sulit', 'strong', 'password', 'butuh', 'hubung', 'perban', 'produk', 'vcn', 'bni', 'bni', 'mobile', 'wondr', 'by', 'bni', 'mohon', 'tingkat', 'baru']	negative
+['ganti', 'wonder', 'transfer', 'ya', 'bank', 'ewallet', 'situ', 'terang', 'batas', 'minimum', 'saldo']	negative
+['tarik', 'iklan', 'seliwer', 'sudah', 'pakai', 'praktis', 'simple', 'bayar', 'pakai', 'qris', 'tinggal', 'satset', 'selesai', 'aman', 'sih', 'enggak', 'hackerhacker', 'masuk', 'verifikasi', 'aman', 'bagus', 'banget']	positive
+['alami', 'kendala', 'masuk', 'aplikasi', 'tolong', 'baik', 'terimakasih']	positive
+['belum', 'tariksetor', 'tunai', 'apk']	positive
+['aplikasi', 'simple', 'user', 'friendly', 'kini', 'banget', 'transaksi', 'zat', 'zet', 'no', 'lot', 'club', 'luv', 'banget', 'pokok']	positive
+['baik', 'transfer', 'enggak', 'bisabisa', 'jam', 'selesai', 'ganggu']	negative
+['cek', 'sisa', 'tagih', 'bni', 'fleksi', 'aplikasi']	negative
+['kecewa', 'wonder', 'bni', 'verifikasi', 'rumit', 'sudah', 'mata', 'sakit', 'kedip', 'ngh', 'hp', 'lempar', 'sudah', 'kali', 'ulang', 'enggak', 'suruh', 'buka', 'mulut', 'ngh', 'ajar']	negative
+['anjir', 'jaring', 'minimal', 'bagus', 'kayak', 'buka']	negative
+['aplikasi', 'perban', 'bantu', 'transaksi', 'gampang', 'mudah', 'moga', 'tampil', 'bagus']	positive
+['verifikasi', 'email', 'kode', 'otp', 'salah', 'kode', 'sesuai', 'kirim', 'emaill']	negative
+['bagus', 'bni', 'gampang', 'sulit']	positive
+['kualitas', 'bawah', 'bni', 'mobile', 'banking', 'topup', 'ewallet', 'dana', 'nominal', 'maksimal', 'jthari']	neutral
+['min', 'wondr', 'mentok', 'logo', 'banget', 'coba', 'baik', 'min', 'sudah', 'coba', 'hapus', 'instal', 'kali', 'kali', 'masuk']	neutral
+['hujan', 'mati', 'kunci', 'sidik', 'jari', 'login', 'biometrik', 'wondr', 'hapus', 'login', 'pakai', 'pasword', 'layar', 'hp', 'intip', 'sadap']	neutral
+['apk', 'saya', 'kendala', 'uang', 'saya', 'enggak', 'sampai', 'tolong', 'baik', 'benar', 'biar', 'saya', 'enggak', 'kecewa', 'saya', 'harus', 'bank', 'bni']	neutral
+['aplilasi', 'eror', 'bayar', 'pembeliantolong', 'baik', 'kembali', 'bni', 'mobile', 'bangking', 'lancar']	negative
+['mas', 'karena', 'enggak', 'fitur', 'tarik', 'tunai']	neutral
+['kayak', 'belum', 'optimal', 'wondr', 'sering', 'baik', 'ssah', 'buka', 'transaksi', 'cepat', 'terus', 'baik', 'sudah', 'optimal', 'kasih', 'bintang']	neutral
+['daftar', 'kemarin', 'alas', 'nomor', 'sesuai', 'teruspadahal', 'nomor', 'sudah', 'sesuai', 'daftar', 'nasabah', 'bni']	positive
+['susah', 'login', 'hp']	neutral
+['beli', 'pulsa', 'listrik', 'gagalsaldo', 'min']	negative
+['mohon', 'maaf', 'bayar', 'muncul', 'transaksi', 'hasil', 'mohon', 'maaf', 'harap', 'bantu', 'baik', 'bayar', 'utbk', 'snpmb', 'proses', 'gagal']	neutral
+['aplikasi', 'jelek', 'birokrasi', 'lelet', 'gagal', 'bayar', 'refund', 'mentang', 'weekend', 'kacau', 'gua', 'naro', 'duit', 'bank', 'jelek', 'balas', 'pakai', 'chat', 'bot', 'sudah', 'komplain', 'hasil', 'menunggu', 'buang', 'birokrasi', 'ribet']	negative
+['aplikasih', 'mantap', 'simpel', 'mudah', 'buka', 'blokir', 'atm', 'lihat', 'mutasi', 'rekening', 'pokokx', 'jos', 'jaya', 'bni']	positive
+['bolak', 'suruh', 'verifikasi', 'ulang', 'password', 'sudah', 'gampang', 'pakai']	neutral
+['instruksi', 'verifikasi', 'wajah', 'lurus', 'layar', 'suruh', 'tengok', 'lurus', 'layar', 'bolakbalik', 'verifikasi', 'suruh', 'coba', 'esok', 'ribet', 'banget']	negative
+['app', 'jam', 'malam', 'transaksi', 'bagaimana', 'orang', 'pepet']	negative
+['praktis', 'simple']	positive
+['login', 'suruh', 'daftar', 'ulang', 'kocak', 'ain', 'fitur', 'login', 'kayak', 'sudah', 'pasword', 'benar', 'disalahin']	negative
+['aplikasi', 'jelek', 'suka', 'bni', 'mobile', 'banking', 'bni', 'wondr', 'transaksi', 'lihat', 'saldo']	negative
+['knapa', 'aplikasi', 'kirim', 'kode', 'otp', 'kau', 'email', 'ya', 'update', 'sampai', 'belum', 'buka', 'apk', 'gara', 'gara', 'kode', 'otp', 'kirim', 'email']	negative
+['bantu', 'keren', 'aplikasi', 'mantap', 'bni']	positive
+['ui', 'bagus', 'fitur', 'baik', 'gambar', 'kotak', 'orang', 'mengeksplor', 'fitur']	positive
+['baik', 'jaring', 'nyamau', 'transaksi', 'leletbagus', 'aplikasi']	positive
+['cepat', 'akurat', 'mudah', 'paham']	positive
+['mantap', 'bni', 'wonder', 'suka']	positive
+['bagus', 'aplikasi']	positive
+['aplikasi', 'wondr', 'by', 'bni', 'transaksi', 'mudah', 'cepat']	positive
+['kode', 'otpsudah', 'masuk', 'data', 'ktp', 'masuk', 'no', 'debit', 'keterangankamu', 'penuh', 'kriteria', 'pakai', 'wondrmohon', 'solusi', 'terima kasih']	neutral
+['ribet', 'banget', 'sih', 'daftar', 'cs', 'kemarin', 'sekarang', 'sudah', 'dbuka', 'dsuru', 'nonaktifin', 'aksesibilitas', 'apa', 'sampai', 'ngerubah', 'fitur', 'hape', 'duh', 'tetap', 'buka', 'napesih']	negative
+['aplikasi', 'keren', 'mudah', 'transaksi']	positive
+['mantab', 'mudah', 'transaksi']	positive
+['enak', 'transaksi']	positive
+['halo', 'nasabah', 'bni', 'log', 'ini', 'aplikasi', 'wondr', 'menu', 'tera', 'arah', 'tabung', 'solusi', 'buka', 'rekening']	neutral
+['aneh', 'apk', 'wondr', 'sudah', 'daftar', 'login', 'gagal', 'terus', 'tolong', 'baik']	neutral
+['cepat', 'penuh', 'butuh', 'transaksi']	positive
+['aplikasi', 'bagus', 'aplikasi', 'susah', 'buka', 'masuk', 'wifenya', 'bagus', 'menit', 'tunggu', 'aplikasi', 'enggak', 'buka', 'minggu', 'daftar', 'aplikasi', 'bagaimana']	neutral
+['biasa', 'kalo', 'butuh', 'suka', 'buka', 'sampai', 'kali', 'susah', 'login']	negative
+['banyak', 'fitur', 'bni', 'mobile', 'adakan', 'cepat', 'pindahin', 'fitur']	neutral
+['kayak', 'belum', 'optimal', 'wondr', 'sering', 'baik', 'ssah', 'buka', 'transaksi', 'cepat', 'terus', 'baik', 'sudah', 'optimal', 'kasih', 'bintang']	neutral
+['hadu', 'bagaimana', 'wondr', 'by', 'bni', 'versi', 'suka', 'error', 'gangguaan', 'sush', 'buka', 'transaksi', 'transfer', 'sampai', 'beraberapa', 'jam', 'proses', 'susah', 'login', 'kecewa']	neutral
+['tarik', 'tunai', 'kartu', 'suruh', 'migrasi', 'fitur', 'tarik', 'tunai', 'payah']	negative
+['kayak', 'mbankingnya', 'otp', 'enggak', 'masuk', 'no', 'enggak', 'tau', 'no', 'ngarepnya', 'sistem', 'otp', 'app', 'biar', 'tarik', 'tunai', 'kartu']	neutral
+['terkadang', 'maintenace', 'loading', 'moga']	neutral
+['bagusdan', 'bantu', 'transaksi']	positive
+['riwayat', 'transaksi', 'terupdate', 'tolong', 'baik']	neutral
+['urgent', 'butuh', 'bug', 'fitur', 'sedia', 'menunggu', 'jam', 'bayar', 'pakai', 'qris', 'enggak bisa', 'buka', 'aplikasi', 'coba', 'ya', 'membenahi', 'bagus', 'pakai', 'mbanking']	negative
+['apresiasi', 'bebenah', 'segi', 'ui', 'kasih', 'binta', 'fitur', 'fitur', 'cardless', 'efisiensi', 'kirim', 'otp', 'sms', 'pulsa', 'fitur', 'cardless', 'ribet', 'malas', 'menyimpan', 'duit', 'gede', 'ribet', 'efisien']	neutral
+['aplikasi', 'inisudah', 'registrasi', 'login', 'setel', 'awalujungnya', 'terang', 'sesi', 'berakhirgitu', 'sampai', 'kiamat']	negative
