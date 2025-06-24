@@ -656,10 +656,10 @@ elif st.session_state.menu4 == "Kesimpulan":
     st.markdown("""
     Berdasarkan analisis dan implementasi yang telah dilakukan, dapat disimpulkan beberapa hal penting berikut:
 
-    1. **Proses preprocessing** berperan penting dalam meningkatkan kualitas data teks, terutama dengan penambahan normalisasi berdasarkan kamus kata tidak baku.
-    2. **IndoBERT** terbukti mampu melakukan klasifikasi sentimen dengan baik terhadap ulasan berbahasa Indonesia, termasuk dalam konteks informal seperti ulasan aplikasi mobile.
-    3. **Balancing data** melalui teknik undersampling dan oversampling berhasil menghindari bias model terhadap salah satu kategori sentimen.
-    4. Visualisasi menggunakan **Word Cloud** dan **Diagram Batang** membantu dalam memahami persebaran kata dan sentimen secara cepat dan intuitif.
+    1. **Proses preprocessing** berperan penting dalam meningkatkan kualitas data teks.
+    2. **IndoBERT** melakukan klasifikasi sentimen dengan baik terhadap ulasan berbahasa Indonesia, termasuk dalam konteks informal seperti ulasan aplikasi mobile.
+    3. **Balancing data** melalui teknik undersampling dan oversampling yang menghindari bias model terhadap salah satu kategori sentimen.
+    4. Visualisasi menggunakan **Word Cloud** dan **Diagram Batang** membantu dalam memahami sentimen secara cepat dan intuitif.
     5. Model dilatih dengan konfigurasi sebagai berikut:
        - **Split data**: 70% training, 15% validation, dan 15% testing.
        - **Epoch**: 15
