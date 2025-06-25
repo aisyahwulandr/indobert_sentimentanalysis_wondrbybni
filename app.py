@@ -560,7 +560,7 @@ if st.session_state.menu4 == "Analisis Hasil":
 
     #### 📊 Visualisasi
     Visualisasi dilakukan melalui:
-    - **Diagram Batang**: Untuk melihat distribusi sentimen sebelum dan sesudah proses balancing.
+    - **Diagram Batang**: Untuk melihat distribusi data sentimen.
     - **Word Cloud**: Untuk masing-masing sentimen (`positive`, `neutral`, `negative`) yang menggambarkan kata-kata yang paling sering muncul.
 
     **Hasil Word Cloud menunjukkan**:
@@ -581,9 +581,8 @@ elif st.session_state.menu4 == "Kesimpulan":
 
     1. **Proses preprocessing** berperan penting dalam meningkatkan kualitas data teks.
     2. **IndoBERT** melakukan klasifikasi sentimen dengan baik terhadap ulasan berbahasa Indonesia, termasuk dalam konteks informal seperti ulasan aplikasi mobile.
-    3. **Balancing data** melalui teknik undersampling dan oversampling yang menghindari bias model terhadap salah satu kategori sentimen.
-    4. Visualisasi menggunakan **Word Cloud** dan **Diagram Batang** membantu dalam memahami sentimen secara cepat dan intuitif.
-    5. Berdasarkan hasil Word Cloud:
+    3. Visualisasi menggunakan **Word Cloud** dan **Diagram Batang** membantu dalam memahami sentimen secara cepat dan intuitif.
+    4. Berdasarkan hasil Word Cloud:
        - **Pengguna merasa puas** terhadap kemudahan penggunaan aplikasi, kelengkapan fitur, dan kecepatan transaksi.
        - **Isu yang sering muncul** dalam ulasan netral hingga negatif adalah tentang proses verifikasi (wajah/email), kendala login, serta masalah saldo/transaksi.
        - **Rekomendasi**: Pemilik aplikasi disarankan untuk fokus pada perbaikan dan optimasi sistem login dan verifikasi agar pengalaman pengguna lebih lancar dan minim gangguan.
