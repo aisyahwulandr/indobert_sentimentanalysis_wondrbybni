@@ -549,9 +549,6 @@ if st.session_state.menu4 == "Analisis Hasil":
     st.markdown("""
     Pada proyek ini, dilakukan analisis sentimen terhadap ulasan pengguna aplikasi **Wondr by BNI** menggunakan pendekatan berbasis **Deep Learning IndoBERT**. Proses dimulai dari pengumpulan data, dilanjutkan dengan tahap-tahap *preprocessing*, hingga pemodelan dan evaluasi model.
     
-    #### ⚖️ Balancing
-    Data yang telah diberi label `positive`, `neutral`, dan `negative` kemudian diseimbangkan jumlahnya menggunakan teknik **undersampling dan oversampling**. Hal ini bertujuan untuk menghindari ketimpangan (imbalance) yang dapat memengaruhi performa model klasifikasi.
-
     #### 🔄 Preprocessing
     Tahapan preprocessing bertujuan untuk membersihkan dan menyiapkan data teks agar dapat digunakan oleh model. Tahapan meliputi:
     - **Case Folding**: Mengubah seluruh huruf menjadi huruf kecil.
