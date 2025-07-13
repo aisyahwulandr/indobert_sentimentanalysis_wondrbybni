@@ -261,16 +261,11 @@ elif st.session_state.menu2 == "Tokenizing":
 
             st.markdown("### ℹ️ Informasi Dataset Tokenizing")
             st.markdown("Dataset ini telah melalui tahap *Tokenizing*, yaitu proses memecah teks menjadi unit yang lebih kecil seperti kata atau token.")
-            st.markdown("Tokenizing sangat penting dalam analisis teks karena memungkinkan sistem memproses setiap kata secara individual.")
+            st.markdown("Tokenizing sangat penting dalam analisis teks karena memungkinkan sistem memproses setiap kata secara individual. Tokenizing dilakukan dengan `word_tokenize` dari libarary NLTK.")
             st.markdown("""
             - **Sebelum**: Isi ulasan setelah tahap *Cleaning* (teks bersih dari noise).
             - **Sesudah**: Hasil pemecahan setiap ulasan menjadi token/kata.
 
-            Tokenizing dapat menggunakan berbagai metode, seperti:
-            - *Whitespace Tokenization*
-            - *WordPunct Tokenization*
-            - *Treebank Tokenizer*
-            - Atau tokenizer bawaan library NLP seperti `nltk`, `spaCy`, `transformers`, dll.
             """)
         else:
             st.warning("Kolom 'content' tidak ditemukan di salah satu file.")
