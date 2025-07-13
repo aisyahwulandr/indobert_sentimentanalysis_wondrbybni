@@ -386,8 +386,8 @@ elif st.session_state.menu2 == "Normalisasi":
             - **Sesudah**: Token telah digantikan dengan bentuk formal jika tersedia dalam kamus kolokial.
 
             Kamus ini memuat pasangan kata:
-            - Kolom `slang`: berisi kata tidak baku atau kata gaul (contoh: `gk`, `bgt`, `trs`)
-            - Kolom `formal`: berisi bentuk baku dari kata tersebut (contoh: `tidak`, `banget`, `terus`)
+            - Kolom `slang`: berisi kata tidak baku atau kata gaul (contoh: `trus`)
+            - Kolom `formal`: berisi bentuk baku dari kata tersebut (contoh:  `terus`)
             """)
         else:
             st.warning("Kolom 'stemmed' atau 'normalized' tidak ditemukan di file.")
