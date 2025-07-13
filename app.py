@@ -426,8 +426,6 @@ if st.session_state.menu3 == "Hasil Klasifikasi Sentimen":
                 - 🟡 `neutral`
                 - 🔴 `negative`
 
-                Hasil ini berguna untuk mengevaluasi performa model dalam memahami konteks dan emosi dari ulasan pengguna.
-
             """)
 
         else:
