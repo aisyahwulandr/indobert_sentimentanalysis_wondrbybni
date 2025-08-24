@@ -399,7 +399,7 @@ if st.session_state.menu3 == "Hasil Klasifikasi Sentimen":
     st.subheader("📊 Visualisasi: Hasil Klasifikasi Sentimen")
 
     try:
-        df = pd.read_csv("wondr_test_result_70_30_16_3e6.csv")
+        df = pd.read_csv("wondr_test_result_80_20_32_3e6_15.csv")
         df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
 
         if "review_text" in df.columns and "pred" in df.columns:
